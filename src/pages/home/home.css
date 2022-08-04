@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #181a1c;
+}
+
+.header,
+.footer {
+  width: 100%;
+  padding: 33px 0;
+}
+
+.header__container,
+.footer__container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1352px;
+}
+
+.main {
+  width: 100%;
+  padding: 22px 0 96px;
+}
+
+.main__container {
+  width: 100%;
+  max-width: 1266px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main__section {
+  width: 100%;
+}
+.main__section--small {
+  background: #111214;
+}
+
+@media screen and (min-width: 1024px) {
+  .main__container {
+    flex-direction: row;
+  }
+
+  .main__section--small {
+    max-width: 370px;
+  }
+}
+
+.header__container,
+.nav_links,
+nav {
+  display: flex;
+  list-style: none;
+}
+
+.contact {
+  margin-left: 34px;
+  margin-right: 32px;
+}
+
+.nav_links {
+  gap: 16px;
+}
+
+.nav_links a {
+  text-decoration: none;
+}
+
+.header__nav {
+  margin-left: auto;
+  align-items: center;
+}
+
+.footer__container {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+p,
+button {
+  margin-left: auto;
+}
+.h1 {
+  text-align: center;
+  margin-top: 32px;
+}
+
+.label {
+  margin-left: 32px;
+}
+
+button {
+  margin-right: 32px;
+  padding: 16px 48px;
+  border-radius: 12px;
+  color: #b7b8b9;
+  background: transparent;
+  border-color: #b7b8b9;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.footer__container a {
+  text-decoration: none;
+}
+
+.dropdown {
+  display: block;
+  padding: 16px;
+  width: 100%;
+  max-width: 320px;
+  margin-left: 30px;
+  margin-right: 18px;
+  color: #b7b8b9;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.select_container {
+  margin-bottom: 32px;
+}
+
+.main__section {
+  padding-bottom: 32px;
+}
+
+.int_button {
+  width: 219px;
+  height: 68px;
+  padding: 16px 72px;
+  background: #43b97f;
+  border-radius: 12px;
+  color: #ffffff;
+}
+.h2 {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: sticky;
+  top: 0;
+  background-color: #111214;
+}
+
+span {
+  font-size: 36px;
+}
+.Animation {
+  margin-bottom: 32px;
+  margin-left: 32px;
+}
+
+.overflow {
+  max-height: 80vh;
+  overflow-y: auto;
+  position: relative;
+}
+.green-heart {
+  color: #43b97f;
+}
+.overflow::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+}
