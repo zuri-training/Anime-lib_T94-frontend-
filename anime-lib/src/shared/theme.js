@@ -16,7 +16,12 @@ const theme = createTheme({
     text: {
         main: '#172B4D',
         light: '#262930'
-    }
+    },
+    typography: {
+        fontFamily: 'Nunito'
+    },
+    
+    
 });
 
 export default theme;
