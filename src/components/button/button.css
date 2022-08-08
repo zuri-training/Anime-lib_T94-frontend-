@@ -1,0 +1,23 @@
+.button {
+  padding: 1rem;
+  border-radius: 12px;
+  min-width: 219px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 150%;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button--primary {
+  background: #43b97f;
+  color: #ffffff;
+}
+
+.button--outline-primary {
+  background: transparent;
+  border: 1px solid #43b97f;
+  color: #ffffff;
+}
