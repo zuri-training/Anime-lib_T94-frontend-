@@ -22,7 +22,7 @@ function OurValues() {
         
         <CardStyled>
                 <CircleValues Bg="#FFCC4A">
-                  <img src="images/team1.png" alt="team" className="team"/>
+                  <img src="images/people1.png" alt="team" className="team"/>
                 </CircleValues>
                     <ColoredText Color="#FFCC4A" pat="7px" Weight="700">
                         TEAM WORK
@@ -34,7 +34,7 @@ function OurValues() {
         
         <CardStyled>
                 <CircleValues Bg="#43B97F">
-                <img src="images/focus.png" alt="focus" className="focus"/>
+                <img src="images/eye.png" alt="focus" className="focus"/>
                  </CircleValues>
                     <ColoredText Color="#43B97F" pat="7px" Weight="700">
                         FOCUS
@@ -46,7 +46,7 @@ function OurValues() {
         
         <CardStyled>
                 <CircleValues Bg="#FF830F">
-                  <img src="images/empathy.jpg" alt="empathy" className="empathy"/>
+                  <img src="images/empathy1.png" alt="empathy" className="empathy"/>
                 </CircleValues>
                     <ColoredText Color="#FF830F" pat="7px" Weight="700">
                         EMPATHY

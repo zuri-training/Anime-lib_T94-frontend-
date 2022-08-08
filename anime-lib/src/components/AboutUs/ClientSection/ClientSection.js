@@ -20,6 +20,7 @@ function ClientSection() {
 				          <img src="images/hng.jpeg" alt="hng-internship"/>
                 </li>
                 
+                
             </ul>
             </div>
             

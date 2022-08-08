@@ -11,12 +11,8 @@ function HeroSection() {
     <StyledHero Bg="#181A1C">
       
             <div >
-                <h3 >We believe you should be able to combine and generate the right 
-              codes for quality animations</h3>
-              <p >With the help of our easy to implement documentation, you can create a distinctive 
-                and quality animations. You can search and interact with the library 
-                - the tools and solutions you need to design a professional website
-                with complete creative freedom a seasoned pro.</p>
+                <h3 >We do the combination,<br/> you do the design.</h3>
+              <p >No need to worry about combining the right<br/> codes to animate your designs</p>
                 </div>
               <img src="images/star-circle.png" alt="star" />
             
