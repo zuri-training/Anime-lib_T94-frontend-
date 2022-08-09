@@ -3,6 +3,7 @@ import { Header } from "../../components/header/header.component";
 import { Footer } from "../../components/footer/footer.component";
 import { Button } from "../../components/button/button.component";
 import scan_barcode from "../../images/scan-barcode.svg";
+import Copy from "../../images/copy.svg";
 import { useState } from "react";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -14,8 +15,8 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: "100%",
   height: "100%",
-  maxWidth: "1072px",
-  maxHeight: "649px",
+  maxWidth: "65vw",
+  maxHeight: "70vh",
   boxShadow: 24,
   p: 4,
 };
@@ -153,33 +154,26 @@ export default function HomePage() {
                   >
                     <Box className="modal-box" sx={style}>
                       <div className="modal-header">
-                        <p className="modal-title">Modal Title</p>
+                        <p className="modal-title">CLASS/KEYFRAME</p>
 
                         <button className="modal-close" onClick={handleClose}>
                           X
                         </button>
                       </div>
-                      <div className="modal-body">kdjfl</div>
+                      <div className="modal-body">
+                        I dont like stress please
+                      </div>
                       <div className="modal-footer">
-                        <button>copy </button>
+                        <button className="modal-button">
+                          Copy{" "}
+                          <img className="Copy-icon" src={Copy} alt="copy" />
+                        </button>
                       </div>
                     </Box>
                   </Modal>
                 </div>
               </div>
             </div>
-            {/* <dvi className="animate__box">
-              <div>
-                <div className="generate__code">
-                  <img
-                    className="scan-barcode"
-                    src={scan_barcode}
-                    alt="genrate"
-                  />
-                  <p>Generate Code</p>
-                </div>
-              </div>
-            </dvi> */}
           </section>
 
           <section className="main__section main__section--small overflow">

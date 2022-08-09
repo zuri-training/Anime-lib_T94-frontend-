@@ -92,7 +92,7 @@ nav {
   max-width: 320px;
   margin-left: 30px;
   margin-right: 18px;
-  color: #b7b8b9;
+  color: #53565a;
   background: #ffffff;
   border-radius: 4px;
 }
@@ -229,5 +229,52 @@ span {
 
 .modal-box {
   background: #111214;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  width: 100%;
+  height: 30px;
+  align-items: flex-start;
+  padding-top: 7px;
+  padding-left: 20px;
+  margin-bottom: 3px;
+}
+
+.modal-body {
+  background-color: #181a1c;
+  height: 100%;
+  max-height: 469px;
+  padding-left: 20px;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+.modal-footer {
+  padding: 10px 41px;
+}
+
+.modal-close {
+  margin-left: auto;
+  margin-right: 20px;
+  background: #111214;
+  color: white;
+}
+
+.modal-button {
+  margin-left: auto;
+  color: white;
+  background: #43b97f;
   border-radius: 12px;
+  width: 143px;
+  height: 52px;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
 }
