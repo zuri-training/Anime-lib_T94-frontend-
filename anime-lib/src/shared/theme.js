@@ -1,22 +1,35 @@
 import { createTheme } from '@mui/material/styles';
 
+export const COLORS = {
+  green: '#43B97F',
+  black: '#181a1c',
+  white: '#FFFFFF',
+  violet: '#C280D2',
+  orange: '#43B97F'
+}
+
+export const FONTS = {
+  main: 'Nunito',
+}
+
 const theme = createTheme({
     palette: {
         primary: {
-            main: '#3F8AE0'
+            main: '#43B97F'
         },
-        secondary: {
-            main: '#326eb3'
-        }
     },
     bg: {
-        main: '#fff',
-        light: '#F4F5F7'
+        main: '#000',
     },
     text: {
-        main: '#172B4D',
-        light: '#262930'
-    }
+        main: '#FFF',
+    },
+    typography: {
+        fontFamily: 'Nunito',
+        button: {
+            textTransform: 'none'
+        }
+    },
 });
 
 export default theme;

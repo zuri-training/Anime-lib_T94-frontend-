@@ -1,0 +1,21 @@
+/* 1 */
+:root {
+    --font-color: #333;
+    --background-color: #181a1c;
+    --primary-color: #43B97F;
+}
+
+/* 2 */
+[data-theme="dark"] {
+    --font-color: #FFF;
+    --background-color: #181a1c;
+}
+
+/* 3 */
+body {
+    background-color: var(--background-color);
+}
+
+button {
+    background-color: var(--primary-color);
+}
