@@ -1,0 +1,13 @@
+I worked on the following Pages
+- Documentation page(lofi) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=423%3A9887
+- Documentation lightmode(hifi) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=2033%3A23095
+- Documentation darkmode(mobile darkmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A52412
+- Documentation darkmode(mobile lightmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A52573
+- Error page(desktop light mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A49023
+- Error page(mobile darkmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A53037
+- Error page(mobile lightmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A53087
+- Landing page(mobile lightmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A52883
+- Landing page(mobile darkmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A52729
+- Activity page(mobile darkmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A53852
+- Activity page(mobile lightmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A53911
+- Homepage default(mobile darkmode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1988%3A30850
