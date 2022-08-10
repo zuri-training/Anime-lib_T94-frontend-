@@ -1,5 +1,5 @@
 // import logo from "../../images/LOGO.svg";
-import logo from "../../../assets/images/copy.svg";
+import logo from "../../../assets/images/logo.png";
 import { Button } from "../button/button.component";
 import "./footer.css";
 
