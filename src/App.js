@@ -13,6 +13,8 @@ import { useDarkMode } from "./hooks/useDarkMode";
 import { AuthProvider } from './hooks/useAuth';
 import Landing from "./pages/Landing";
 import About from "./pages/About";
+import Error from './pages/Error/Error.js';
+import './App.css';
 import { NonProtectedLayout } from "./routes/NonProtectedRoute";
 import { ProtectedLayout } from "./routes/ProtectedRoute";
 import Footer from "./shared/components/Footer";
@@ -47,6 +49,7 @@ function App() {
                   <Route element={<NonProtectedLayout />}>
                     <Route exact path="/landing" element={<Landing />} />
                     <Route path="/about" element={<About />} />
+                    <Route path="/404" element={<Error />} />
                     {/* <Route path="/login" element={<Login />} /> */}
                   </Route>
                   <Route path="/" element={<ProtectedLayout />}>

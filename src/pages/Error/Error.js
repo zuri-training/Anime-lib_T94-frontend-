@@ -1,14 +1,14 @@
 import './Error.css'
 
-export const ErrorPage = () => {
+const Error = () => {
     return (
      <div>
          <div className="logoDiv">
-            <img src="./images/image/Group 7265.png" alt="logo"/>
+            <img src="../assets/image/Group 7265.png" alt="logo"/>
         </div>
 
         <div className="darkModeDiv">
-            <img src="./images/image/Light and Dark Switch Icon.png" alt="bark mode button"/>
+            <img src="../assets/images/Light and Dark Switch Icon.png" alt="bark mode button"/>
         </div>
 
         <div className="circle"></div>
@@ -20,7 +20,7 @@ export const ErrorPage = () => {
                     <div className="searchbutton">
                     <input type="search" placeholder="Search..."/>
                     <button className="searchbtn" type="submit">
-                        <img src="images/image/Vector.svg" alt="search icon"/>
+                        <img src="../assets/images/Vector.svg" alt="search icon"/>
                     </button>
                     </div>
                 </form>
@@ -28,7 +28,7 @@ export const ErrorPage = () => {
             </div>
 
             <div className="icon">
-                <img src="images/image/Frame 5988.gif" className="gif"/>
+                <img src="../assets/images/Frame 5988.gif" className="gif"/>
             </div>
 
             <div className="circle2"></div>
@@ -41,3 +41,4 @@ export const ErrorPage = () => {
       </div>
     );
   };
+  export default Error;
