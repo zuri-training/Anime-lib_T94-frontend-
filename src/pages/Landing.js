@@ -10,7 +10,7 @@ import OrangeQuoteImg from "../assets/images/orangequote.png";
 import TracyCainImg from "../assets/images/tracyCain.png";
 import JamesNkebeImg from "../assets/images/jamesNkebe.png";
 import JohnRushImg from "../assets/images/johnRush.png";
-import { DefaultLayout } from "../layouts/default/default.layout";
+import LandingVideo from "../assets/videos/landingPage.mp4";
 
 const Container = styled.div`
   padding-left: 80px;
@@ -106,6 +106,7 @@ const FeaturesInfoContainer = styled.div`
 
 const FeaturesInfoSection = styled.div`
   width: 35%;
+  margin-right: 150px;
 `;
 
 const FeaturesInfoHeader = styled(Typography)`
@@ -237,147 +238,147 @@ const TestimonialAuthorJobTitle = styled(Typography)`
 
 function Landing() {
   return (
-    <DefaultLayout>
-      <Container>
-        <IntroContainer>
-          <Intro>
-            <Header>
-              Getting <span style={{ color: "#C280D2" }}>Animations</span> for
-              your websites has never been{" "}
-              <span style={{ color: "#E8BA43" }}>Easier</span> and{" "}
-              <span style={{ color: "#3DA874" }}>Faster</span>{" "}
-            </Header>
-            <IntroSubHeader>
-              Animotion provides step by step guide on how to import and embed
-              animation code of your choice into your websites and apps.
-            </IntroSubHeader>
-            <IntroButtonContainer>
-              <IntroButton>Get Started, It's Free</IntroButton>
-              <IntroButton sx={{ background: "none", color: "#FFF" }}>
-                <PlayCircleIcon style={{ color: "#FFCC4A" }} /> Watch Demo
-              </IntroButton>
-            </IntroButtonContainer>
-          </Intro>
-          <IntroAnimation>
-            <img src={LandingIntroAnimationImg} alt="" />
-          </IntroAnimation>
-        </IntroContainer>
-        <FeaturesContainer>
-          <FeaturesHeading>Interact With Our Features</FeaturesHeading>
-          <FeaturesButtonContainer>
-            <FeaturesButton>Move Up</FeaturesButton>
-            <FeaturesButton>Move Down</FeaturesButton>
-            <FeaturesButton>Move Left</FeaturesButton>
-            <FeaturesButton>Move Right</FeaturesButton>
-            <FeaturesButton>Fade</FeaturesButton>
-            <FeaturesButton>Bounce</FeaturesButton>
-            <FeaturesButton>Rotate</FeaturesButton>
-            <FeaturesButton>Grow</FeaturesButton>
-            <FeaturesButton>Shrink</FeaturesButton>
-            <FeaturesButton>Blink</FeaturesButton>
-          </FeaturesButtonContainer>
-          <FeaturesInfoContainer>
-            <FeaturesInfoSection>
-              <FeaturesInfoHeader>How to use the Library</FeaturesInfoHeader>
-              <List sx={{ listStyleType: "disc" }}>
-                <StyledListItem sx={{ display: "list-item" }}>
-                  Download the Zip file
-                </StyledListItem>
-                <StyledListItem sx={{ display: "list-item" }}>
-                  Add the file animotion.css to your CSS folder
-                </StyledListItem>
-                <StyledListItem sx={{ display: "list-item" }}>
-                  Link it to your HTML file
-                </StyledListItem>
-                <StyledListItem sx={{ display: "list-item" }}>
-                  Use your preffered animation by adding the class for the
-                  animation as seen in the documentation section
-                </StyledListItem>
-              </List>
-              <InverseButton>{`Learn More >`}</InverseButton>
-            </FeaturesInfoSection>
-            <div>video</div>
-          </FeaturesInfoContainer>
-        </FeaturesContainer>
-        <TestimonialContainer>
-          <Header>Testimonials</Header>
-          <SubHeader>What our users say</SubHeader>
-          <TestimonialCardContainer>
-            <TestimonialCard>
-              <Quote>
-                <img src={PurpleQuoteImg} alt="" />
-              </Quote>
-              <Testimonial>
-                “Animotion is really simple to incorporate to my codes. Plus,
-                the site is accessible on any browser I choose to use.”
-              </Testimonial>
-              <TestimonialAuthorContainer>
-                <FirstTestimonialAuthorPicContainer>
-                  <TestimonialAuthorPic src={TracyCainImg} alt="" />
-                </FirstTestimonialAuthorPicContainer>
-                <TestimonialAuthorProfileContainer>
-                  <TestimonialAuthorName>Tracy Cain</TestimonialAuthorName>
-                  <TestimonialAuthorJobTitle>
-                    Web Developer, Fast
-                  </TestimonialAuthorJobTitle>
-                </TestimonialAuthorProfileContainer>
-              </TestimonialAuthorContainer>
-            </TestimonialCard>
-            <TestimonialCard>
-              <Quote>
-                <img src={YellowQuoteImg} alt="" />
-              </Quote>
-              <Testimonial>
-                “Using Animotion is very easy, the documentations are self
-                explanatory, the animations are super easy to document”
-              </Testimonial>
-              <TestimonialAuthorContainer>
-                <SecondTestimonialAuthorPicContainer>
-                  <TestimonialAuthorPic src={JamesNkebeImg} alt="" />
-                </SecondTestimonialAuthorPicContainer>
-                <TestimonialAuthorProfileContainer>
-                  <TestimonialAuthorName>James Nkebe</TestimonialAuthorName>
-                  <TestimonialAuthorJobTitle>
-                    Web Developer, Fast
-                  </TestimonialAuthorJobTitle>
-                </TestimonialAuthorProfileContainer>
-              </TestimonialAuthorContainer>
-            </TestimonialCard>
-            <TestimonialCard>
-              <Quote>
-                <img src={OrangeQuoteImg} alt="" />
-              </Quote>
-              <Testimonial>
-                “Animotion is really simple to incorporate to my codes. Plus,
-                the site is accessible on any browser I choose to use.”
-              </Testimonial>
-              <TestimonialAuthorContainer>
-                <ThirdTestimonialAuthorPicContainer
-                  sx={{ background: "#CA6635" }}
-                >
-                  <TestimonialAuthorPic src={JohnRushImg} alt="" />
-                </ThirdTestimonialAuthorPicContainer>
-                <TestimonialAuthorProfileContainer>
-                  <TestimonialAuthorName>John F. Rush</TestimonialAuthorName>
-                  <TestimonialAuthorJobTitle>
-                    Web Developer, Kipp
-                  </TestimonialAuthorJobTitle>
-                </TestimonialAuthorProfileContainer>
-              </TestimonialAuthorContainer>
-            </TestimonialCard>
-          </TestimonialCardContainer>
-        </TestimonialContainer>
-        <GetStartedContainer>
+    <Container>
+      <IntroContainer>
+        <Intro>
           <Header>
-            Animation made <span style={{ color: "#3DA874" }}>Easier</span>
+            Getting <span style={{ color: "#C280D2" }}>Animations</span> for
+            your websites has never been{" "}
+            <span style={{ color: "#E8BA43" }}>Easier</span> and{" "}
+            <span style={{ color: "#3DA874" }}>Faster</span>{" "}
           </Header>
-          <SubHeader>
-            Animotion takes your animation to the next level
-          </SubHeader>
-          <GetStartedButton>Get Started, It's Free</GetStartedButton>
-        </GetStartedContainer>
-      </Container>
-    </DefaultLayout>
+          <IntroSubHeader>
+            Animotion provides step by step guide on how to import and embed
+            animation code of your choice into your websites and apps.
+          </IntroSubHeader>
+          <IntroButtonContainer>
+            <IntroButton>Get Started, It's Free</IntroButton>
+            <IntroButton sx={{ background: "none", color: "#FFF" }}>
+              <PlayCircleIcon style={{ color: "#FFCC4A" }} /> Watch Demo
+            </IntroButton>
+          </IntroButtonContainer>
+        </Intro>
+        <IntroAnimation>
+          <img src={LandingIntroAnimationImg} alt="" />
+        </IntroAnimation>
+      </IntroContainer>
+      <FeaturesContainer>
+        <FeaturesHeading>Interact With Our Features</FeaturesHeading>
+        <FeaturesButtonContainer>
+          <FeaturesButton>Move Up</FeaturesButton>
+          <FeaturesButton>Move Down</FeaturesButton>
+          <FeaturesButton>Move Left</FeaturesButton>
+          <FeaturesButton>Move Right</FeaturesButton>
+          <FeaturesButton>Fade</FeaturesButton>
+          <FeaturesButton>Bounce</FeaturesButton>
+          <FeaturesButton>Rotate</FeaturesButton>
+          <FeaturesButton>Grow</FeaturesButton>
+          <FeaturesButton>Shrink</FeaturesButton>
+          <FeaturesButton>Blink</FeaturesButton>
+        </FeaturesButtonContainer>
+        <FeaturesInfoContainer>
+          <FeaturesInfoSection>
+            <FeaturesInfoHeader>How to use the Library</FeaturesInfoHeader>
+            <List sx={{ listStyleType: "disc" }}>
+              <StyledListItem sx={{ display: "list-item" }}>
+                Download the Zip file
+              </StyledListItem>
+              <StyledListItem sx={{ display: "list-item" }}>
+                Add the file animotion.css to your CSS folder
+              </StyledListItem>
+              <StyledListItem sx={{ display: "list-item" }}>
+                Link it to your HTML file
+              </StyledListItem>
+              <StyledListItem sx={{ display: "list-item" }}>
+                Use your preffered animation by adding the class for the
+                animation as seen in the documentation section
+              </StyledListItem>
+            </List>
+            <InverseButton>{`Learn More >`}</InverseButton>
+          </FeaturesInfoSection>
+          <div className="video-container" style={{ width: "55%" }}>
+            <video controls loop id="video" style={{ width: "100%" }}>
+              <source src={LandingVideo} type="video/mp4" />
+            </video>
+          </div>
+        </FeaturesInfoContainer>
+      </FeaturesContainer>
+      <TestimonialContainer>
+        <Header>Testimonials</Header>
+        <SubHeader>What our users say</SubHeader>
+        <TestimonialCardContainer>
+          <TestimonialCard>
+            <Quote>
+              <img src={PurpleQuoteImg} alt="" />
+            </Quote>
+            <Testimonial>
+              “Animotion is really simple to incorporate to my codes. Plus, the
+              site is accessible on any browser I choose to use.”
+            </Testimonial>
+            <TestimonialAuthorContainer>
+              <FirstTestimonialAuthorPicContainer>
+                <TestimonialAuthorPic src={TracyCainImg} alt="" />
+              </FirstTestimonialAuthorPicContainer>
+              <TestimonialAuthorProfileContainer>
+                <TestimonialAuthorName>Tracy Cain</TestimonialAuthorName>
+                <TestimonialAuthorJobTitle>
+                  Web Developer, Fast
+                </TestimonialAuthorJobTitle>
+              </TestimonialAuthorProfileContainer>
+            </TestimonialAuthorContainer>
+          </TestimonialCard>
+          <TestimonialCard>
+            <Quote>
+              <img src={YellowQuoteImg} alt="" />
+            </Quote>
+            <Testimonial>
+              “Using Animotion is very easy, the documentations are self
+              explanatory, the animations are super easy to document”
+            </Testimonial>
+            <TestimonialAuthorContainer>
+              <SecondTestimonialAuthorPicContainer>
+                <TestimonialAuthorPic src={JamesNkebeImg} alt="" />
+              </SecondTestimonialAuthorPicContainer>
+              <TestimonialAuthorProfileContainer>
+                <TestimonialAuthorName>James Nkebe</TestimonialAuthorName>
+                <TestimonialAuthorJobTitle>
+                  Web Developer, Fast
+                </TestimonialAuthorJobTitle>
+              </TestimonialAuthorProfileContainer>
+            </TestimonialAuthorContainer>
+          </TestimonialCard>
+          <TestimonialCard>
+            <Quote>
+              <img src={OrangeQuoteImg} alt="" />
+            </Quote>
+            <Testimonial>
+              “Animotion is really simple to incorporate to my codes. Plus, the
+              site is accessible on any browser I choose to use.”
+            </Testimonial>
+            <TestimonialAuthorContainer>
+              <ThirdTestimonialAuthorPicContainer
+                sx={{ background: "#CA6635" }}
+              >
+                <TestimonialAuthorPic src={JohnRushImg} alt="" />
+              </ThirdTestimonialAuthorPicContainer>
+              <TestimonialAuthorProfileContainer>
+                <TestimonialAuthorName>John F. Rush</TestimonialAuthorName>
+                <TestimonialAuthorJobTitle>
+                  Web Developer, Kipp
+                </TestimonialAuthorJobTitle>
+              </TestimonialAuthorProfileContainer>
+            </TestimonialAuthorContainer>
+          </TestimonialCard>
+        </TestimonialCardContainer>
+      </TestimonialContainer>
+      <GetStartedContainer>
+        <Header>
+          Animation made <span style={{ color: "#3DA874" }}>Easier</span>
+        </Header>
+        <SubHeader>Animotion takes your animation to the next level</SubHeader>
+        <GetStartedButton>Get Started, It's Free</GetStartedButton>
+      </GetStartedContainer>
+    </Container>
   );
 }
 export default Landing;
