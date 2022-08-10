@@ -1,5 +1,6 @@
-## HERE IS A LINK TO ALL MY CONTRIBUTIONS TO THE ANIME_LIB PROJECT
-https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=2116%3A25328
+## HERE ARE THE LINKS TO MY CONTRIBUTIONS (ANIME_LIB PROJECT)
+- https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=2116%3A25328
+- https://docs.google.com/spreadsheets/d/1cVu-dNdMjjSld9gW4Cz8TKEKuta5T2ZN2QiTsREDdL4/edit#gid=2073884517
 
 ## I worked on;
 - Desktop Documentation Page (light-mode).
