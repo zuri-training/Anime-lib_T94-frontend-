@@ -5,11 +5,12 @@ import About from "./pages/About";
 import Navbar from "./shared/components/Navbar";
 import Footer from "./shared/components/Footer";
 
-import './App.css';
+import "./App.css";
+import HomePage from "./pages/home/home.page";
 
 function App() {
   return (
-      <>
+    <>
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Landing />} />
