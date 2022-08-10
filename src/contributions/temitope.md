@@ -18,5 +18,7 @@ https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=2116%3A25328
 - Input Field Style Guide.
 - About Us lo-fi page.
 - Error Page lo-fi.
-- Design Thinking Process
-- Competitor Analysis
+- Design Thinking Process.
+- Competitor Analysis.
+- User flow.
+- Prototyping.
