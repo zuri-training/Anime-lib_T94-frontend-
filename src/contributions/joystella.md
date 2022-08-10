@@ -18,14 +18,10 @@ Sign up page (Hifi-Dark mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/
 
 Sign up page (Hifi- Light mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A53705
 
-Landing page (Hifi-Dark mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A52729
+Recovery page (Hifi-Dark mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A51700
 
-Landing page (Hifi-Light mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A52883
+Recovery page (Hifi-Light mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A51743
 
 Login page (Hifi-Dark mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A51460
 
 Login page (Hifi-Light mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A51538
-
-About us page (Hifi-Dark mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A53360
-
-About us page (Hifi-Light mode) https://www.figma.com/file/PloGi9jwyvtxPM8DnkXy2L/Animotion?node-id=1769%3A53141
