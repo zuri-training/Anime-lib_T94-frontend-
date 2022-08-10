@@ -1,9 +1,10 @@
 import "./home.css";
-import { Header } from "../../components/header/header.component";
-import { Footer } from "../../components/footer/footer.component";
-import { Button } from "../../components/button/button.component";
-import scan_barcode from "../../images/scan-barcode.svg";
-import Copy from "../../images/copy.svg";
+import { Header } from "../../components/auth/header/header.component";
+import { Footer } from "../../components/auth/footer/footer.component";
+import { Button } from "../../components/auth/button/button.component";
+// import scan_barcode from "../../assets/images/scan-barcode.svg";
+import scan_barcode from "../../assets/images/copy.svg";
+import Copy from "../../assets/images/copy.svg";
 import { useState } from "react";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
@@ -161,7 +162,7 @@ export default function HomePage() {
                         </button>
                       </div>
                       <div className="modal-body">
-                        I dont like stress please
+                        I don't like stress please
                       </div>
                       <div className="modal-footer">
                         <button className="modal-button">

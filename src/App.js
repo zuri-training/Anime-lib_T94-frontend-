@@ -1,14 +1,24 @@
-// import Grid from '@mui/material/Grid'
-import HomePage from "./pages/home/home.page";
+import { Route, Routes } from "react-router-dom";
+
+import Landing from "./pages/Landing";
+import About from "./pages/About";
+import Navbar from "./shared/components/Navbar";
+import Footer from "./shared/components/Footer";
+
 import "./App.css";
+import HomePage from "./pages/home/home.page";
 
 function App() {
-  return <HomePage />;
-  // return (
-  //     <Grid container direction="column">
-  //       <div>coming soon!</div>
-  //     </Grid>
-  // );
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Landing />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+    </>
+  );
 }
 
 export default App;

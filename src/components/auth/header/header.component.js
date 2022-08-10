@@ -1,6 +1,8 @@
 import { Nav } from "../nav/nav.component";
-import logo from "../../images/LOGO.svg";
-import profile from "../../images/profile-circle.svg";
+// import logo from "../../../assets/images/LOGO.svg";
+import logo from "../../../assets/images/copy.svg";
+import profiles from "../../../assets/images/copy.svg";
+// import profile from "../../images/profile-circle.svg";
 import "./header.css";
 import { Button } from "../button/button.component";
 
