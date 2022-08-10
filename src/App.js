@@ -16,7 +16,6 @@ import About from "./pages/About";
 import Login from "./pages/login/Login";
 import { NonProtectedLayout } from "./routes/NonProtectedRoute";
 import { ProtectedLayout } from "./routes/ProtectedRoute";
-import Footer from "./shared/components/Footer";
 import { getDesignTokens, getThemedComponents } from "./shared/theme";
 import { GlobalStyles } from "./shared/components/GlobalStyles";
 
@@ -55,7 +54,6 @@ function App() {
                 <Route path="/" element={<HomePage />} />
               </Route>
             </Routes>
-            <Footer />
           </ThemeProvider>
         </StyledEngineProvider>
       </AuthProvider>
