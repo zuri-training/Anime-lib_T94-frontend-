@@ -13,6 +13,7 @@ import Button from './Button'
 import Toggler from '../../components/Toggler/Toggler'
 import DrawerComponent from "./Drawer";
 import LogoImg from '../../assets/images/logo.png'
+import { useDarkMode } from '../../hooks/useDarkMode';
 
 const Logo = styled.img``
 
@@ -32,11 +33,15 @@ const AboutLink = styled(StyledLink)`
 `
 
 function Navbar() {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  const getTheme = useTheme();
+  const [theme, themeToggler, mountedComponent] = useDarkMode();
+  console.log('theme', theme);
+  const isMobile = useMediaQuery(getTheme.breakpoints.down("md"));
+
+  if(!mountedComponent) return <div/>
 
   return (
-    <AppBar position="static" sx = {{ background: '#000', paddingRight: '80px', paddingLeft: '80px', height: '120px',
+    <AppBar position="static" sx = {{ paddingRight: '80px', paddingLeft: '80px', height: '120px',
     justifyContent: 'center' }}>
       <CssBaseline />
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
@@ -48,7 +53,7 @@ function Navbar() {
             <AboutLink to="/about">
               About Us
             </AboutLink>
-            <Toggler />
+            <Toggler theme={theme} toggleTheme={themeToggler} />
             <StyledButton>
               <StyledLink to="/login">
                 Log In
