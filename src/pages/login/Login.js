@@ -1,44 +1,11 @@
 import React from 'react';
-import logo from "../../images/LOGO.svg";
-import { Button, Link, Container, Grid, TextField, Box, Typography, CssBaseline, GlobalStyles, Divider, FormControlLabel, Checkbox } from '@mui/material';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { Link } from "react-router-dom";
+// import logo from "../../images/LOGO.svg";
+import { Button, Container, Grid, TextField, Box, Typography, CssBaseline, Divider, FormControlLabel, Checkbox } from '@mui/material';
 // import theme from './theme.js';
-import myButtons from '../styled/buttons.styles';
-import { RoundedButton } from '../styled/buttons.styles';
-import { googleButton } from '../styled/buttons.styles';
-
-import '@fontsource/nunito'
-const theme = createTheme();
-
-const themeDark = createTheme({
-    palette: {
-        primary: {
-            main: '#43B97F',
-        },
-        secondary: {
-            main: '#ffcc4a'
-        },
-        background: {
-            default: "#000"
-        },
-        text: {
-            primary: "#ffffff"
-        },
-
-    },
-    typography: {
-        fontFamily: [
-            "Nunito, sans serif",
-
-        ].join(',')
-    },
-
-    input: {
-        color: "blue"
-    }
-});
-
-
+// import myButtons from '../../components/styled/buttons.styles';
+import { RoundedButton } from './styled/buttons.styles';
+// import { googleButton } from '../../components/styled/buttons.styles';
 
 export default function Login() {
     const handleSubmit = (event) => {
@@ -52,17 +19,13 @@ export default function Login() {
 
 
     return (
-        <ThemeProvider theme={themeDark} >
-
-
-
             <Container component="main" maxWidth='lg' sx={{ mt: 0, height: 200 }} >
                 <CssBaseline />
                 <div >
                     <Grid item className="signup-header" color="primary" sx={{ mt: 5, mb: 0, pl: 5 }}>
                         <Typography variant='h4' color={'#43B97F'}> Welcome back, </Typography>
                         <Typography variant='body1' color={'#fff'}> Don't have an account yet?
-                            <Link color='#ffcc4a' style={{ textDecoration: 'none', paddingLeft: 5 }} >Sign Up</Link></Typography>
+                            <Link to="/" color='#ffcc4a' style={{ textDecoration: 'none', paddingLeft: 5 }} >Sign Up</Link></Typography>
 
 
 
@@ -128,7 +91,7 @@ export default function Login() {
                                     control={<Checkbox value="rememberme" color="primary" sx={{ color: '#fff' }} />}
                                     label={<Typography sx={{ fontSize: '12px', ml: -1 }}>Remember me</Typography>}
                                 />
-                                <Link color='#fff' style={{ textDecoration: 'none', paddingLeft: 1 }} >Forgot Password</Link>
+                                <Link to="/" color='#fff' style={{ textDecoration: 'none', paddingLeft: 1 }} >Forgot Password</Link>
 
                             </Grid>
 
@@ -155,8 +118,7 @@ export default function Login() {
                         </Grid>
                     </Box>
                 </Box>
-            </Container >
-        </ThemeProvider >
+            </Container>
     )
 }
 
