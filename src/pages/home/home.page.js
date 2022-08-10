@@ -185,7 +185,7 @@ export default function HomePage() {
                   <Button.Primary>{interaction}</Button.Primary>
                   <span
                     onClick={getFavoriteClickHandler(interaction)}
-                    className="green-heart"
+                    className="green-heart home-page-span"
                   >
                     {favorited.includes(interaction) ? (
                       <>&#9829;</>
