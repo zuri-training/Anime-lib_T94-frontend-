@@ -13,8 +13,10 @@ import { useDarkMode } from "./hooks/useDarkMode";
 import { AuthProvider } from "./hooks/useAuth";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
+import Login from "./pages/login/Login";
 import { NonProtectedLayout } from "./routes/NonProtectedRoute";
 import { ProtectedLayout } from "./routes/ProtectedRoute";
+import Footer from "./shared/components/Footer";
 import { getDesignTokens, getThemedComponents } from "./shared/theme";
 import { GlobalStyles } from "./shared/components/GlobalStyles";
 
@@ -47,12 +49,13 @@ function App() {
               <Route element={<NonProtectedLayout />}>
                 <Route exact path="/landing" element={<Landing />} />
                 <Route path="/about" element={<About />} />
-                {/* <Route path="/login" element={<Login />} /> */}
+                <Route path="/login" element={<Login />} />
               </Route>
               <Route path="/" element={<ProtectedLayout />}>
                 <Route path="/" element={<HomePage />} />
               </Route>
             </Routes>
+            <Footer />
           </ThemeProvider>
         </StyledEngineProvider>
       </AuthProvider>
