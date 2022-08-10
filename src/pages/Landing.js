@@ -10,6 +10,8 @@ import OrangeQuoteImg from '../assets/images/orangequote.png'
 import TracyCainImg from '../assets/images/tracyCain.png'
 import JamesNkebeImg from '../assets/images/jamesNkebe.png'
 import JohnRushImg from '../assets/images/johnRush.png'
+import LandingVideo from '../assets/videos/landingPage.mp4';
+
 
 const Container = styled.div`
     padding-left: 80px;
@@ -105,6 +107,7 @@ const FeaturesInfoContainer = styled.div`
 
 const FeaturesInfoSection = styled.div`
     width: 35%;
+    margin-right: 150px;
 `
 
 const FeaturesInfoHeader = styled(Typography)`
@@ -270,7 +273,11 @@ function Landing() {
                         </List>
                         <InverseButton>{`Learn More >`}</InverseButton>
                     </FeaturesInfoSection>
-                    <div>video</div>
+                    <div className="video-container" style={{ width: '55%' }}>
+                        <video controls loop id="video" style={{ width: '100%' }}>
+                            <source src={LandingVideo} type="video/mp4" />
+                        </video>
+                    </div>
                 </FeaturesInfoContainer>
             </FeaturesContainer>
             <TestimonialContainer>
