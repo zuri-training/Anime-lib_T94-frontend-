@@ -24,3 +24,12 @@
   gap: 1.75rem;
   align-items: center;
 }
+
+.toggler-auth {
+  margin-left: auto;
+}
+
+.nav {
+  margin-left: auto;
+  padding-left: 270px;
+}
