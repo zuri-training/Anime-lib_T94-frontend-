@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from "../../images/LOGO.svg";
+import { Link as RouterLink } from 'react-router-dom'
 import { Button, Link, Container, Grid, TextField, Box, Typography, CssBaseline, Divider } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 // import theme from './theme.js';
@@ -62,7 +63,7 @@ export default function Signup() {
                     <Grid item className="signup-header" color="primary" sx={{ mt: 1, mb: 0 }}>
                         <Typography variant='h4' color={'#43B97F'}> Create an account</Typography>
                         <Typography variant='body1' color={'#fff'}> Already have an account?
-                            <Link color='#ffcc4a' style={{ textDecoration: 'none', paddingLeft: 5 }} >Login</Link></Typography>
+                            <Link component={RouterLink} to='/components/login/login' color='#ffcc4a' style={{ textDecoration: 'none', paddingLeft: 5 }} >Login</Link></Typography>
 
 
 

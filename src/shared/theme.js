@@ -1,22 +1,46 @@
 import { createTheme } from '@mui/material/styles';
+import '@fontsource/nunito/500.css'
+
+// const Colors = {
+//     primary: "#43B97F",
+//     secondary: "#FFCC4A",
+//     warning: "#ffcc4a",
+//     text: "#fff",
+//     green: "#43B97F"
+
+
+// }
+
 
 const theme = createTheme({
     palette: {
         primary: {
-            main: '#3F8AE0'
+            main: '#43B97F',
         },
         secondary: {
-            main: '#326eb3'
-        }
+            main: '#ffcc4a'
+        },
+        background: {
+            default: "#000"
+        },
+        text: {
+            primary: "#ffffff"
+        },
+
     },
-    bg: {
-        main: '#fff',
-        light: '#F4F5F7'
+    typography: {
+        fontFamily: [
+            "Nunito",
+            "sans serif",
+
+        ].join(',')
     },
-    text: {
-        main: '#172B4D',
-        light: '#262930'
+    input: {
+        color: 'white'
     }
 });
+
+
+
 
 export default theme;

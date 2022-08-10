@@ -8,7 +8,6 @@ import { StyledEngineProvider } from '@mui/material/styles'
 import CssBaseline from '@mui/material/CssBaseline';
 
 import theme from './shared/theme'
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

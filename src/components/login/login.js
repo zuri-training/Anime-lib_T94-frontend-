@@ -1,11 +1,11 @@
 import React from 'react';
-import logo from "../../images/LOGO.svg";
+import { Link as RouterLink } from 'react-router-dom'
 import { Button, Link, Container, Grid, TextField, Box, Typography, CssBaseline, GlobalStyles, Divider, FormControlLabel, Checkbox } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 // import theme from './theme.js';
 import myButtons from '../styled/buttons.styles';
 import { RoundedButton } from '../styled/buttons.styles';
-import { googleButton } from '../styled/buttons.styles';
+
 
 import '@fontsource/nunito'
 const theme = createTheme();
@@ -62,7 +62,7 @@ export default function Login() {
                     <Grid item className="signup-header" color="primary" sx={{ mt: 5, mb: 0, pl: 5 }}>
                         <Typography variant='h4' color={'#43B97F'}> Welcome back, </Typography>
                         <Typography variant='body1' color={'#fff'}> Don't have an account yet?
-                            <Link color='#ffcc4a' style={{ textDecoration: 'none', paddingLeft: 5 }} >Sign Up</Link></Typography>
+                            <Link component={RouterLink} to='/signup' color='#ffcc4a' style={{ textDecoration: 'none', paddingLeft: 5 }} >Sign Up</Link></Typography>
 
 
 
@@ -123,12 +123,15 @@ export default function Login() {
 
                         </Grid>
                         <Grid sx={{ pl: 0 }}>
-                            <Grid item xs={12} >
+                            <Grid item xs={12}>
                                 <FormControlLabel
                                     control={<Checkbox value="rememberme" color="primary" sx={{ color: '#fff' }} />}
                                     label={<Typography sx={{ fontSize: '12px', ml: -1 }}>Remember me</Typography>}
                                 />
-                                <Link color='#fff' style={{ textDecoration: 'none', paddingLeft: 1 }} >Forgot Password</Link>
+                                {/* <Grid item xs={12} display="flex" justifyContent="flex-end"> */}
+
+                                <Link color='#fff' style={{ textDecoration: 'none' }} >Forgot Password</Link>
+
 
                             </Grid>
 
@@ -148,7 +151,7 @@ export default function Login() {
                             <Divider sx={{
                                 width: '100%', "&::before, &::after": {
                                     borderColor: '#fff', borderBottomWidth: 42
-                                },
+                                }, mt: 2
                             }}>Or</Divider>
                             <Button variant="outlined" fullWidth sx={{ width: '426px', mt: 5, mb: 2, textTransform: 'capitalize' }}>
                                 Continue with Google</Button>
