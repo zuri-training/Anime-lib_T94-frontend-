@@ -18,6 +18,8 @@ import { ProtectedLayout } from "./routes/ProtectedRoute";
 import Footer from "./shared/components/Footer";
 import { getDesignTokens,getThemedComponents } from './shared/theme';
 import { GlobalStyles } from './shared/components/GlobalStyles';
+
+import HomePage from "./pages/home/home.page";
 import './App.css';
 
 export const ThemeContext = createContext(null);
@@ -48,7 +50,7 @@ function App() {
                     {/* <Route path="/login" element={<Login />} /> */}
                   </Route>
                   <Route path="/" element={<ProtectedLayout />}>
-                    {/* <Route path="/home" element={<Home />}/> */}
+                    <Route path="/home" element={<HomePage />}/>
                   </Route>
                 </Routes>
                 <Footer />
