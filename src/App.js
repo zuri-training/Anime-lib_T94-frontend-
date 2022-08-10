@@ -1,9 +1,10 @@
 // import Grid from '@mui/material/Grid'
-import HomePage from "./pages/home/home.page";
+import ContactPage from "./pages/contact/contact.page";
+// import HomePage from "./pages/home/home.page";
 import "./App.css";
 
 function App() {
-  return <HomePage />;
+  return <ContactPage />;
   // return (
   //     <Grid container direction="column">
   //       <div>coming soon!</div>
