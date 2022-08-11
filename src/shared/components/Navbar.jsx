@@ -42,7 +42,7 @@ function Navbar() {
 
   return (
     <AppBar position="static" sx = {{ paddingRight: '80px', paddingLeft: '80px', height: '120px',
-    justifyContent: 'center' }}>
+    justifyContent: 'center', backgroundImage: 'none', boxShadow: 'none' }}>
       <CssBaseline />
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Logo src={LogoImg} alt="logo" />
