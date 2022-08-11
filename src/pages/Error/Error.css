@@ -9,6 +9,8 @@
     height: 70vh;
     z-index: 1;
     flex-wrap: wrap;
+    padding-top: 106px;
+    padding-bottom: 106px;
 }
 
 .circle {
@@ -23,7 +25,7 @@
     border-radius: 50%;
 }
 
-.text {
+.Errortext {
     width: 458px;
     height: 348px;
 }
@@ -33,7 +35,7 @@ h3 {
     color: #43b97f;
 }
 
-p {
+.pp {
     width: 394px;
     color: white;
     font-size: 24px;
@@ -80,7 +82,7 @@ input:focus {
 
 
 .searchbtn img {
-    background-color: #43b97f;
+    /* background-color: #43b97f; */
 
 
 }
@@ -90,7 +92,6 @@ input:focus {
 }
 
 .homebtn {
-    width: 250px;
     border-radius: 12px;
     padding: 16px 48px 16px 48px;
     background: #43b97f;
