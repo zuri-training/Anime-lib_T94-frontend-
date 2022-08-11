@@ -91,7 +91,7 @@ export default function Login() {
                                     control={<Checkbox value="rememberme" color="primary" sx={{ color: '#fff' }} />}
                                     label={<Typography sx={{ fontSize: '12px', ml: -1 }}>Remember me</Typography>}
                                 />
-                                <Link to="/" color='#fff' style={{ textDecoration: 'none', paddingLeft: 1 }} >Forgot Password</Link>
+                                <Link to="/forgot-password" color='#fff' style={{ textDecoration: 'none', paddingLeft: 1 }} >Forgot Password</Link>
 
                             </Grid>
 

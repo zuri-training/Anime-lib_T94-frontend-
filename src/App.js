@@ -14,6 +14,8 @@ import { AuthProvider } from "./hooks/useAuth";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Login from "./pages/login/Login";
+import ForgotPassword from "./components/passwordRecovery/password_recovery"
+import ResetPassword from "./components/password_reset/password_reset"
 import { NonProtectedLayout } from "./routes/NonProtectedRoute";
 import { ProtectedLayout } from "./routes/ProtectedRoute";
 import { getDesignTokens, getThemedComponents } from "./shared/theme";
@@ -49,6 +51,8 @@ function App() {
                 <Route exact path="/landing" element={<Landing />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/forgot-password" element={<ForgotPassword />} />
+                <Route path="/reset-password" element={<ResetPassword />} />
               </Route>
               <Route path="/" element={<ProtectedLayout />}>
                 <Route path="/" element={<HomePage />} />
