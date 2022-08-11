@@ -1,6 +1,11 @@
 import React from 'react'
+
 import {CardStyled,ColoredText,CircleValues,CardMain} from './OurValues.style'
 import Title from './Title'
+import Empathy from '../../../assets/images/empathy-value.png'
+import Eye from '../../../assets/images/eye.png'
+import Heart from '../../../assets/images/heart.png'
+import TeamWork from '../../../assets/images/team-work.png'
 
 function OurValues() {
   return (
@@ -11,7 +16,7 @@ function OurValues() {
        <CardMain Bg="#111214">
         <CardStyled>
               <CircleValues Bg="#C280D2">
-              <img src="images/heart.png" alt="heart" className="heart"/>
+              <img src={Heart} alt="heart" className="heart"/>
                 </CircleValues>
                     <ColoredText Color="#C280D2" pat="7px" Weight="700">
                         PASSION
@@ -22,7 +27,7 @@ function OurValues() {
         
         <CardStyled>
                 <CircleValues Bg="#FFCC4A">
-                  <img src="images/people1.png" alt="team" className="team"/>
+                  <img src={TeamWork} alt="team" className="team"/>
                 </CircleValues>
                     <ColoredText Color="#FFCC4A" pat="7px" Weight="700">
                         TEAM WORK
@@ -34,7 +39,7 @@ function OurValues() {
         
         <CardStyled>
                 <CircleValues Bg="#43B97F">
-                <img src="images/eye.png" alt="focus" className="focus"/>
+                <img src={Eye} alt="focus" className="focus"/>
                  </CircleValues>
                     <ColoredText Color="#43B97F" pat="7px" Weight="700">
                         FOCUS
@@ -46,7 +51,7 @@ function OurValues() {
         
         <CardStyled>
                 <CircleValues Bg="#FF830F">
-                  <img src="images/empathy1.png" alt="empathy" className="empathy"/>
+                  <img src={Empathy} alt="empathy" className="empathy"/>
                 </CircleValues>
                     <ColoredText Color="#FF830F" pat="7px" Weight="700">
                         EMPATHY

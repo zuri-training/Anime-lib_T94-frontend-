@@ -1,8 +1,8 @@
+import React from 'react'
+
 import Title  from './Title';
 import {StyledHero} from './HeroSection.styles'
-
-
-import React from 'react'
+import Star from '../../../assets/images/star-circle.png'
 
 function HeroSection() {
   return (
@@ -14,7 +14,7 @@ function HeroSection() {
                 <h3 >We do the combination,<br/> you do the design.</h3>
               <p >No need to worry about combining the right<br/> codes to animate your designs</p>
                 </div>
-              <img src="images/star-circle.png" alt="star" />
+              <img src={Star} alt="star" />
             
       </StyledHero>
       </>

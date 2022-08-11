@@ -12,7 +12,7 @@ import { deepmerge } from "@mui/utils";
 import { useDarkMode } from "./hooks/useDarkMode";
 import { AuthProvider } from "./hooks/useAuth";
 import Landing from "./pages/Landing";
-import About from "./pages/About";
+import About from "./pages/AboutUs/AboutUs";
 import Error from './pages/Error/Error.js';
 import Login from "./pages/login/Login";
 import ForgotPassword from "./components/passwordRecovery/password_recovery"
