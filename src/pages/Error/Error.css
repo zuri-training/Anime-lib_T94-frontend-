@@ -1,0 +1,150 @@
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70vh;
+    z-index: 1;
+    flex-wrap: wrap;
+    padding-top: 106px;
+    padding-bottom: 106px;
+}
+
+.circle {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 486px;
+    top: 50px;
+    background: #c280d2;
+    opacity: 80%;
+    filter: blur(55px);
+    border-radius: 50%;
+}
+
+.Errortext {
+    width: 458px;
+    height: 348px;
+}
+
+h3 {
+    font-size: 48px;
+    color: #43b97f;
+}
+
+.pp {
+    width: 394px;
+    color: white;
+    font-size: 24px;
+    list-style: 1.5px;
+    margin-top: 30px;
+}
+
+input {
+    width: 80%;
+    background-color: white;
+    height: 60px;
+    color: #555;
+    display: inline-block;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    margin: 0;
+}
+
+input:focus {
+    border: 1px solid #43b97f;
+}
+
+.searchbutton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.searchbtn {
+    height: 60px;
+    background-color: #43b97f;
+    width: 66px;
+    border: 1px solid #43b97f; 
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchbtn:hover {
+    background-color: #30835A;
+}
+
+
+.searchbtn img {
+    /* background-color: #43b97f; */
+
+
+}
+
+.searchbtn img:hover {
+    background-color: #30835A;
+}
+
+.homebtn {
+    border-radius: 12px;
+    padding: 16px 48px 16px 48px;
+    background: #43b97f;
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+    text-decoration: none;
+    text-align: center; 
+    display: block;font-size: 24px;
+    font-weight: 600;
+}
+
+.homebtn:hover {
+    text-decoration: none;
+    background-color: #30835A;
+}
+
+
+
+ .circle2 {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    left: 247px;
+    top: 550px;
+    background: #81D0A9;
+    opacity: 80%;
+    filter: blur(50px);
+    border-radius: 50%;
+}
+
+.circle3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 1215px;
+    top: 550px;
+    background: #FD8042;
+    opacity: 0.4;
+    filter: blur(40px);
+}
+
+.copyRight {
+    text-align: center;
+    font-size: 14px;
+}
+
+    
+
+.gif {
+    width: 350px;
+    height: 350px;
+    border: white;
+    border-radius: 50%;
+    box-shadow: 0 0 15px 10px #43b97f;
+}
