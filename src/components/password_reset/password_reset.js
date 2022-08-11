@@ -6,7 +6,7 @@ const PasswordReset = () => {
          <div className="main">
 
                     <div className="formContainer">
-                            <h2>Reset your password</h2>
+                            <h2 className="headTwo">Reset your password</h2>
                             <p className="one">Key in your new password </p>
                             <form action="post">
                                     <label for="email">New Password</label>
@@ -17,10 +17,6 @@ const PasswordReset = () => {
                             </form>
                     </div>
           </div>
-
-                <div className="footerDiv">
-                        <p className="footer">Copyright &COPY; 2022 Animotions by Zuri inc.</p>
-                </div>
     </div>
   );
 };
