@@ -12,7 +12,7 @@ const PasswordRecovery = () => {
          <div className="main">
 
                     <div className="formContainer">
-                            <h2>Forget your password?</h2>
+                            <h2 className="headTwo">Forget your password?</h2>
                             <p className="parag one">Don't worry, it happens to the best of us!</p>
                             <form action="post">
                                     <label for="email">Email</label>
@@ -27,7 +27,7 @@ const PasswordRecovery = () => {
                         <div className="orange">
                         <img src={OrangeKey} alt="orange key image" className="orangeKey"/>
                         </div>
-                        <div className="circle"></div>
+                        <div className="circleBall"></div>
 
                         <img src={LockGif} className="lockBox" alt="lock image" />
                         
