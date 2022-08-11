@@ -13,8 +13,8 @@ import JohnRushImg from "../assets/images/johnRush.png";
 import LandingVideo from "../assets/videos/landingPage.mp4";
 
 const Container = styled.div`
-  padding-left: 80px;
-  padding-right: 80px;
+  /* padding-left: 80px;
+  padding-right: 80px; */
 `;
 
 const IntroContainer = styled(Box)`
@@ -81,7 +81,11 @@ const FeaturesHeading = styled(Typography)`
   align-self: center;
 `;
 
-const FeaturesButtonContainer = styled.div``;
+const FeaturesButtonContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+`;
 
 const FeaturesButton = styled(Button)`
   margin-right: 64px;
@@ -175,6 +179,7 @@ const GetStartedContainer = styled.div`
   margin-top: 124px;
   padding-top: 106px;
   padding-bottom: 106px;
+  background-color: #111214;
 `;
 
 const TestimonialAuthorContainer = styled.div`
@@ -253,9 +258,9 @@ function Landing() {
           </IntroSubHeader>
           <IntroButtonContainer>
             <IntroButton>Get Started, It's Free</IntroButton>
-            <IntroButton sx={{ background: "none", color: "#FFF" }}>
-              <PlayCircleIcon style={{ color: "#FFCC4A" }} /> Watch Demo
-            </IntroButton>
+            {/* <IntroButton sx={{ background: "none", color: "#FFF" }}>
+            </IntroButton> */}
+            <Typography style={{  }}><PlayCircleIcon style={{ color: "#FFCC4A" }} /> Watch Demo</Typography>
           </IntroButtonContainer>
         </Intro>
         <IntroAnimation>
