@@ -8,9 +8,9 @@ const Error = () => {
 
         <div className="circle"></div>
         
-            <div className="text">
+            <div className="Errortext">
                 <h3> Oops!</h3>
-                <p> We can't seem to find the page you <br/> are looking for...</p>
+                <p className="pp"> We can't seem to find the page you <br/> are looking for...</p>
                 <form>
                     <div className="searchbutton">
                     <input type="search" placeholder="Search..."/>
@@ -30,7 +30,7 @@ const Error = () => {
             <div className="circle3"></div>
 
             
-        <div><p className="copyRight"> Copyright &copy; 2022.Animations by Zuri Inc.</p></div>
+       
 
 
       </div>
