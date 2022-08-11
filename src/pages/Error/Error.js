@@ -1,15 +1,10 @@
 import './Error.css'
-
+import CircleImg from "../../assets/images/Vector.svg"
+import RoundImg from "../../assets/images/Frame 5988.gif"
 const Error = () => {
     return (
-     <div>
-         <div className="logoDiv">
-            <img src="../assets/image/Group 7265.png" alt="logo"/>
-        </div>
-
-        <div className="darkModeDiv">
-            <img src="../assets/images/Light and Dark Switch Icon.png" alt="bark mode button"/>
-        </div>
+     <div className="container">
+        
 
         <div className="circle"></div>
         
@@ -20,7 +15,7 @@ const Error = () => {
                     <div className="searchbutton">
                     <input type="search" placeholder="Search..."/>
                     <button className="searchbtn" type="submit">
-                        <img src="../assets/images/Vector.svg" alt="search icon"/>
+                        <img src={CircleImg} alt="search icon"/>
                     </button>
                     </div>
                 </form>
@@ -28,7 +23,7 @@ const Error = () => {
             </div>
 
             <div className="icon">
-                <img src="../assets/images/Frame 5988.gif" className="gif"/>
+                <img src={RoundImg} className="gif"/>
             </div>
 
             <div className="circle2"></div>

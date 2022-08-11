@@ -1,37 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap');
 
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
 
-body {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFF;
-    flex-direction: column;
-    overflow-y: hidden;
-    font-family: Nunito;
-}
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    background-color: #000;
-    height: 100px;
-    z-index: 3;
-}
-
-.logoDiv img {
-    width: 177px;
-}
-
-main {
+.container {
     display: flex;
     justify-content: space-around;
     align-items: center;
