@@ -11,12 +11,9 @@ const Container = styled.div`
     justify-content: space-around;
     align-items: center;
     background: #0D0E0F;
-    position: fixed;
-    left: 0;
-    bottom: 0;
 `
 const Logo = styled.img`
-  height: 61px;
+    height: 61px;
 `
 
 function Footer() {
