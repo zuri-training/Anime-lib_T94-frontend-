@@ -13,7 +13,7 @@ const PasswordReset = () => {
                                     <input type="password" placeholder="Enter Your New Password" required/>
                                     <label for="email">Confirm Password</label>
                                     <input type="password" placeholder="Confirm Your New Password" required/>
-                                    <button className="resetResetBtn">Verify Email</button>
+                                    <button className="resetResetBtn">Reset Password</button>
                             </form>
                     </div>
           </div>
