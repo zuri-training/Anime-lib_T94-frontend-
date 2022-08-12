@@ -17,7 +17,7 @@ const PasswordRecovery = () => {
                             <form action="post">
                                     <label for="email">Email</label>
                                     <input type="email" placeholder="Enter Your Email"/>
-                                    <Link to="/reset-password" ><button className="passwordResetBtn">Reset Password</button></Link>
+                                    <Link to="/reset-password" ><button className="passwordResetBtn">Verify Email</button></Link>
                             </form>
                             <p className="parag two">We will send you a link to reset your password to your mail</p>
                 </div>
