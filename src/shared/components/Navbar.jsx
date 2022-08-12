@@ -61,40 +61,45 @@ function Navbar() {
   if (!mountedComponent) return <div />
 
   return (
-<<<<<<< HEAD
-    <AppBar position="static" sx={{
-      paddingRight: '80px', paddingLeft: '80px', height: '120px',
-      justifyContent: 'center'
-    }}>
-=======
-    <AppBar position="static" sx = {{ paddingRight: '80px', paddingLeft: '80px', height: '120px',
-    justifyContent: 'center', backgroundImage: 'none', boxShadow: 'none' }}>
->>>>>>> 685c900388ce85a0ebe9348f1a4bcad7d1e66131
-      <CssBaseline />
-      <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
-        <Logo src={LogoImg} alt="logo" />
-        {isMobile ? (
-          <DrawerComponent />
-        ) : (
-          <div style={{ display: 'flex', alignItems: 'center' }}>
-            <AboutLink to="/about">
-              About Us
-            </AboutLink>
-            <Toggler theme={theme} toggleTheme={themeToggler} />
-            <InverseButton>
-              <InverseLink to="/login">
-                Log In
-              </InverseLink>
-            </InverseButton>
-            <StyledButton>
-              <StyledLink to="/signup">
-                Sign Up
-              </StyledLink>
-            </StyledButton>
-          </div>
-        )}
-      </Toolbar>
-    </AppBar>
+    <>
+
+      <AppBar position="static" sx={{
+        paddingRight: '80px', paddingLeft: '80px', height: '120px',
+        justifyContent: 'center'
+      }}></AppBar>
+
+      <AppBar position="static" sx={{
+        paddingRight: '80px', paddingLeft: '80px', height: '120px',
+        justifyContent: 'center', backgroundImage: 'none', boxShadow: 'none'
+      }}>
+
+        <CssBaseline />
+        <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
+          <Logo src={LogoImg} alt="logo" />
+          {isMobile ? (
+            <DrawerComponent />
+          ) : (
+            <div style={{ display: 'flex', alignItems: 'center' }}>
+              <AboutLink to="/about">
+                About Us
+              </AboutLink>
+              <Toggler theme={theme} toggleTheme={themeToggler} />
+              <InverseButton>
+                <InverseLink to="/login">
+                  Log In
+                </InverseLink>
+              </InverseButton>
+              <StyledButton>
+                <StyledLink to="/signup">
+                  Sign Up
+                </StyledLink>
+              </StyledButton>
+            </div>
+          )}
+        </Toolbar>
+      </AppBar>
+    </>
+
   );
 }
-export default Navbar;
+export default Navbar

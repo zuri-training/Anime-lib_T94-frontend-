@@ -1,15 +1,5 @@
 import { createTheme } from '@mui/material/styles';
-
-// const Colors = {
-//     primary: "#43B97F",
-//     secondary: "#FFCC4A",
-//     warning: "#ffcc4a",
-//     text: "#fff",
-//     green: "#43B97F"
-
-
-// }
-
+import { ThemeConsumer } from 'styled-components';
 
 export const COLORS = {
     green: '#43B97F',
@@ -62,70 +52,43 @@ export const getDesignTokens = (mode) => ({
     palette: {
         mode,
         ...(mode === 'light'
-<<<<<<< HEAD
             ? {
                 primary: {
                     main: palette.light.primary.main,
+                    dark: palette.light.primary.dark,
+                    contrastText: palette.light.primary.contrastText,
                 },
                 background: {
                     default: palette.light.secondary,
                     paper: palette.light.secondary,
                 },
                 text: {
-                    primary: palette.light.text.main,
+                    primary: palette.light.text.primary,
+                },
+                common: {
+                    black: COLORS.black,
+                    white: COLORS.white,
                 }
             }
             : {
                 primary: {
                     main: palette.dark.primary.main,
+                    dark: palette.dark.primary.dark,
+                    contrastText: palette.dark.primary.contrastText,
                 },
                 background: {
                     default: palette.dark.secondary,
                     paper: palette.dark.secondary,
                 },
                 text: {
-                    primary: palette.dark.text.main,
+                    primary: palette.dark.text.primary,
+                    secondary: palette.dark.text.secondary,
                 },
+                common: {
+                    black: COLORS.black,
+                    white: COLORS.white,
+                }
             }),
-=======
-        ? {
-            primary: {
-                main: palette.light.primary.main,
-                dark: palette.light.primary.dark,
-                contrastText: palette.light.primary.contrastText,
-            },
-            background: {
-                default: palette.light.secondary,
-                paper: palette.light.secondary,
-            },
-            text: {
-                primary: palette.light.text.primary,
-            },
-            common: {
-                black: COLORS.black,
-                white: COLORS.white,
-            }
-        }
-        : {
-            primary: {
-                main: palette.dark.primary.main,
-                dark: palette.dark.primary.dark,
-                contrastText: palette.dark.primary.contrastText,
-            },
-            background: {
-                default: palette.dark.secondary,
-                paper: palette.dark.secondary,
-            },
-            text: {
-                primary: palette.dark.text.primary,
-                secondary: palette.dark.text.secondary,
-            },
-            common: {
-                black: COLORS.black,
-                white: COLORS.white,
-            }
-        }),
->>>>>>> 685c900388ce85a0ebe9348f1a4bcad7d1e66131
     },
     typography: {
         fontFamily: FONTS.main,
@@ -163,31 +126,9 @@ export const getThemedComponents = (mode) => ({
 const theme = createTheme({
     palette: {
         primary: {
-
-            main: '#43B97F',
+            main: '#43B97F'
         },
-        secondary: {
-            main: '#ffcc4a'
-        },
-        background: {
-            default: "#000"
-        },
-        text: {
-            primary: "#ffffff"
-        },
-
     },
-    typography: {
-        fontFamily: [
-            "Nunito",
-            "sans serif",
-
-        ].join(',')
-    },
-    input: {
-        color: 'white'
-    },
-
     bg: {
         main: '#000',
     },
@@ -199,10 +140,7 @@ const theme = createTheme({
         button: {
             textTransform: 'none'
         }
-    }
-})
+    },
+});
 
-
-
-
-export default theme;
+export default theme
