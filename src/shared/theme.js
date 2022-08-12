@@ -2,11 +2,14 @@ import { createTheme } from '@mui/material/styles';
 
 export const COLORS = {
     green: '#43B97F',
+    darkGreen: '#1C4E35',
+    green700: '#30835A',
     black: '#181a1c',
     white: '#FFFFFF',
     offWhite: '#FEFEFE',
     violet: '#C280D2',
-    orange: '#43B97F'
+    orange: '#CA6635',
+    yellow: '#FFCC4A',
 }
 
 export const FONTS = {
@@ -18,23 +21,28 @@ const palette = {
     light: {
         primary: {
             main: COLORS.green,
+            dark: COLORS.darkGreen,
+            contrastText: COLORS.darkGreen,
         },
         secondary: {
             main: COLORS.offWhite,
         },
         text: {
-            main: COLORS.black,
-        }
+            primary: COLORS.black,
+        },
     },
     dark: {
         primary: {
             main: COLORS.green,
+            dark: COLORS.green,
+            contrastText: COLORS.black,
         },
         secondary: {
             main: COLORS.black,
         },
         text: {
-            main: COLORS.white,
+            primary: COLORS.white,
+            secondary: COLORS.yellow,
         }
     },
 };
@@ -46,26 +54,39 @@ export const getDesignTokens = (mode) => ({
         ? {
             primary: {
                 main: palette.light.primary.main,
+                dark: palette.light.primary.dark,
+                contrastText: palette.light.primary.contrastText,
             },
             background: {
                 default: palette.light.secondary,
                 paper: palette.light.secondary,
             },
             text: {
-                primary: palette.light.text.main,
+                primary: palette.light.text.primary,
+            },
+            common: {
+                black: COLORS.black,
+                white: COLORS.white,
             }
-            }
+        }
         : {
             primary: {
                 main: palette.dark.primary.main,
+                dark: palette.dark.primary.dark,
+                contrastText: palette.dark.primary.contrastText,
             },
             background: {
                 default: palette.dark.secondary,
                 paper: palette.dark.secondary,
             },
             text: {
-                primary: palette.dark.text.main,
+                primary: palette.dark.text.primary,
+                secondary: palette.dark.text.secondary,
             },
+            common: {
+                black: COLORS.black,
+                white: COLORS.white,
+            }
         }),
     },
     typography: {

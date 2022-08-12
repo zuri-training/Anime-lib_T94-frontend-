@@ -23,7 +23,6 @@ import { getDesignTokens, getThemedComponents } from "./shared/theme";
 import { GlobalStyles } from "./shared/components/GlobalStyles";
 
 import HomePage from "./pages/home/home.page";
-import "./App.css";
 
 export const ThemeContext = createContext(null);
 
@@ -42,12 +41,11 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, themeToggler }}>
-
       <AuthProvider>
         <StyledEngineProvider injectFirst>
           <CssBaseline />
           <ThemeProvider theme={themeMode}>
-            <GlobalStyles />
+            <GlobalStyles theme={themeMode} />
             <Routes>
               <Route element={<NonProtectedLayout />}>
                 <Route exact path="/landing" element={<Landing />} />
@@ -56,6 +54,7 @@ function App() {
                 <Route path="/404" element={<Error />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
                 <Route path="/reset-password" element={<ResetPassword />} />
+                <Route path="/home" element={<HomePage />} />
               </Route>
               <Route path="/" element={<ProtectedLayout />}>
                 <Route path="/" element={<HomePage />} />
