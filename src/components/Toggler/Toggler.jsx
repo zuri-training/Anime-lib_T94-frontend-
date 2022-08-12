@@ -1,8 +1,6 @@
 import { FormControlLabel, Switch } from '@mui/material';
 import styled from "styled-components";
 
-import "./Toggler.css";
-
 const StyledSwitch = styled((props) => (
   <Switch focusVisibleClassName=".Mui-focusVisible" disableRipple {...props} />
 ))(({ theme }) => ({

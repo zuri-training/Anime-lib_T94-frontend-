@@ -23,13 +23,33 @@ const StyledButton = styled(Button)`
   gap: 16px;
 `
 
+const InverseButton = styled(Button)`
+  background: transparent;
+  /* color: #3da874; */
+  color: ${({ theme }) => theme.palette.primary.dark};
+  border: ${({ theme }) => `1px solid ${theme.palette.primary.dark}`};
+  /* border: 1px solid #3da874; */
+  width: 164px;
+  height: 68px;
+  margin-left: 36px;
+  margin-right: 36px;
+`;
+
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: #FFF;
 `
 
+const InverseLink = styled(StyledLink)`
+  color: ${({ theme }) => theme.palette.primary.dark};
+`
+
 const AboutLink = styled(StyledLink)`
   margin-right: 115px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: ${({ theme }) => theme.palette.primary.contrastText};
 `
 
 function Navbar() {
@@ -41,10 +61,15 @@ function Navbar() {
   if (!mountedComponent) return <div />
 
   return (
+<<<<<<< HEAD
     <AppBar position="static" sx={{
       paddingRight: '80px', paddingLeft: '80px', height: '120px',
       justifyContent: 'center'
     }}>
+=======
+    <AppBar position="static" sx = {{ paddingRight: '80px', paddingLeft: '80px', height: '120px',
+    justifyContent: 'center', backgroundImage: 'none', boxShadow: 'none' }}>
+>>>>>>> 685c900388ce85a0ebe9348f1a4bcad7d1e66131
       <CssBaseline />
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Logo src={LogoImg} alt="logo" />
@@ -56,11 +81,11 @@ function Navbar() {
               About Us
             </AboutLink>
             <Toggler theme={theme} toggleTheme={themeToggler} />
-            <StyledButton>
-              <StyledLink to="/login">
+            <InverseButton>
+              <InverseLink to="/login">
                 Log In
-              </StyledLink>
-            </StyledButton>
+              </InverseLink>
+            </InverseButton>
             <StyledButton>
               <StyledLink to="/signup">
                 Sign Up

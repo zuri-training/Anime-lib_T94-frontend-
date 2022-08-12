@@ -7,22 +7,27 @@ import {
   responsiveFontSizes,
 } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
-import { deepmerge } from "@mui/utils";
+import { deepMerge } from "@mui/utils";
 
 
 import { useDarkMode } from "./hooks/useDarkMode";
 import { AuthProvider } from "./hooks/useAuth";
 import Landing from "./pages/Landing";
-import About from "./pages/About";
+import About from "./pages/AboutUs/AboutUs";
+import Error from './pages/Error/Error.js';
 import Login from "./pages/login/Login";
+
 import Signup from "./pages/signup/signup";
+
+import ForgotPassword from "./components/passwordRecovery/password_recovery"
+import ResetPassword from "./components/password_reset/password_reset"
+
 import { NonProtectedLayout } from "./routes/NonProtectedRoute";
 import { ProtectedLayout } from "./routes/ProtectedRoute";
 import { getDesignTokens, getThemedComponents } from "./shared/theme";
 import { GlobalStyles } from "./shared/components/GlobalStyles";
 
 import HomePage from "./pages/home/home.page";
-import "./App.css";
 
 export const ThemeContext = createContext(null);
 
@@ -31,7 +36,7 @@ function App() {
   let themeMode = useMemo(
     () =>
       createTheme(
-        deepmerge(getDesignTokens(theme), getThemedComponents(theme))
+        deepMerge(getDesignTokens(theme), getThemedComponents(theme))
       ),
     [theme]
   );
@@ -45,13 +50,20 @@ function App() {
         <StyledEngineProvider injectFirst>
           <CssBaseline />
           <ThemeProvider theme={themeMode}>
-            <GlobalStyles />
+            <GlobalStyles theme={themeMode} />
             <Routes>
               <Route element={<NonProtectedLayout />}>
                 <Route exact path="/landing" element={<Landing />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/login" element={<Login />} />
+
                 <Route path="/signup" element={<Signup />} />
+
+                <Route path="/404" element={<Error />} />
+                <Route path="/forgot-password" element={<ForgotPassword />} />
+                <Route path="/reset-password" element={<ResetPassword />} />
+                <Route path="/home" element={<HomePage />} />
+
               </Route>
               <Route path="/" element={<ProtectedLayout />}>
                 <Route path="/" element={<HomePage />} />

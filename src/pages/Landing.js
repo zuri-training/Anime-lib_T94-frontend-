@@ -1,6 +1,7 @@
 import { Box, List, ListItem, Typography } from "@mui/material";
 import styled from "styled-components";
-import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+// import PlayCircleIcon from "@mui/icons-material/PlayCircle";
+import PlayCircleOutlineIcon from '@mui/icons-material/PlayCircleOutline';
 
 import Button from "../shared/components/Button";
 import LandingIntroAnimationImg from "../assets/images/landingIntroAnimation.png";
@@ -12,26 +13,46 @@ import JamesNkebeImg from "../assets/images/jamesNkebe.png";
 import JohnRushImg from "../assets/images/johnRush.png";
 import LandingVideo from "../assets/videos/landingPage.mp4";
 
+// Create the keyframes
+// const rotate = keyframes`
+//   from {
+//     transform: rotate(0deg);
+//   }
+
+//   to {
+//     transform: rotate(360deg);
+//   }
+// `;
+
+// // Here we create a component that will rotate everything we pass in over two seconds
+// const Rotate = styled.div`
+//   display: inline-block;
+//   animation: ${rotate} 2s linear infinite;
+//   padding: 2rem 1rem;
+//   font-size: 1.2rem;
+// `;
+
 const Container = styled.div`
-  padding-left: 80px;
-  padding-right: 80px;
+  /* padding-left: 80px;
+  padding-right: 80px; */
 `;
 
 const IntroContainer = styled(Box)`
   display: flex;
   padding-bottom: 116px;
+  justify-content: space-around;
 `;
 
 const Intro = styled.div`
   padding-top: 184px;
-  width: 47%;
+  width: 42%;
 `;
 
 const Header = styled(Typography)`
   font-weight: 800;
   font-size: 60px;
   line-height: 72px;
-  color: #fff;
+  color: ${({ theme }) => theme.palette.text.primary};
   margin-bottom: 8px;
 `;
 
@@ -45,8 +66,8 @@ const SubHeader = styled(Typography)`
 const IntroSubHeader = styled(Typography)`
   font-weight: 500;
   font-size: 20px;
-  line-height: 20px;
-  color: #fff;
+  line-height: 30px;
+  color: ${({ theme }) => theme.palette.text.primary};
 `;
 
 const IntroButtonContainer = styled.div`
@@ -62,8 +83,30 @@ const IntroButton = styled(Button)`
   height: 68px;
 `;
 
+const DemoContainer = styled.div`
+  display: flex;
+  align-items: center;
+  & span {
+    margin-left: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: ${({ theme }) => theme.palette.text.primary};
+    &:hover {
+      color: ${({ theme }) => theme.palette.text.secondary};
+      cursor: pointer;
+    }
+  }
+`;
+
 const IntroAnimation = styled.div`
   padding-top: 114px;
+  display: flex;
+  justify-content: flex-end;
+`;
+
+const LandingIntroAnimation = styled.img`
+  width: 85%;
 `;
 
 const FeaturesContainer = styled.div`
@@ -81,14 +124,21 @@ const FeaturesHeading = styled(Typography)`
   align-self: center;
 `;
 
-const FeaturesButtonContainer = styled.div``;
+const FeaturesButtonContainer = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* justify-content: space-evenly; */
+    padding-left: 80px;
+    padding-right: 80px;
+`;
 
 const FeaturesButton = styled(Button)`
   margin-right: 64px;
   margin-top: 67px;
-  min-width: 219px;
+  min-width: 240px;
   height: 68px;
-  color: #fff;
+  color: ${({ theme }) => theme.palette.text.primary};
 `;
 
 const InverseButton = styled(Button)`
@@ -97,16 +147,20 @@ const InverseButton = styled(Button)`
   border: 1px solid #3da874;
   width: 241px;
   height: 68px;
+  margin-top: 32px;
 `;
 
 const FeaturesInfoContainer = styled.div`
   display: flex;
   margin-top: 168px;
+  padding-right: 80px;
+  padding-left: 80px;
+  justify-content: space-between;
 `;
 
 const FeaturesInfoSection = styled.div`
-  width: 35%;
-  margin-right: 150px;
+  width: 38%;
+  /* margin-right: 150px; */
 `;
 
 const FeaturesInfoHeader = styled(Typography)`
@@ -124,13 +178,19 @@ const StyledListItem = styled(ListItem)`
 const TestimonialContainer = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   margin-top: 124px;
+  > p {
+    text-align: center;
+  }
 `;
 
 const TestimonialCardContainer = styled.div`
   display: flex;
   margin-top: 64px;
+  padding-right: 80px;
+  padding-left: 80px;
+  justify-content: space-between;
 `;
 
 const TestimonialCard = styled.div`
@@ -175,6 +235,7 @@ const GetStartedContainer = styled.div`
   margin-top: 124px;
   padding-top: 106px;
   padding-bottom: 106px;
+  background-color: #111214;
 `;
 
 const TestimonialAuthorContainer = styled.div`
@@ -236,6 +297,13 @@ const TestimonialAuthorJobTitle = styled(Typography)`
   line-height: 21px;
 `;
 
+const VideoContainer = styled.div`
+  border-radius: 16px;
+  border: 16px solid #69C799;
+  width: 607px;
+  height: 473px;
+`;
+
 function Landing() {
   return (
     <Container>
@@ -253,13 +321,14 @@ function Landing() {
           </IntroSubHeader>
           <IntroButtonContainer>
             <IntroButton>Get Started, It's Free</IntroButton>
-            <IntroButton sx={{ background: "none", color: "#FFF" }}>
-              <PlayCircleIcon style={{ color: "#FFCC4A" }} /> Watch Demo
-            </IntroButton>
+            <DemoContainer>
+              <PlayCircleOutlineIcon style={{ color: "#FFCC4A" }} /> 
+              <span>Watch Demo</span>
+            </DemoContainer>
           </IntroButtonContainer>
         </Intro>
         <IntroAnimation>
-          <img src={LandingIntroAnimationImg} alt="" />
+          <LandingIntroAnimation src={LandingIntroAnimationImg} alt="" />
         </IntroAnimation>
       </IntroContainer>
       <FeaturesContainer>
@@ -279,7 +348,7 @@ function Landing() {
         <FeaturesInfoContainer>
           <FeaturesInfoSection>
             <FeaturesInfoHeader>How to use the Library</FeaturesInfoHeader>
-            <List sx={{ listStyleType: "disc" }}>
+            <List sx={{ listStyleType: "disc", paddingLeft: '5%' }}>
               <StyledListItem sx={{ display: "list-item" }}>
                 Download the Zip file
               </StyledListItem>
@@ -296,11 +365,11 @@ function Landing() {
             </List>
             <InverseButton>{`Learn More >`}</InverseButton>
           </FeaturesInfoSection>
-          <div className="video-container" style={{ width: "55%" }}>
-            <video controls loop id="video" style={{ width: "100%" }}>
+          <VideoContainer>
+            <video controls loop id="video" style={{ width: "100%", height: '100%' }}>
               <source src={LandingVideo} type="video/mp4" />
             </video>
-          </div>
+          </VideoContainer>
         </FeaturesInfoContainer>
       </FeaturesContainer>
       <TestimonialContainer>
