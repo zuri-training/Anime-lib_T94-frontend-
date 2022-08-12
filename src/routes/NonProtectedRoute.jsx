@@ -1,7 +1,7 @@
 import { Navigate, useOutlet } from "react-router-dom";
 
 import { useAuth } from "../hooks/useAuth";
-import Navbar from "../shared/components/Navbar";
+import Navbar from "../shared/components/Navigation/UnauthenticatedNavbar";
 import Footer from "../shared/components/Footer";
 
 export const NonProtectedLayout = () => {

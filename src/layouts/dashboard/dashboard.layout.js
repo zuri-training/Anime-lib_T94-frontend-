@@ -1,5 +1,5 @@
 import { Footer } from "../../components/auth/footer/footer.component";
-import { Header } from "../../components/auth/header/header.component";
+import { Header } from "../../shared/components/Navigation/AuthenticatedNavbar/AuthenticatedNavbar";
 
 export const DashboardLayout = (props) => {
   return (

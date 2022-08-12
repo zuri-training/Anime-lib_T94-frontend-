@@ -6,7 +6,7 @@ import Copy from "../../assets/images/copy.svg";
 import { useState } from "react";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import { DashboardLayout } from "../../layouts/dashboard/dashboard.layout";
+// import { DashboardLayout } from "../../layouts/dashboard/dashboard.layout";
 
 const style = {
   position: "absolute",
@@ -74,7 +74,7 @@ export default function HomePage() {
   };
 
   return (
-    <DashboardLayout activityCount={favorited.length}>
+    // <DashboardLayout activityCount={favorited.length}>
       <div className="main__container">
         <section className="main__section main__section--small">
           <h1 className="h1">Option</h1>
@@ -214,6 +214,6 @@ export default function HomePage() {
           })}
         </section>
       </div>
-    </DashboardLayout>
+    // </DashboardLayout>
   );
 }

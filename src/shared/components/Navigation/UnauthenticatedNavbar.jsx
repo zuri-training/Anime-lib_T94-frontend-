@@ -9,11 +9,11 @@ import {
 } from "@mui/material";
 import styled from "styled-components";
 
-import Button from './Button'
-import Toggler from '../../components/Toggler/Toggler'
-import DrawerComponent from "./Drawer";
-import LogoImg from '../../assets/images/logo.png'
-import { useDarkMode } from '../../hooks/useDarkMode';
+import Button from '../Button'
+import Toggler from '../../../components/Toggler/Toggler'
+import DrawerComponent from "../Drawer";
+import LogoImg from '../../../assets/images/logo.png'
+import { useDarkMode } from '../../../hooks/useDarkMode';
 
 const Logo = styled.img``
 
@@ -58,7 +58,7 @@ function Navbar() {
   console.log('theme', theme);
   const isMobile = useMediaQuery(getTheme.breakpoints.down("md"));
 
-  if(!mountedComponent) return <div/>
+  if(!mountedComponent) return null
 
   return (
     <AppBar position="static" sx = {{ paddingRight: '80px', paddingLeft: '80px', height: '120px',

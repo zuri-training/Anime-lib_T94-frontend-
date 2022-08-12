@@ -54,7 +54,6 @@ function App() {
                 <Route path="/404" element={<Error />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
                 <Route path="/reset-password" element={<ResetPassword />} />
-                <Route path="/home" element={<HomePage />} />
               </Route>
               <Route path="/" element={<ProtectedLayout />}>
                 <Route path="/" element={<HomePage />} />
