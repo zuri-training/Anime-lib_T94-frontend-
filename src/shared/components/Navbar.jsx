@@ -23,13 +23,33 @@ const StyledButton = styled(Button)`
   gap: 16px;
 `
 
+const InverseButton = styled(Button)`
+  background: transparent;
+  /* color: #3da874; */
+  color: ${({ theme }) => theme.palette.primary.dark};
+  border: ${({ theme }) => `1px solid ${theme.palette.primary.dark}`};
+  /* border: 1px solid #3da874; */
+  width: 164px;
+  height: 68px;
+  margin-left: 36px;
+  margin-right: 36px;
+`;
+
 const StyledLink = styled(Link)`
   text-decoration: none;
   color: #FFF;
 `
 
+const InverseLink = styled(StyledLink)`
+  color: ${({ theme }) => theme.palette.primary.dark};
+`
+
 const AboutLink = styled(StyledLink)`
   margin-right: 115px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: ${({ theme }) => theme.palette.primary.contrastText};
 `
 
 function Navbar() {
@@ -54,11 +74,11 @@ function Navbar() {
               About Us
             </AboutLink>
             <Toggler theme={theme} toggleTheme={themeToggler} />
-            <StyledButton>
-              <StyledLink to="/login">
+            <InverseButton>
+              <InverseLink to="/login">
                 Log In
-              </StyledLink>
-            </StyledButton>
+              </InverseLink>
+            </InverseButton>
             <StyledButton>
               <StyledLink to="/register">
                 Sign Up
