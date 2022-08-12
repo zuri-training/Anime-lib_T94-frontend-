@@ -1,5 +1,5 @@
 import { createContext, useMemo } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import {
   StyledEngineProvider,
@@ -58,6 +58,7 @@ function App() {
               <Route path="/" element={<ProtectedLayout />}>
                 <Route path="/" element={<HomePage />} />
               </Route>
+              <Route path="*" element={<Navigate to="/404" />} />
             </Routes>
           </ThemeProvider>
         </StyledEngineProvider>
