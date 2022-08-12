@@ -9,13 +9,13 @@ import {
 import CssBaseline from "@mui/material/CssBaseline";
 import { deepmerge } from "@mui/utils";
 
-<<<<<<< HEAD
-=======
+
 import { useDarkMode } from "./hooks/useDarkMode";
 import { AuthProvider } from "./hooks/useAuth";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Login from "./pages/login/Login";
+import Signup from "./pages/signup/signup";
 import { NonProtectedLayout } from "./routes/NonProtectedRoute";
 import { ProtectedLayout } from "./routes/ProtectedRoute";
 import { getDesignTokens, getThemedComponents } from "./shared/theme";
@@ -26,7 +26,6 @@ import "./App.css";
 
 export const ThemeContext = createContext(null);
 
->>>>>>> 4f727d45dca19c62227ce7b18a5a93205e3b8d1f
 function App() {
   const [theme, themeToggler, mountedComponent] = useDarkMode();
   let themeMode = useMemo(
@@ -41,11 +40,6 @@ function App() {
   if (!mountedComponent) return <div />;
 
   return (
-<<<<<<< HEAD
-    <Grid container direction="column" >
-
-    </Grid>
-=======
     <ThemeContext.Provider value={{ theme, themeToggler }}>
       <AuthProvider>
         <StyledEngineProvider injectFirst>
@@ -57,6 +51,7 @@ function App() {
                 <Route exact path="/landing" element={<Landing />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/signup" element={<Signup />} />
               </Route>
               <Route path="/" element={<ProtectedLayout />}>
                 <Route path="/" element={<HomePage />} />
@@ -66,7 +61,6 @@ function App() {
         </StyledEngineProvider>
       </AuthProvider>
     </ThemeContext.Provider>
->>>>>>> 4f727d45dca19c62227ce7b18a5a93205e3b8d1f
   );
 }
 

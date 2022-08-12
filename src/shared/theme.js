@@ -1,5 +1,4 @@
 import { createTheme } from '@mui/material/styles';
-import '@fontsource/nunito/500.css'
 
 // const Colors = {
 //     primary: "#43B97F",
@@ -55,30 +54,30 @@ export const getDesignTokens = (mode) => ({
     palette: {
         mode,
         ...(mode === 'light'
-        ? {
-            primary: {
-                main: palette.light.primary.main,
-            },
-            background: {
-                default: palette.light.secondary,
-                paper: palette.light.secondary,
-            },
-            text: {
-                primary: palette.light.text.main,
+            ? {
+                primary: {
+                    main: palette.light.primary.main,
+                },
+                background: {
+                    default: palette.light.secondary,
+                    paper: palette.light.secondary,
+                },
+                text: {
+                    primary: palette.light.text.main,
+                }
             }
-            }
-        : {
-            primary: {
-                main: palette.dark.primary.main,
-            },
-            background: {
-                default: palette.dark.secondary,
-                paper: palette.dark.secondary,
-            },
-            text: {
-                primary: palette.dark.text.main,
-            },
-        }),
+            : {
+                primary: {
+                    main: palette.dark.primary.main,
+                },
+                background: {
+                    default: palette.dark.secondary,
+                    paper: palette.dark.secondary,
+                },
+                text: {
+                    primary: palette.dark.text.main,
+                },
+            }),
     },
     typography: {
         fontFamily: FONTS.main,
@@ -91,23 +90,23 @@ export const getDesignTokens = (mode) => ({
 export const getThemedComponents = (mode) => ({
     components: {
         ...(mode === 'light'
-        ? {
-            MuiAppBar: {
-                styleOverrides: {
-                colorPrimary: {
-                    backgroundColor: COLORS.offWhite,
+            ? {
+                MuiAppBar: {
+                    styleOverrides: {
+                        colorPrimary: {
+                            backgroundColor: COLORS.offWhite,
+                        },
+                    },
                 },
-                },
-            },
             }
-        : {
-            MuiAppBar: {
-                styleOverrides: {
-                colorPrimary: {
-                    backgroundColor: COLORS.black,
+            : {
+                MuiAppBar: {
+                    styleOverrides: {
+                        colorPrimary: {
+                            backgroundColor: COLORS.black,
+                        },
+                    },
                 },
-                },
-            },
             }),
     },
 });
@@ -116,7 +115,7 @@ export const getThemedComponents = (mode) => ({
 const theme = createTheme({
     palette: {
         primary: {
-<<<<<<< HEAD
+
             main: '#43B97F',
         },
         secondary: {
@@ -139,11 +138,8 @@ const theme = createTheme({
     },
     input: {
         color: 'white'
-    }
-=======
-            main: '#43B97F'
-        },
     },
+
     bg: {
         main: '#000',
     },
@@ -155,9 +151,8 @@ const theme = createTheme({
         button: {
             textTransform: 'none'
         }
-    },
->>>>>>> 4f727d45dca19c62227ce7b18a5a93205e3b8d1f
-});
+    }
+})
 
 
 

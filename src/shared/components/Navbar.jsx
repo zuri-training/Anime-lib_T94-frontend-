@@ -38,11 +38,13 @@ function Navbar() {
   console.log('theme', theme);
   const isMobile = useMediaQuery(getTheme.breakpoints.down("md"));
 
-  if(!mountedComponent) return <div/>
+  if (!mountedComponent) return <div />
 
   return (
-    <AppBar position="static" sx = {{ paddingRight: '80px', paddingLeft: '80px', height: '120px',
-    justifyContent: 'center' }}>
+    <AppBar position="static" sx={{
+      paddingRight: '80px', paddingLeft: '80px', height: '120px',
+      justifyContent: 'center'
+    }}>
       <CssBaseline />
       <Toolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Logo src={LogoImg} alt="logo" />
@@ -60,7 +62,7 @@ function Navbar() {
               </StyledLink>
             </StyledButton>
             <StyledButton>
-              <StyledLink to="/register">
+              <StyledLink to="/signup">
                 Sign Up
               </StyledLink>
             </StyledButton>
