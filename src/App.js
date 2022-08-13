@@ -1,5 +1,5 @@
 import { createContext, useMemo } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import {
   StyledEngineProvider,
@@ -54,11 +54,11 @@ function App() {
                 <Route path="/404" element={<Error />} />
                 <Route path="/forgot-password" element={<ForgotPassword />} />
                 <Route path="/reset-password" element={<ResetPassword />} />
-                <Route path="/home" element={<HomePage />} />
               </Route>
               <Route path="/" element={<ProtectedLayout />}>
                 <Route path="/" element={<HomePage />} />
               </Route>
+              <Route path="*" element={<Navigate to="/404" />} />
             </Routes>
           </ThemeProvider>
         </StyledEngineProvider>
