@@ -4,14 +4,20 @@ export default function useMedia(queries, values, defaultValue) {
   const [value, setValue] = useState(defaultValue);
   const mediaQueryLists = queries.map((q) => window.matchMedia(q));
 
-  // State update function
-  const getValue = () => {
-    const index = mediaQueryLists.findIndex((mql) => mql.matches);
-    return typeof values[index] !== "undefined" ? values[index] : defaultValue;
-  };
+  //   const getValue = () => {
+  //     const index = mediaQueryLists.findIndex((mql) => mql.matches);
+  //     return typeof values[index] !== "undefined" ? values[index] : defaultValue;
+  //   };
 
   useEffect(
     () => {
+      // State update function
+      const getValue = () => {
+        const index = mediaQueryLists.findIndex((mql) => mql.matches);
+        return typeof values[index] !== "undefined"
+          ? values[index]
+          : defaultValue;
+      };
       setValue(getValue);
       const handler = () => setValue(getValue);
       mediaQueryLists.forEach((mql) => mql.addListener(handler));
@@ -19,8 +25,8 @@ export default function useMedia(queries, values, defaultValue) {
       return () =>
         mediaQueryLists.forEach((mql) => mql.removeListener(handler));
     },
-    // eslint-diabale-next-line react-hooks/exhustive-deps
-    [] // Empty array ensures effect is only run on mount and unmount
+
+    [mediaQueryLists, values, defaultValue] // Empty array ensures effect is only run on mount and unmount
   );
 
   return value;
