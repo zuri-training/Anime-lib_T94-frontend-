@@ -36,7 +36,7 @@ const palette = {
         primary: {
             main: COLORS.green,
             dark: COLORS.green,
-            contrastText: COLORS.black,
+            contrastText: COLORS.white,
         },
         secondary: {
             main: COLORS.black,

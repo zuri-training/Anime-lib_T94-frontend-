@@ -82,7 +82,7 @@ const StyledSwitch = styled((props) => (
 
 const Toggler = ({ theme, toggleTheme}) => {
   return (
-    <FormControlLabel onClick={toggleTheme} control={<StyledSwitch sx={{ m: 1 }} checked={theme === 'dark'} />}
+    <FormControlLabel onClick={() => toggleTheme(!theme)} control={<StyledSwitch sx={{ m: 1 }} checked={theme} />}
     />
   );
 };
