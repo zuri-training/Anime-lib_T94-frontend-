@@ -25,14 +25,14 @@ const PasswordRecovery = () => {
                 <div className="keyHolder">
 
                         <div className="orange">
-                        <img src={OrangeKey} alt="orange key image" className="orangeKey"/>
+                        <img src={OrangeKey} alt="orange key" className="orangeKey"/>
                         </div>
                         <div className="circleBall"></div>
 
-                        <img src={LockGif} className="lockBox" alt="lock image" />
+                        <img src={LockGif} className="lockBox" alt="lock" />
                         
                         <div className="triangle"></div>
-                        <img src={PurpleKey} className="purpleKey" alt="purple key image" />
+                        <img src={PurpleKey} className="purpleKey" alt="purple key" />
                 </div>
 
           </div>
