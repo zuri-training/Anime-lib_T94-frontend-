@@ -12,7 +12,7 @@ import { deepmerge } from "@mui/utils";
 import { useDarkMode } from "./hooks/useDarkMode";
 import { AuthProvider } from "./hooks/useAuth";
 import Landing from "./pages/Landing";
-import About from "./pages/About";
+import About from "./pages/AboutUs/AboutUs";
 import Login from "./pages/login/Login";
 import { NonProtectedLayout } from "./routes/NonProtectedRoute";
 import { ProtectedLayout } from "./routes/ProtectedRoute";
@@ -20,7 +20,7 @@ import { getDesignTokens, getThemedComponents } from "./shared/theme";
 import { GlobalStyles } from "./shared/components/GlobalStyles";
 
 import HomePage from "./pages/home/home.page";
-import "./App.css";
+// import "./App.css";
 
 export const ThemeContext = createContext(null);
 
