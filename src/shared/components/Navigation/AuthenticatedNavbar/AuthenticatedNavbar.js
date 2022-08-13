@@ -14,12 +14,9 @@ import "./authenticatedNavbar.css";
 
 const NavBar = (props) => {
   const getTheme = useTheme();
-  const [theme, themeToggler, mountedComponent] = useDarkMode();
+  const {theme, setTheme} = useDarkMode();
   const { activityCount } = props;
-  console.log('theme', theme);
   const isMobile = useMediaQuery(getTheme.breakpoints.down("md"));
-
-  if(!mountedComponent) return null
 
   return (
     <header className="header">
@@ -32,7 +29,7 @@ const NavBar = (props) => {
           <Nav activityCount={activityCount} />
         </div>
         <div className="toggler-auth">
-          <Toggler theme={theme} toggleTheme={themeToggler} />
+          <Toggler theme={theme} toggleTheme={setTheme} />
         </div>
 
         <div className="header__last-section">

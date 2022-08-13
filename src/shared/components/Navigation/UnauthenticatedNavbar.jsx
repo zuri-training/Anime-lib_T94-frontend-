@@ -54,11 +54,8 @@ const AboutLink = styled(StyledLink)`
 
 function Navbar() {
   const getTheme = useTheme();
-  const [theme, themeToggler, mountedComponent] = useDarkMode();
-  console.log('theme', theme);
+  const {theme, setTheme } = useDarkMode();
   const isMobile = useMediaQuery(getTheme.breakpoints.down("md"));
-
-  if(!mountedComponent) return null
 
   return (
     <AppBar position="static" sx = {{ paddingRight: '80px', paddingLeft: '80px', height: '120px',
@@ -73,7 +70,7 @@ function Navbar() {
             <AboutLink to="/about">
               About Us
             </AboutLink>
-            <Toggler theme={theme} toggleTheme={themeToggler} />
+            <Toggler theme={theme} toggleTheme={setTheme} />
             <InverseButton>
               <InverseLink to="/login">
                 Log In
