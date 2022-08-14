@@ -1,14 +1,8 @@
-
-
-
 .container {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
-    height: 70vh;
     z-index: 1;
-    flex-wrap: wrap;
     padding-top: 106px;
     padding-bottom: 106px;
 }
@@ -41,55 +35,11 @@ h3 {
     font-size: 24px;
     list-style: 1.5px;
     margin-top: 30px;
-}
-
-input {
-    width: 80%;
-    background-color: white;
-    height: 60px;
-    color: #555;
-    display: inline-block;
-    padding-left: 10px;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    outline: none;
-    margin: 0;
-}
-
-input:focus {
-    border: 1px solid #43b97f;
-}
-
-.searchbutton {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 30px;
-}
-
-
-.searchbtn {
-    height: 60px;
-    background-color: #43b97f;
-    width: 66px;
-    border: 1px solid #43b97f; 
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-}
-.searchbtn:hover {
-    background-color: #30835A;
-}
-
-
-.searchbtn img {
-    /* background-color: #43b97f; */
-
 
 }
 
-.searchbtn img:hover {
-    background-color: #30835A;
-}
+
+
 
 .homebtn {
     border-radius: 12px;
@@ -99,8 +49,9 @@ input:focus {
     cursor: pointer;
     margin-top: 50px;
     text-decoration: none;
-    text-align: center; 
-    display: block;font-size: 24px;
+    text-align: center;
+    display: block;
+    font-size: 24px;
     font-weight: 600;
 }
 
@@ -111,7 +62,7 @@ input:focus {
 
 
 
- .circle2 {
+.circle2 {
     position: absolute;
     width: 100px;
     height: 150px;
@@ -139,7 +90,7 @@ input:focus {
     font-size: 14px;
 }
 
-    
+
 
 .gif {
     width: 350px;
@@ -147,4 +98,78 @@ input:focus {
     border: white;
     border-radius: 50%;
     box-shadow: 0 0 15px 10px #43b97f;
+}
+
+@media (max-width: 400px) {
+
+
+    .icon {
+        display: up;
+        margin-top: 100px;
+        width: 260px;
+        height: 260px;
+    }
+
+    .gif {
+        position: absolute;
+        width: 260px;
+        height: 260px;
+        left: 84px;
+        top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .container {
+        flex-flow: column-reverse;
+        position: relative;
+        width: 428px;
+        height: 926px;
+
+        display: flex;
+
+    }
+
+    .Errortext {
+        min-width: 300px;
+        padding: 0 auto;
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3,
+    input,
+    button,
+    pp {
+        width: 100%;
+    }
+
+    h3 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    pp {
+        text-align: center;
+    }
+
+
+
+    .circle,
+    .circle2,
+    .circle3 {
+        display: none;
+    }
+
+    .homebtn {
+        margin: 0 auto;
+        padding: 16px 15px 16px 15px;
+        display: inline-block;
+    }
+
+
+
+
+
 }

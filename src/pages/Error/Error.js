@@ -5,6 +5,7 @@ import './Error.css'
 
 const Error = () => {
     return (
+        <div>
         <div className="container">
             <div className="circle"></div>
             <div className="Errortext">
@@ -18,6 +19,7 @@ const Error = () => {
 
             <div className="circle2"></div>
             <div className="circle3"></div>
+        </div>
         </div>
     );
 };
