@@ -10,6 +10,7 @@ import ForgotPassword from "./components/passwordRecovery/password_recovery"
 import ResetPassword from "./components/password_reset/password_reset"
 import { NonProtectedLayout } from "./routes/NonProtectedRoute";
 import { ProtectedLayout } from "./routes/ProtectedRoute";
+import Activity from "./components/activity/activity";
 
 export const ThemeContext = createContext(null);
 
@@ -26,6 +27,7 @@ function App() {
       </Route>
       <Route path="/" element={<ProtectedLayout />}>
         <Route path="/" element={<HomePage />} />
+        <Route path="/activity" element={<Activity />} />
       </Route>
       <Route path="*" element={<Navigate to="/404" />} />
     </Routes>
