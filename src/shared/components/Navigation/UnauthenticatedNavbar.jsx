@@ -9,11 +9,11 @@ import {
 } from "@mui/material";
 import styled from "styled-components";
 
-import Button from './Button'
-import Toggler from '../../components/Toggler/Toggler'
-import DrawerComponent from "./Drawer";
-import LogoImg from '../../assets/images/logo.png'
-import { useDarkMode } from '../../hooks/useDarkMode';
+import Button from '../Button'
+import Toggler from '../../../components/Toggler/Toggler'
+import DrawerComponent from "../Drawer";
+import LogoImg from '../../../assets/images/logo.png'
+import { useDarkMode } from '../../../hooks/useDarkMode';
 
 const Logo = styled.img``
 
@@ -54,11 +54,8 @@ const AboutLink = styled(StyledLink)`
 
 function Navbar() {
   const getTheme = useTheme();
-  const [theme, themeToggler, mountedComponent] = useDarkMode();
-  console.log('theme', theme);
+  const {theme, setTheme } = useDarkMode();
   const isMobile = useMediaQuery(getTheme.breakpoints.down("md"));
-
-  if(!mountedComponent) return <div/>
 
   return (
     <AppBar position="static" sx = {{ paddingRight: '80px', paddingLeft: '80px', height: '120px',
@@ -73,14 +70,14 @@ function Navbar() {
             <AboutLink to="/about">
               About Us
             </AboutLink>
-            <Toggler theme={theme} toggleTheme={themeToggler} />
+            <Toggler theme={theme} toggleTheme={setTheme} />
             <InverseButton>
               <InverseLink to="/login">
                 Log In
               </InverseLink>
             </InverseButton>
             <StyledButton>
-              <StyledLink to="/register">
+              <StyledLink to="/signup">
                 Sign Up
               </StyledLink>
             </StyledButton>

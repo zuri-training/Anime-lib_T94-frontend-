@@ -12,11 +12,5 @@ export const RoundedButton = styled(myButtons)(() => ({
     color: '#fff',
 }))
 
-export const googleButton = styled(myButtons)(() => ({
-    borderRadius: '5px',
-    width: '50px',
-    color: '#43b97f',
-    textTransform: 'lowercase'
-}))
 
 export default myButtons

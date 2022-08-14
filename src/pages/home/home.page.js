@@ -7,7 +7,6 @@ import Copy from "../../assets/images/copy.svg";
 import { useState } from "react";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import { DashboardLayout } from "../../layouts/dashboard/dashboard.layout";
 
 const style = {
   position: "absolute",
@@ -87,80 +86,79 @@ export default function HomePage() {
   // ----------------------------------------------------
 
   return (
-    <DashboardLayout activityCount={favorited.length}>
-      <div className="main__container">
-        <section className="main__section main__section--small">
-          <h1 className="h1">Option</h1>
-          <div className="select_container">
-            <form>
-              <label className="label" htmlFor="cheese">
-                Element
-              </label>
-              <select
-                className="dropdown"
-                onChange={handleOptionChange}
-                name="element"
-                id="element"
-              >
-                <option value="shape">Shape</option>
-                <option value="text">Text</option>
-              </select>
-            </form>
-          </div>
+    <div className="main__container">
+      <section className="main__section main__section--small">
+        <h1 className="h1">Option</h1>
+        <div className="select_container">
+          <form>
+            <label className="label" htmlFor="cheese">
+              Element
+            </label>
+            <select
+              className="dropdown"
+              onChange={handleOptionChange}
+              name="element"
+              id="element"
+            >
+              <option value="shape">Shape</option>
+              <option value="text">Text</option>
+            </select>
+          </form>
+        </div>
 
-          <div className="select_container">
-            <form>
-              <label className="label" htmlFor="cheese">
-                Timing
-              </label>
-              <input
-                type="number"
-                className="dropdown num-spinner"
-                defaultValue={0.0}
-                min={0}
-              ></input>
-            </form>
-          </div>
+        <div className="select_container">
+          <form>
+            <label className="label" htmlFor="cheese">
+              Timing
+            </label>
+            <input
+              type="number"
+              className="dropdown num-spinner"
+              defaultValue={0.0}
+              min={0}
+            ></input>
+          </form>
+        </div>
 
-          <div className="select_container">
-            <form>
-              <label className="label" htmlFor="cheese">
-                Duration
-              </label>
-              <input
-                type="number"
-                className="dropdown num-spinner"
-                defaultValue={0.0}
-                min={0.0}
-              />
-            </form>
-          </div>
+        <div className="select_container">
+          <form>
+            <label className="label" htmlFor="cheese">
+              Duration
+            </label>
+            <input
+              type="number"
+              className="dropdown num-spinner"
+              defaultValue={0.0}
+              min={0.0}
+            />
+          </form>
+        </div>
 
-          <div className="select_container">
-            <form>
-              <label className=" label" htmlFor="cheese">
-                Iteration-count
-              </label>
-              <input
-                type="number"
-                className="dropdown num-spinner"
-                defaultValue={0.0}
-                min={0}
-              />
-              <input
-                className="infinite-checkbox"
-                type="checkbox"
-                id="Infinite"
-                name="Infinite"
-                value=""
-              />
-              <label className=".infinite-checkbox" for="Infinite">
-                Infinite
-              </label>
-              <br />
-            </form>
-          </div>
-        </section>
+        <div className="select_container">
+          <form>
+            <label className=" label" htmlFor="cheese">
+              Iteration-count
+            </label>
+            <input
+              type="number"
+              className="dropdown num-spinner"
+              defaultValue={0.0}
+              min={0}
+            />
+            <input
+              className="infinite-checkbox"
+              type="checkbox"
+              id="Infinite"
+              name="Infinite"
+              value=""
+            />
+            <label className=".infinite-checkbox" htmlFor="Infinite">
+              Infinite
+            </label>
+            <br />
+          </form>
+        </div>
+      </section>
 
         <section className="main__section stale">
           <div className="animate__text">
@@ -181,41 +179,39 @@ export default function HomePage() {
                   src={scan_barcode}
                   alt="genrate"
                 />
-                <p onClick={handleOpen}>Generate Code</p>
-                <Modal
-                  open={open}
-                  onClose={handleClose}
-                  aria-labelledby="modal-modal-title"
-                  aria-describedby="modal-modal-description"
-                >
-                  <Box className="modal-box" sx={style}>
-                    <div className="modal-header">
-                      <p className="modal-title">CLASS/KEYFRAME</p>
+              <p onClick={handleOpen}>Generate Code</p>
+              <Modal
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+              >
+                <Box className="modal-box" sx={style}>
+                  <div className="modal-header">
+                    <p className="modal-title">CLASS/KEYFRAME</p>
 
-                      <button className="modal-close" onClick={handleClose}>
-                        X
-                      </button>
-                    </div>
-                    <div className="modal-body">I don't like stress please</div>
-                    <div className="modal-footer">
-                      <button className="modal-button">
-                        Copy <img className="Copy-icon" src={Copy} alt="copy" />
-                      </button>
-                    </div>
-                  </Box>
-                </Modal>
-              </div>
+                    <button className="modal-close" onClick={handleClose}>
+                      X
+                    </button>
+                  </div>
+                  <div className="modal-body">I don't like stress please</div>
+                  <div className="modal-footer">
+                    <button className="modal-button">
+                      Copy <img className="Copy-icon" src={Copy} alt="copy" />
+                    </button>
+                  </div>
+                </Box>
+              </Modal>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="main__section main__section--small overflow">
-          <h1 className="h2">Interactions</h1>
-          {interactinos.map((interaction) => {
-            return (
-              <div className="home-page__animation" key={interaction}>
-                {/* <Button.Primary>{interaction}</Button.Primary> */}
-
+      <section className="main__section main__section--small overflow">
+        <h1 className="h2">Interactions</h1>
+        {interactinos.map((interaction) => {
+          return (
+            <div className="home-page__animation" key={interaction}>
                 <Button.Primary
                   value={interaction}
                   className="capitalize"
@@ -224,21 +220,16 @@ export default function HomePage() {
                   {interaction.split("-").join(' ')}
                 </Button.Primary>
 
-                <span
-                  onClick={getFavoriteClickHandler(interaction)}
-                  className="green-heart"
-                >
-                  {favorited.includes(interaction) ? (
-                    <>&#9829;</>
-                  ) : (
-                    <>&#9825;</>
-                  )}
-                </span>
-              </div>
-            );
-          })}
-        </section>
-      </div>
-    </DashboardLayout>
+              <span
+                onClick={getFavoriteClickHandler(interaction)}
+                className="green-heart"
+              >
+                {favorited.includes(interaction) ? <>&#9829;</> : <>&#9825;</>}
+              </span>
+            </div>
+          );
+        })}
+      </section>
+    </div>
   );
 }

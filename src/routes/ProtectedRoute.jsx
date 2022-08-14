@@ -1,7 +1,10 @@
 import { Navigate, useOutlet } from "react-router-dom";
-import { useAuth } from "../hooks/useAuth";
 
-export const ProtectedLayout = () => {
+import { useAuth } from "../hooks/useAuth";
+import Navbar from "../shared/components/Navigation/AuthenticatedNavbar/AuthenticatedNavbar";
+import Footer from "../shared/components/Footer";
+
+export const ProtectedLayout = (props) => {
   const { user } = useAuth();
   const outlet = useOutlet();
 
@@ -9,5 +12,11 @@ export const ProtectedLayout = () => {
     return <Navigate to="/landing" />;
   }
 
-  return <div>{outlet}</div>;
+  return (
+    <div>
+      <Navbar activityCount={props.activityCount} />
+      <main className="main">{outlet}</main>
+      <Footer />
+    </div>
+  );
 };
