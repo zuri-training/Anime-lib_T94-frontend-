@@ -1,0 +1,6314 @@
+.bounce {
+  animation: bounce 1s linear 3;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.bounce-ln-infinite {
+  animation: bounce 2s linear infinite;
+}
+
+.bounce-ln-2 {
+  animation: bounce 2s 2 linear;
+}
+
+.bounce-ln-4 {
+  animation: bounce 2s 4 linear;
+}
+
+.bounce-ln-6 {
+  animation: bounce 2s 6 linear;
+}
+
+.bounce-ln-8 {
+  animation: bounce 2s 8 linear;
+}
+
+.bounce-ln-10 {
+  animation: bounce 2s 10 linear;
+}
+
+.bounce-es-infinite {
+  animation: bounce 2s ease infinite;
+}
+
+.bounce-es-2 {
+  animation: bounce 2s 2 ease;
+}
+
+.bounce-es-4 {
+  animation: bounce 2s 4 ease;
+}
+
+.bounce-es-6 {
+  animation: bounce 2s 6 ease;
+}
+
+.bounce-es-8 {
+  animation: bounce 2s 8 ease;
+}
+
+.bounce-es-10 {
+  animation: bounce 2s 10 ease;
+}
+
+.bounce-es-in-infinite {
+  animation: bounce 2s ease-in infinite;
+}
+
+.bounce-es-in-2 {
+  animation: bounce 2s 2 ease-in;
+}
+
+.bounce-es-in-4 {
+  animation: bounce 2s 4 ease-in;
+}
+
+.bounce-es-in-6 {
+  animation: bounce 2s 6 ease-in;
+}
+
+.bounce-es-in-8 {
+  animation: bounce 2s 8 ease-in;
+}
+
+.bounce-es-in-10 {
+  animation: bounce 2s 10 ease-in;
+}
+
+.bounce-es-out-infinite {
+  animation: bounce 2s ease-out infinite;
+}
+
+.bounce-es-out-2 {
+  animation: bounce 2s 2 ease-out;
+}
+
+.bounce-es-out-4 {
+  animation: bounce 2s 4 ease-out;
+}
+
+.bounce-es-out-6 {
+  animation: bounce 2s 6 ease-out;
+}
+
+.bounce-es-out-8 {
+  animation: bounce 2s 8 ease-out;
+}
+
+.bounce-es-out-10 {
+  animation: bounce 2s 10 ease-out;
+}
+
+.bounce-es-in-out-infinite {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.bounce-es-in-out-2 {
+  animation: bounce 2s 2 ease-in-out;
+}
+
+.bounce-es-in-out-4 {
+  animation: bounce 2s 4 ease-in-out;
+}
+
+.bounce-es-in-out-6 {
+  animation: bounce 2s 6 ease-in-out;
+}
+
+.bounce-es-in-out-8 {
+  animation: bounce 2s 8 ease-in-out;
+}
+
+.bounce-es-in-out-10 {
+  animation: bounce 2s 10 ease-in-out;
+}
+
+.hov-bounce-ln:hover {
+  animation: bounce 2s linear infinite;
+}
+
+.hov-bounce-es:hover {
+  animation: bounce 2s ease infinite;
+}
+
+.hov-bounce-es-in:hover {
+  animation: bounce 2s ease-in infinite;
+}
+
+.hov-bounce-es-out:hover {
+  animation: bounce 2s ease-out infinite;
+}
+
+.hov-bounce-es-in-out:hover {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+.blink {
+  animation: blink 500ms ease alternate 3;
+}
+
+@keyframes blink {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.blink-vfast-infinite {
+  animation: blink 100ms ease infinite alternate;
+}
+
+.blink-vfast-2 {
+  animation: blink 100ms ease 2 alternate;
+}
+
+.blink-vfast-4 {
+  animation: blink 100ms ease 4 alternate;
+}
+
+.blink-vfast-6 {
+  animation: blink 100ms ease 6 alternate;
+}
+
+.blink-vfast-8 {
+  animation: blink 100ms ease 8 alternate;
+}
+
+.blink-vfast-10 {
+  animation: blink 100ms ease 10 alternate;
+}
+
+.blink-vfast-12 {
+  animation: blink 100ms ease 12 alternate;
+}
+
+.blink-vfast-14 {
+  animation: blink 100ms ease 14 alternate;
+}
+
+.blink-vfast-16 {
+  animation: blink 100ms ease 16 alternate;
+}
+
+.blink-vfast-18 {
+  animation: blink 100ms ease 18 alternate;
+}
+
+.blink-vfast-20 {
+  animation: blink 100ms ease 20 alternate;
+}
+
+.blink-fast-infinite {
+  animation: blink 200ms ease infinite alternate;
+}
+
+.blink-fast-2 {
+  animation: blink 200ms ease 2 alternate;
+}
+
+.blink-fast-4 {
+  animation: blink 200ms ease 4 alternate;
+}
+
+.blink-fast-6 {
+  animation: blink 200ms ease 6 alternate;
+}
+
+.blink-fast-8 {
+  animation: blink 200ms ease 8 alternate;
+}
+
+.blink-fast-10 {
+  animation: blink 200ms ease 10 alternate;
+}
+
+.blink-fast-12 {
+  animation: blink 200ms ease 12 alternate;
+}
+
+.blink-fast-14 {
+  animation: blink 200ms ease 14 alternate;
+}
+
+.blink-fast-16 {
+  animation: blink 200ms ease 16 alternate;
+}
+
+.blink-fast-18 {
+  animation: blink 200ms ease 18 alternate;
+}
+
+.blink-fast-20 {
+  animation: blink 200ms ease 20 alternate;
+}
+
+.blink-normal-infinite {
+  animation: blink 500ms ease infinite alternate;
+}
+
+.blink-normal-2 {
+  animation: blink 500ms ease 2 alternate;
+}
+
+.blink-normal-4 {
+  animation: blink 500ms ease 4 alternate;
+}
+
+.blink-normal-6 {
+  animation: blink 500ms ease 6 alternate;
+}
+
+.blink-normal-8 {
+  animation: blink 500ms ease 8 alternate;
+}
+
+.blink-normal-10 {
+  animation: blink 500ms ease 10 alternate;
+}
+
+.blink-normal-12 {
+  animation: blink 500ms ease 12 alternate;
+}
+
+.blink-normal-14 {
+  animation: blink 500ms ease 14 alternate;
+}
+
+.blink-normal-16 {
+  animation: blink 500ms ease 16 alternate;
+}
+
+.blink-normal-18 {
+  animation: blink 500ms ease 18 alternate;
+}
+
+.blink-normal-20 {
+  animation: blink 500ms ease 20 alternate;
+}
+
+.blink-slow-infinite {
+  animation: blink 1s ease infinite alternate;
+}
+
+.blink-slow-2 {
+  animation: blink 1s ease 2 alternate;
+}
+
+.blink-slow-4 {
+  animation: blink 1s ease 4 alternate;
+}
+
+.blink-slow-6 {
+  animation: blink 1s ease 6 alternate;
+}
+
+.blink-slow-8 {
+  animation: blink 1s ease 8 alternate;
+}
+
+.blink-slow-10 {
+  animation: blink 1s ease 10 alternate;
+}
+
+.blink-slow-12 {
+  animation: blink 1s ease 12 alternate;
+}
+
+.blink-slow-14 {
+  animation: blink 1s ease 14 alternate;
+}
+
+.blink-slow-16 {
+  animation: blink 1s ease 16 alternate;
+}
+
+.blink-slow-18 {
+  animation: blink 1s ease 18 alternate;
+}
+
+.blink-slow-20 {
+  animation: blink 1s ease 20 alternate;
+}
+
+.blink-vslow-infinite {
+  animation: blink 2s ease infinite alternate;
+}
+
+.blink-vslow-2 {
+  animation: blink 2s ease 2 alternate;
+}
+
+.blink-vslow-4 {
+  animation: blink 2s ease 4 alternate;
+}
+
+.blink-vslow-6 {
+  animation: blink 2s ease 6 alternate;
+}
+
+.blink-vslow-8 {
+  animation: blink 2s ease 8 alternate;
+}
+
+.blink-vslow-10 {
+  animation: blink 2s ease 10 alternate;
+}
+
+.blink-vslow-12 {
+  animation: blink 2s ease 12 alternate;
+}
+
+.blink-vslow-14 {
+  animation: blink 2s ease 14 alternate;
+}
+
+.blink-vslow-16 {
+  animation: blink 2s ease 16 alternate;
+}
+
+.blink-vslow-18 {
+  animation: blink 2s ease 18 alternate;
+}
+
+.blink-vslow-20 {
+  animation: blink 2s ease 20 alternate;
+}
+
+.hov-blink-vfast:hover {
+  animation: blink 100ms ease infinite alternate;
+}
+
+.hov-blink-fast:hover {
+  animation: blink 200ms ease infinite alternate;
+}
+
+.hov-blink-normal:hover {
+  animation: blink 500ms ease infinite alternate;
+}
+
+.hov-blink-slow:hover {
+  animation: blink 1s ease infinite alternate;
+}
+
+.hov-blink-vslow:hover {
+  animation: blink 2s ease infinite alternate;
+}
+
+.fade-out {
+  animation: fade-out 2s linear 3;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.fade-out-vfast-infinite {
+  animation: fade-out 1s ease infinite;
+}
+
+.fade-out-vfast-2 {
+  animation: fade-out 1s ease 2 alternate;
+}
+
+.fade-out-vfast-4 {
+  animation: fade-out 1s ease 4 alternate;
+}
+
+.fade-out-vfast-6 {
+  animation: fade-out 1s ease 6 alternate;
+}
+
+.fade-out-vfast-8 {
+  animation: fade-out 1s ease 8 alternate;
+}
+
+.fade-out-vfast-10 {
+  animation: fade-out 1s ease 10 alternate;
+}
+
+.fade-out-vfast-12 {
+  animation: fade-out 1s ease 12 alternate;
+}
+
+.fade-out-vfast-14 {
+  animation: fade-out 1s ease 14 alternate;
+}
+
+.fade-out-vfast-16 {
+  animation: fade-out 1s ease 16 alternate;
+}
+
+.fade-out-vfast-18 {
+  animation: fade-out 1s ease 18 alternate;
+}
+
+.fade-out-vfast-20 {
+  animation: fade-out 1s ease 20 alternate;
+}
+
+.fade-out-fast-infinite {
+  animation: fade-out 1.5s ease infinite;
+}
+
+.fade-out-fast-2 {
+  animation: fade-out 1.5s ease 2 alternate;
+}
+
+.fade-out-fast-4 {
+  animation: fade-out 1.5s ease 4 alternate;
+}
+
+.fade-out-fast-6 {
+  animation: fade-out 1.5s ease 6 alternate;
+}
+
+.fade-out-fast-8 {
+  animation: fade-out 1.5s ease 8 alternate;
+}
+
+.fade-out-fast-10 {
+  animation: fade-out 1.5s ease 10 alternate;
+}
+
+.fade-out-fast-12 {
+  animation: fade-out 1.5s ease 12 alternate;
+}
+
+.fade-out-fast-14 {
+  animation: fade-out 1.5s ease 14 alternate;
+}
+
+.fade-out-fast-16 {
+  animation: fade-out 1.5s ease 16 alternate;
+}
+
+.fade-out-fast-18 {
+  animation: fade-out 1.5s ease 18 alternate;
+}
+
+.fade-out-fast-20 {
+  animation: fade-out 1.5s ease 20 alternate;
+}
+
+.fade-out-normal-infinite {
+  animation: fade-out 2s ease infinite;
+}
+
+.fade-out-normal-2 {
+  animation: fade-out 2s ease 2 alternate;
+}
+
+.fade-out-normal-4 {
+  animation: fade-out 2s ease 4 alternate;
+}
+
+.fade-out-normal-6 {
+  animation: fade-out 2s ease 6 alternate;
+}
+
+.fade-out-normal-8 {
+  animation: fade-out 2s ease 8 alternate;
+}
+
+.fade-out-normal-10 {
+  animation: fade-out 2s ease 10 alternate;
+}
+
+.fade-out-normal-12 {
+  animation: fade-out 2s ease 12 alternate;
+}
+
+.fade-out-normal-14 {
+  animation: fade-out 2s ease 14 alternate;
+}
+
+.fade-out-normal-16 {
+  animation: fade-out 2s ease 16 alternate;
+}
+
+.fade-out-normal-18 {
+  animation: fade-out 2s ease 18 alternate;
+}
+
+.fade-out-normal-20 {
+  animation: fade-out 2s ease 20 alternate;
+}
+
+.fade-out-slow-infinite {
+  animation: fade-out 2.5s ease infinite;
+}
+
+.fade-out-slow-2 {
+  animation: fade-out 2.5s ease 2 alternate;
+}
+
+.fade-out-slow-4 {
+  animation: fade-out 2.5s ease 4 alternate;
+}
+
+.fade-out-slow-6 {
+  animation: fade-out 2.5s ease 6 alternate;
+}
+
+.fade-out-slow-8 {
+  animation: fade-out 2.5s ease 8 alternate;
+}
+
+.fade-out-slow-10 {
+  animation: fade-out 2.5s ease 10 alternate;
+}
+
+.fade-out-slow-12 {
+  animation: fade-out 2.5s ease 12 alternate;
+}
+
+.fade-out-slow-14 {
+  animation: fade-out 2.5s ease 14 alternate;
+}
+
+.fade-out-slow-16 {
+  animation: fade-out 2.5s ease 16 alternate;
+}
+
+.fade-out-slow-18 {
+  animation: fade-out 2.5s ease 18 alternate;
+}
+
+.fade-out-slow-20 {
+  animation: fade-out 2.5s ease 20 alternate;
+}
+
+.fade-out-vslow-infinite {
+  animation: fade-out 3s ease infinite;
+}
+
+.fade-out-vslow-2 {
+  animation: fade-out 3s ease 2 alternate;
+}
+
+.fade-out-vslow-4 {
+  animation: fade-out 3s ease 4 alternate;
+}
+
+.fade-out-vslow-6 {
+  animation: fade-out 3s ease 6 alternate;
+}
+
+.fade-out-vslow-8 {
+  animation: fade-out 3s ease 8 alternate;
+}
+
+.fade-out-vslow-10 {
+  animation: fade-out 3s ease 10 alternate;
+}
+
+.fade-out-vslow-12 {
+  animation: fade-out 3s ease 12 alternate;
+}
+
+.fade-out-vslow-14 {
+  animation: fade-out 3s ease 14 alternate;
+}
+
+.fade-out-vslow-16 {
+  animation: fade-out 3s ease 16 alternate;
+}
+
+.fade-out-vslow-18 {
+  animation: fade-out 3s ease 18 alternate;
+}
+
+.fade-out-vslow-20 {
+  animation: fade-out 3s ease 20 alternate;
+}
+
+.hov-fade-out-vfast:hover {
+  animation: fade-out 1s ease infinite;
+}
+
+.hov-fade-out-fast:hover {
+  animation: fade-out 1.5s ease infinite;
+}
+
+.hov-fade-out-normal:hover {
+  animation: fade-out 2s ease infinite;
+}
+
+.hov-fade-out-slow:hover {
+  animation: fade-out 2.5s ease infinite;
+}
+
+.hov-fade-out-vslow:hover {
+  animation: fade-out 3s ease infinite;
+}
+
+.fade-in {
+  animation: fade-in 2s linear 3;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in-vfast-infinite {
+  animation: fade-in 1s ease infinite;
+}
+
+.fade-in-vfast-2 {
+  animation: fade-in 1s ease 2 alternate;
+}
+
+.fade-in-vfast-4 {
+  animation: fade-in 1s ease 4 alternate;
+}
+
+.fade-in-vfast-6 {
+  animation: fade-in 1s ease 6 alternate;
+}
+
+.fade-in-vfast-8 {
+  animation: fade-in 1s ease 8 alternate;
+}
+
+.fade-in-vfast-10 {
+  animation: fade-in 1s ease 10 alternate;
+}
+
+.fade-in-vfast-12 {
+  animation: fade-in 1s ease 12 alternate;
+}
+
+.fade-in-vfast-14 {
+  animation: fade-in 1s ease 14 alternate;
+}
+
+.fade-in-vfast-16 {
+  animation: fade-in 1s ease 16 alternate;
+}
+
+.fade-in-vfast-18 {
+  animation: fade-in 1s ease 18 alternate;
+}
+
+.fade-in-vfast-20 {
+  animation: fade-in 1s ease 20 alternate;
+}
+
+.fade-in-fast-infinite {
+  animation: fade-in 1.5s ease infinite;
+}
+
+.fade-in-fast-2 {
+  animation: fade-in 1.5s ease 2 alternate;
+}
+
+.fade-in-fast-4 {
+  animation: fade-in 1.5s ease 4 alternate;
+}
+
+.fade-in-fast-6 {
+  animation: fade-in 1.5s ease 6 alternate;
+}
+
+.fade-in-fast-8 {
+  animation: fade-in 1.5s ease 8 alternate;
+}
+
+.fade-in-fast-10 {
+  animation: fade-in 1.5s ease 10 alternate;
+}
+
+.fade-in-fast-12 {
+  animation: fade-in 1.5s ease 12 alternate;
+}
+
+.fade-in-fast-14 {
+  animation: fade-in 1.5s ease 14 alternate;
+}
+
+.fade-in-fast-16 {
+  animation: fade-in 1.5s ease 16 alternate;
+}
+
+.fade-in-fast-18 {
+  animation: fade-in 1.5s ease 18 alternate;
+}
+
+.fade-in-fast-20 {
+  animation: fade-in 1.5s ease 20 alternate;
+}
+
+.fade-in-normal-infinite {
+  animation: fade-in 2s ease infinite;
+}
+
+.fade-in-normal-2 {
+  animation: fade-in 2s ease 2 alternate;
+}
+
+.fade-in-normal-4 {
+  animation: fade-in 2s ease 4 alternate;
+}
+
+.fade-in-normal-6 {
+  animation: fade-in 2s ease 6 alternate;
+}
+
+.fade-in-normal-8 {
+  animation: fade-in 2s ease 8 alternate;
+}
+
+.fade-in-normal-10 {
+  animation: fade-in 2s ease 10 alternate;
+}
+
+.fade-in-normal-12 {
+  animation: fade-in 2s ease 12 alternate;
+}
+
+.fade-in-normal-14 {
+  animation: fade-in 2s ease 14 alternate;
+}
+
+.fade-in-normal-16 {
+  animation: fade-in 2s ease 16 alternate;
+}
+
+.fade-in-normal-18 {
+  animation: fade-in 2s ease 18 alternate;
+}
+
+.fade-in-normal-20 {
+  animation: fade-in 2s ease 20 alternate;
+}
+
+.fade-in-slow-infinite {
+  animation: fade-in 2.5s ease infinite;
+}
+
+.fade-in-slow-2 {
+  animation: fade-in 2.5s ease 2 alternate;
+}
+
+.fade-in-slow-4 {
+  animation: fade-in 2.5s ease 4 alternate;
+}
+
+.fade-in-slow-6 {
+  animation: fade-in 2.5s ease 6 alternate;
+}
+
+.fade-in-slow-8 {
+  animation: fade-in 2.5s ease 8 alternate;
+}
+
+.fade-in-slow-10 {
+  animation: fade-in 2.5s ease 10 alternate;
+}
+
+.fade-in-slow-12 {
+  animation: fade-in 2.5s ease 12 alternate;
+}
+
+.fade-in-slow-14 {
+  animation: fade-in 2.5s ease 14 alternate;
+}
+
+.fade-in-slow-16 {
+  animation: fade-in 2.5s ease 16 alternate;
+}
+
+.fade-in-slow-18 {
+  animation: fade-in 2.5s ease 18 alternate;
+}
+
+.fade-in-slow-20 {
+  animation: fade-in 2.5s ease 20 alternate;
+}
+
+.fade-in-vslow-infinite {
+  animation: fade-in 3s ease infinite;
+}
+
+.fade-in-vslow-2 {
+  animation: fade-in 3s ease 2 alternate;
+}
+
+.fade-in-vslow-4 {
+  animation: fade-in 3s ease 4 alternate;
+}
+
+.fade-in-vslow-6 {
+  animation: fade-in 3s ease 6 alternate;
+}
+
+.fade-in-vslow-8 {
+  animation: fade-in 3s ease 8 alternate;
+}
+
+.fade-in-vslow-10 {
+  animation: fade-in 3s ease 10 alternate;
+}
+
+.fade-in-vslow-12 {
+  animation: fade-in 3s ease 12 alternate;
+}
+
+.fade-in-vslow-14 {
+  animation: fade-in 3s ease 14 alternate;
+}
+
+.fade-in-vslow-16 {
+  animation: fade-in 3s ease 16 alternate;
+}
+
+.fade-in-vslow-18 {
+  animation: fade-in 3s ease 18 alternate;
+}
+
+.fade-in-vslow-20 {
+  animation: fade-in 3s ease 20 alternate;
+}
+
+.hov-fade-in-vfast:hover {
+  animation: fade-in 1s ease infinite;
+}
+
+.hov-fade-in-fast:hover {
+  animation: fade-in 1.5s ease infinite;
+}
+
+.hov-fade-in-normal:hover {
+  animation: fade-in 2s ease infinite;
+}
+
+.hov-fade-in-slow:hover {
+  animation: fade-in 2.5s ease infinite;
+}
+
+.hov-fade-in-vslow:hover {
+  animation: fade-in 3s ease infinite;
+}
+
+.move-in {
+  animation: move-in 2s ease 3;
+}
+
+@keyframes move-in {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-30px);
+  }
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.move-in-1sec-infinite {
+  animation: move-in 1s ease infinite;
+}
+
+.move-in-1sec-2 {
+  animation: move-in 1s ease 2;
+}
+
+.move-in-1sec-4 {
+  animation: move-in 1s ease 4;
+}
+
+.move-in-1sec-6 {
+  animation: move-in 1s ease 6;
+}
+
+.move-in-1sec-8 {
+  animation: move-in 1s ease 8;
+}
+
+.move-in-1sec-10 {
+  animation: move-in 1s ease 10;
+}
+
+.move-in-2sec-infinite {
+  animation: move-in 2s ease infinite;
+}
+
+.move-in-2sec-2 {
+  animation: move-in 2s ease 2;
+}
+
+.move-in-2sec-4 {
+  animation: move-in 2s ease 4;
+}
+
+.move-in-2sec-6 {
+  animation: move-in 2s ease 6;
+}
+
+.move-in-2sec-8 {
+  animation: move-in 2s ease 8;
+}
+
+.move-in-2sec-10 {
+  animation: move-in 2s ease 10;
+}
+
+.move-in-3sec-infinite {
+  animation: move-in 3s ease infinite;
+}
+
+.move-in-3sec-2 {
+  animation: move-in 3s ease 2;
+}
+
+.move-in-3sec-4 {
+  animation: move-in 3s ease 4;
+}
+
+.move-in-3sec-6 {
+  animation: move-in 3s ease 6;
+}
+
+.move-in-3sec-8 {
+  animation: move-in 3s ease 8;
+}
+
+.move-in-3sec-10 {
+  animation: move-in 3s ease 10;
+}
+
+.move-in-4sec-infinite {
+  animation: move-in 4s ease infinite;
+}
+
+.move-in-4sec-2 {
+  animation: move-in 4s ease 2;
+}
+
+.move-in-4sec-4 {
+  animation: move-in 4s ease 4;
+}
+
+.move-in-4sec-6 {
+  animation: move-in 4s ease 6;
+}
+
+.move-in-4sec-8 {
+  animation: move-in 4s ease 8;
+}
+
+.move-in-4sec-10 {
+  animation: move-in 4s ease 10;
+}
+
+.move-in-5sec-infinite {
+  animation: move-in 5s ease infinite;
+}
+
+.move-in-5sec-2 {
+  animation: move-in 5s ease 2;
+}
+
+.move-in-5sec-4 {
+  animation: move-in 5s ease 4;
+}
+
+.move-in-5sec-6 {
+  animation: move-in 5s ease 6;
+}
+
+.move-in-5sec-8 {
+  animation: move-in 5s ease 8;
+}
+
+.move-in-5sec-10 {
+  animation: move-in 5s ease 10;
+}
+
+.move-in-6sec-infinite {
+  animation: move-in 6s ease infinite;
+}
+
+.move-in-6sec-2 {
+  animation: move-in 6s ease 2;
+}
+
+.move-in-6sec-4 {
+  animation: move-in 6s ease 4;
+}
+
+.move-in-6sec-6 {
+  animation: move-in 6s ease 6;
+}
+
+.move-in-6sec-8 {
+  animation: move-in 6s ease 8;
+}
+
+.move-in-6sec-10 {
+  animation: move-in 6s ease 10;
+}
+
+.move-in-7sec-infinite {
+  animation: move-in 7s ease infinite;
+}
+
+.move-in-7sec-2 {
+  animation: move-in 7s ease 2;
+}
+
+.move-in-7sec-4 {
+  animation: move-in 7s ease 4;
+}
+
+.move-in-7sec-6 {
+  animation: move-in 7s ease 6;
+}
+
+.move-in-7sec-8 {
+  animation: move-in 7s ease 8;
+}
+
+.move-in-7sec-10 {
+  animation: move-in 7s ease 10;
+}
+
+.move-in-8sec-infinite {
+  animation: move-in 8s ease infinite;
+}
+
+.move-in-8sec-2 {
+  animation: move-in 8s ease 2;
+}
+
+.move-in-8sec-4 {
+  animation: move-in 8s ease 4;
+}
+
+.move-in-8sec-6 {
+  animation: move-in 8s ease 6;
+}
+
+.move-in-8sec-8 {
+  animation: move-in 8s ease 8;
+}
+
+.move-in-8sec-10 {
+  animation: move-in 8s ease 10;
+}
+
+.move-in-9sec-infinite {
+  animation: move-in 9s ease infinite;
+}
+
+.move-in-9sec-2 {
+  animation: move-in 9s ease 2;
+}
+
+.move-in-9sec-4 {
+  animation: move-in 9s ease 4;
+}
+
+.move-in-9sec-6 {
+  animation: move-in 9s ease 6;
+}
+
+.move-in-9sec-8 {
+  animation: move-in 9s ease 8;
+}
+
+.move-in-9sec-10 {
+  animation: move-in 9s ease 10;
+}
+
+.move-in-10sec-infinite {
+  animation: move-in 10s ease infinite;
+}
+
+.move-in-10sec-2 {
+  animation: move-in 10s ease 2;
+}
+
+.move-in-10sec-4 {
+  animation: move-in 10s ease 4;
+}
+
+.move-in-10sec-6 {
+  animation: move-in 10s ease 6;
+}
+
+.move-in-10sec-8 {
+  animation: move-in 10s ease 8;
+}
+
+.move-in-10sec-10 {
+  animation: move-in 10s ease 10;
+}
+
+.hov-move-in-1sec:hover {
+  animation: move-in 1s ease infinite;
+}
+
+.hov-move-in-2sec:hover {
+  animation: move-in 2s ease infinite;
+}
+
+.hov-move-in-3sec:hover {
+  animation: move-in 3s ease infinite;
+}
+
+.hov-move-in-4sec:hover {
+  animation: move-in 4s ease infinite;
+}
+
+.hov-move-in-5sec:hover {
+  animation: move-in 5s ease infinite;
+}
+
+.hov-move-in-6sec:hover {
+  animation: move-in 6s ease infinite;
+}
+
+.hov-move-in-7sec:hover {
+  animation: move-in 7s ease infinite;
+}
+
+.hov-move-in-8sec:hover {
+  animation: move-in 8s ease infinite;
+}
+
+.hov-move-in-9sec:hover {
+  animation: move-in 9s ease infinite;
+}
+
+.hov-move-in-10sec:hover {
+  animation: move-in 10s ease infinite;
+}
+
+.pulse {
+  animation: pulse 1s linear normal 3;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+.pulse-vfast-ln-nm-infinite {
+  animation: pulse 100ms infinite linear normal;
+}
+
+.pulse-vfast-ln-nm-2 {
+  animation: pulse 100ms 2 linear normal;
+}
+
+.pulse-vfast-ln-nm-4 {
+  animation: pulse 100ms 4 linear normal;
+}
+
+.pulse-vfast-ln-nm-6 {
+  animation: pulse 100ms 6 linear normal;
+}
+
+.pulse-vfast-ln-nm-8 {
+  animation: pulse 100ms 8 linear normal;
+}
+
+.pulse-vfast-ln-nm-10 {
+  animation: pulse 100ms 10 linear normal;
+}
+
+.pulse-vfast-ln-rev-infinite {
+  animation: pulse 100ms infinite linear reverse;
+}
+
+.pulse-vfast-ln-rev-2 {
+  animation: pulse 100ms 2 linear reverse;
+}
+
+.pulse-vfast-ln-rev-4 {
+  animation: pulse 100ms 4 linear reverse;
+}
+
+.pulse-vfast-ln-rev-6 {
+  animation: pulse 100ms 6 linear reverse;
+}
+
+.pulse-vfast-ln-rev-8 {
+  animation: pulse 100ms 8 linear reverse;
+}
+
+.pulse-vfast-ln-rev-10 {
+  animation: pulse 100ms 10 linear reverse;
+}
+
+.pulse-vfast-ln-alt-infinite {
+  animation: pulse 100ms infinite linear alternate;
+}
+
+.pulse-vfast-ln-alt-2 {
+  animation: pulse 100ms 2 linear alternate;
+}
+
+.pulse-vfast-ln-alt-4 {
+  animation: pulse 100ms 4 linear alternate;
+}
+
+.pulse-vfast-ln-alt-6 {
+  animation: pulse 100ms 6 linear alternate;
+}
+
+.pulse-vfast-ln-alt-8 {
+  animation: pulse 100ms 8 linear alternate;
+}
+
+.pulse-vfast-ln-alt-10 {
+  animation: pulse 100ms 10 linear alternate;
+}
+
+.pulse-vfast-ln-alt-rev-infinite {
+  animation: pulse 100ms infinite linear alternate-reverse;
+}
+
+.pulse-vfast-ln-alt-rev-2 {
+  animation: pulse 100ms 2 linear alternate-reverse;
+}
+
+.pulse-vfast-ln-alt-rev-4 {
+  animation: pulse 100ms 4 linear alternate-reverse;
+}
+
+.pulse-vfast-ln-alt-rev-6 {
+  animation: pulse 100ms 6 linear alternate-reverse;
+}
+
+.pulse-vfast-ln-alt-rev-8 {
+  animation: pulse 100ms 8 linear alternate-reverse;
+}
+
+.pulse-vfast-ln-alt-rev-10 {
+  animation: pulse 100ms 10 linear alternate-reverse;
+}
+
+.pulse-vfast-es-nm-infinite {
+  animation: pulse 100ms infinite ease normal;
+}
+
+.pulse-vfast-es-nm-2 {
+  animation: pulse 100ms 2 ease normal;
+}
+
+.pulse-vfast-es-nm-4 {
+  animation: pulse 100ms 4 ease normal;
+}
+
+.pulse-vfast-es-nm-6 {
+  animation: pulse 100ms 6 ease normal;
+}
+
+.pulse-vfast-es-nm-8 {
+  animation: pulse 100ms 8 ease normal;
+}
+
+.pulse-vfast-es-nm-10 {
+  animation: pulse 100ms 10 ease normal;
+}
+
+.pulse-vfast-es-rev-infinite {
+  animation: pulse 100ms infinite ease reverse;
+}
+
+.pulse-vfast-es-rev-2 {
+  animation: pulse 100ms 2 ease reverse;
+}
+
+.pulse-vfast-es-rev-4 {
+  animation: pulse 100ms 4 ease reverse;
+}
+
+.pulse-vfast-es-rev-6 {
+  animation: pulse 100ms 6 ease reverse;
+}
+
+.pulse-vfast-es-rev-8 {
+  animation: pulse 100ms 8 ease reverse;
+}
+
+.pulse-vfast-es-rev-10 {
+  animation: pulse 100ms 10 ease reverse;
+}
+
+.pulse-vfast-es-alt-infinite {
+  animation: pulse 100ms infinite ease alternate;
+}
+
+.pulse-vfast-es-alt-2 {
+  animation: pulse 100ms 2 ease alternate;
+}
+
+.pulse-vfast-es-alt-4 {
+  animation: pulse 100ms 4 ease alternate;
+}
+
+.pulse-vfast-es-alt-6 {
+  animation: pulse 100ms 6 ease alternate;
+}
+
+.pulse-vfast-es-alt-8 {
+  animation: pulse 100ms 8 ease alternate;
+}
+
+.pulse-vfast-es-alt-10 {
+  animation: pulse 100ms 10 ease alternate;
+}
+
+.pulse-vfast-es-alt-rev-infinite {
+  animation: pulse 100ms infinite ease alternate-reverse;
+}
+
+.pulse-vfast-es-alt-rev-2 {
+  animation: pulse 100ms 2 ease alternate-reverse;
+}
+
+.pulse-vfast-es-alt-rev-4 {
+  animation: pulse 100ms 4 ease alternate-reverse;
+}
+
+.pulse-vfast-es-alt-rev-6 {
+  animation: pulse 100ms 6 ease alternate-reverse;
+}
+
+.pulse-vfast-es-alt-rev-8 {
+  animation: pulse 100ms 8 ease alternate-reverse;
+}
+
+.pulse-vfast-es-alt-rev-10 {
+  animation: pulse 100ms 10 ease alternate-reverse;
+}
+
+.pulse-vfast-es-in-nm-infinite {
+  animation: pulse 100ms infinite ease-in normal;
+}
+
+.pulse-vfast-es-in-nm-2 {
+  animation: pulse 100ms 2 ease-in normal;
+}
+
+.pulse-vfast-es-in-nm-4 {
+  animation: pulse 100ms 4 ease-in normal;
+}
+
+.pulse-vfast-es-in-nm-6 {
+  animation: pulse 100ms 6 ease-in normal;
+}
+
+.pulse-vfast-es-in-nm-8 {
+  animation: pulse 100ms 8 ease-in normal;
+}
+
+.pulse-vfast-es-in-nm-10 {
+  animation: pulse 100ms 10 ease-in normal;
+}
+
+.pulse-vfast-es-in-rev-infinite {
+  animation: pulse 100ms infinite ease-in reverse;
+}
+
+.pulse-vfast-es-in-rev-2 {
+  animation: pulse 100ms 2 ease-in reverse;
+}
+
+.pulse-vfast-es-in-rev-4 {
+  animation: pulse 100ms 4 ease-in reverse;
+}
+
+.pulse-vfast-es-in-rev-6 {
+  animation: pulse 100ms 6 ease-in reverse;
+}
+
+.pulse-vfast-es-in-rev-8 {
+  animation: pulse 100ms 8 ease-in reverse;
+}
+
+.pulse-vfast-es-in-rev-10 {
+  animation: pulse 100ms 10 ease-in reverse;
+}
+
+.pulse-vfast-es-in-alt-infinite {
+  animation: pulse 100ms infinite ease-in alternate;
+}
+
+.pulse-vfast-es-in-alt-2 {
+  animation: pulse 100ms 2 ease-in alternate;
+}
+
+.pulse-vfast-es-in-alt-4 {
+  animation: pulse 100ms 4 ease-in alternate;
+}
+
+.pulse-vfast-es-in-alt-6 {
+  animation: pulse 100ms 6 ease-in alternate;
+}
+
+.pulse-vfast-es-in-alt-8 {
+  animation: pulse 100ms 8 ease-in alternate;
+}
+
+.pulse-vfast-es-in-alt-10 {
+  animation: pulse 100ms 10 ease-in alternate;
+}
+
+.pulse-vfast-es-in-alt-rev-infinite {
+  animation: pulse 100ms infinite ease-in alternate-reverse;
+}
+
+.pulse-vfast-es-in-alt-rev-2 {
+  animation: pulse 100ms 2 ease-in alternate-reverse;
+}
+
+.pulse-vfast-es-in-alt-rev-4 {
+  animation: pulse 100ms 4 ease-in alternate-reverse;
+}
+
+.pulse-vfast-es-in-alt-rev-6 {
+  animation: pulse 100ms 6 ease-in alternate-reverse;
+}
+
+.pulse-vfast-es-in-alt-rev-8 {
+  animation: pulse 100ms 8 ease-in alternate-reverse;
+}
+
+.pulse-vfast-es-in-alt-rev-10 {
+  animation: pulse 100ms 10 ease-in alternate-reverse;
+}
+
+.pulse-vfast-es-out-nm-infinite {
+  animation: pulse 100ms infinite ease-out normal;
+}
+
+.pulse-vfast-es-out-nm-2 {
+  animation: pulse 100ms 2 ease-out normal;
+}
+
+.pulse-vfast-es-out-nm-4 {
+  animation: pulse 100ms 4 ease-out normal;
+}
+
+.pulse-vfast-es-out-nm-6 {
+  animation: pulse 100ms 6 ease-out normal;
+}
+
+.pulse-vfast-es-out-nm-8 {
+  animation: pulse 100ms 8 ease-out normal;
+}
+
+.pulse-vfast-es-out-nm-10 {
+  animation: pulse 100ms 10 ease-out normal;
+}
+
+.pulse-vfast-es-out-rev-infinite {
+  animation: pulse 100ms infinite ease-out reverse;
+}
+
+.pulse-vfast-es-out-rev-2 {
+  animation: pulse 100ms 2 ease-out reverse;
+}
+
+.pulse-vfast-es-out-rev-4 {
+  animation: pulse 100ms 4 ease-out reverse;
+}
+
+.pulse-vfast-es-out-rev-6 {
+  animation: pulse 100ms 6 ease-out reverse;
+}
+
+.pulse-vfast-es-out-rev-8 {
+  animation: pulse 100ms 8 ease-out reverse;
+}
+
+.pulse-vfast-es-out-rev-10 {
+  animation: pulse 100ms 10 ease-out reverse;
+}
+
+.pulse-vfast-es-out-alt-infinite {
+  animation: pulse 100ms infinite ease-out alternate;
+}
+
+.pulse-vfast-es-out-alt-2 {
+  animation: pulse 100ms 2 ease-out alternate;
+}
+
+.pulse-vfast-es-out-alt-4 {
+  animation: pulse 100ms 4 ease-out alternate;
+}
+
+.pulse-vfast-es-out-alt-6 {
+  animation: pulse 100ms 6 ease-out alternate;
+}
+
+.pulse-vfast-es-out-alt-8 {
+  animation: pulse 100ms 8 ease-out alternate;
+}
+
+.pulse-vfast-es-out-alt-10 {
+  animation: pulse 100ms 10 ease-out alternate;
+}
+
+.pulse-vfast-es-out-alt-rev-infinite {
+  animation: pulse 100ms infinite ease-out alternate-reverse;
+}
+
+.pulse-vfast-es-out-alt-rev-2 {
+  animation: pulse 100ms 2 ease-out alternate-reverse;
+}
+
+.pulse-vfast-es-out-alt-rev-4 {
+  animation: pulse 100ms 4 ease-out alternate-reverse;
+}
+
+.pulse-vfast-es-out-alt-rev-6 {
+  animation: pulse 100ms 6 ease-out alternate-reverse;
+}
+
+.pulse-vfast-es-out-alt-rev-8 {
+  animation: pulse 100ms 8 ease-out alternate-reverse;
+}
+
+.pulse-vfast-es-out-alt-rev-10 {
+  animation: pulse 100ms 10 ease-out alternate-reverse;
+}
+
+.pulse-vfast-es-in-out-nm-infinite {
+  animation: pulse 100ms infinite ease-in-out normal;
+}
+
+.pulse-vfast-es-in-out-nm-2 {
+  animation: pulse 100ms 2 ease-in-out normal;
+}
+
+.pulse-vfast-es-in-out-nm-4 {
+  animation: pulse 100ms 4 ease-in-out normal;
+}
+
+.pulse-vfast-es-in-out-nm-6 {
+  animation: pulse 100ms 6 ease-in-out normal;
+}
+
+.pulse-vfast-es-in-out-nm-8 {
+  animation: pulse 100ms 8 ease-in-out normal;
+}
+
+.pulse-vfast-es-in-out-nm-10 {
+  animation: pulse 100ms 10 ease-in-out normal;
+}
+
+.pulse-vfast-es-in-out-rev-infinite {
+  animation: pulse 100ms infinite ease-in-out reverse;
+}
+
+.pulse-vfast-es-in-out-rev-2 {
+  animation: pulse 100ms 2 ease-in-out reverse;
+}
+
+.pulse-vfast-es-in-out-rev-4 {
+  animation: pulse 100ms 4 ease-in-out reverse;
+}
+
+.pulse-vfast-es-in-out-rev-6 {
+  animation: pulse 100ms 6 ease-in-out reverse;
+}
+
+.pulse-vfast-es-in-out-rev-8 {
+  animation: pulse 100ms 8 ease-in-out reverse;
+}
+
+.pulse-vfast-es-in-out-rev-10 {
+  animation: pulse 100ms 10 ease-in-out reverse;
+}
+
+.pulse-vfast-es-in-out-alt-infinite {
+  animation: pulse 100ms infinite ease-in-out alternate;
+}
+
+.pulse-vfast-es-in-out-alt-2 {
+  animation: pulse 100ms 2 ease-in-out alternate;
+}
+
+.pulse-vfast-es-in-out-alt-4 {
+  animation: pulse 100ms 4 ease-in-out alternate;
+}
+
+.pulse-vfast-es-in-out-alt-6 {
+  animation: pulse 100ms 6 ease-in-out alternate;
+}
+
+.pulse-vfast-es-in-out-alt-8 {
+  animation: pulse 100ms 8 ease-in-out alternate;
+}
+
+.pulse-vfast-es-in-out-alt-10 {
+  animation: pulse 100ms 10 ease-in-out alternate;
+}
+
+.pulse-vfast-es-in-out-alt-rev-infinite {
+  animation: pulse 100ms infinite ease-in-out alternate-reverse;
+}
+
+.pulse-vfast-es-in-out-alt-rev-2 {
+  animation: pulse 100ms 2 ease-in-out alternate-reverse;
+}
+
+.pulse-vfast-es-in-out-alt-rev-4 {
+  animation: pulse 100ms 4 ease-in-out alternate-reverse;
+}
+
+.pulse-vfast-es-in-out-alt-rev-6 {
+  animation: pulse 100ms 6 ease-in-out alternate-reverse;
+}
+
+.pulse-vfast-es-in-out-alt-rev-8 {
+  animation: pulse 100ms 8 ease-in-out alternate-reverse;
+}
+
+.pulse-vfast-es-in-out-alt-rev-10 {
+  animation: pulse 100ms 10 ease-in-out alternate-reverse;
+}
+
+.pulse-fast-ln-nm-infinite {
+  animation: pulse 200ms infinite linear normal;
+}
+
+.pulse-fast-ln-nm-2 {
+  animation: pulse 200ms 2 linear normal;
+}
+
+.pulse-fast-ln-nm-4 {
+  animation: pulse 200ms 4 linear normal;
+}
+
+.pulse-fast-ln-nm-6 {
+  animation: pulse 200ms 6 linear normal;
+}
+
+.pulse-fast-ln-nm-8 {
+  animation: pulse 200ms 8 linear normal;
+}
+
+.pulse-fast-ln-nm-10 {
+  animation: pulse 200ms 10 linear normal;
+}
+
+.pulse-fast-ln-rev-infinite {
+  animation: pulse 200ms infinite linear reverse;
+}
+
+.pulse-fast-ln-rev-2 {
+  animation: pulse 200ms 2 linear reverse;
+}
+
+.pulse-fast-ln-rev-4 {
+  animation: pulse 200ms 4 linear reverse;
+}
+
+.pulse-fast-ln-rev-6 {
+  animation: pulse 200ms 6 linear reverse;
+}
+
+.pulse-fast-ln-rev-8 {
+  animation: pulse 200ms 8 linear reverse;
+}
+
+.pulse-fast-ln-rev-10 {
+  animation: pulse 200ms 10 linear reverse;
+}
+
+.pulse-fast-ln-alt-infinite {
+  animation: pulse 200ms infinite linear alternate;
+}
+
+.pulse-fast-ln-alt-2 {
+  animation: pulse 200ms 2 linear alternate;
+}
+
+.pulse-fast-ln-alt-4 {
+  animation: pulse 200ms 4 linear alternate;
+}
+
+.pulse-fast-ln-alt-6 {
+  animation: pulse 200ms 6 linear alternate;
+}
+
+.pulse-fast-ln-alt-8 {
+  animation: pulse 200ms 8 linear alternate;
+}
+
+.pulse-fast-ln-alt-10 {
+  animation: pulse 200ms 10 linear alternate;
+}
+
+.pulse-fast-ln-alt-rev-infinite {
+  animation: pulse 200ms infinite linear alternate-reverse;
+}
+
+.pulse-fast-ln-alt-rev-2 {
+  animation: pulse 200ms 2 linear alternate-reverse;
+}
+
+.pulse-fast-ln-alt-rev-4 {
+  animation: pulse 200ms 4 linear alternate-reverse;
+}
+
+.pulse-fast-ln-alt-rev-6 {
+  animation: pulse 200ms 6 linear alternate-reverse;
+}
+
+.pulse-fast-ln-alt-rev-8 {
+  animation: pulse 200ms 8 linear alternate-reverse;
+}
+
+.pulse-fast-ln-alt-rev-10 {
+  animation: pulse 200ms 10 linear alternate-reverse;
+}
+
+.pulse-fast-es-nm-infinite {
+  animation: pulse 200ms infinite ease normal;
+}
+
+.pulse-fast-es-nm-2 {
+  animation: pulse 200ms 2 ease normal;
+}
+
+.pulse-fast-es-nm-4 {
+  animation: pulse 200ms 4 ease normal;
+}
+
+.pulse-fast-es-nm-6 {
+  animation: pulse 200ms 6 ease normal;
+}
+
+.pulse-fast-es-nm-8 {
+  animation: pulse 200ms 8 ease normal;
+}
+
+.pulse-fast-es-nm-10 {
+  animation: pulse 200ms 10 ease normal;
+}
+
+.pulse-fast-es-rev-infinite {
+  animation: pulse 200ms infinite ease reverse;
+}
+
+.pulse-fast-es-rev-2 {
+  animation: pulse 200ms 2 ease reverse;
+}
+
+.pulse-fast-es-rev-4 {
+  animation: pulse 200ms 4 ease reverse;
+}
+
+.pulse-fast-es-rev-6 {
+  animation: pulse 200ms 6 ease reverse;
+}
+
+.pulse-fast-es-rev-8 {
+  animation: pulse 200ms 8 ease reverse;
+}
+
+.pulse-fast-es-rev-10 {
+  animation: pulse 200ms 10 ease reverse;
+}
+
+.pulse-fast-es-alt-infinite {
+  animation: pulse 200ms infinite ease alternate;
+}
+
+.pulse-fast-es-alt-2 {
+  animation: pulse 200ms 2 ease alternate;
+}
+
+.pulse-fast-es-alt-4 {
+  animation: pulse 200ms 4 ease alternate;
+}
+
+.pulse-fast-es-alt-6 {
+  animation: pulse 200ms 6 ease alternate;
+}
+
+.pulse-fast-es-alt-8 {
+  animation: pulse 200ms 8 ease alternate;
+}
+
+.pulse-fast-es-alt-10 {
+  animation: pulse 200ms 10 ease alternate;
+}
+
+.pulse-fast-es-alt-rev-infinite {
+  animation: pulse 200ms infinite ease alternate-reverse;
+}
+
+.pulse-fast-es-alt-rev-2 {
+  animation: pulse 200ms 2 ease alternate-reverse;
+}
+
+.pulse-fast-es-alt-rev-4 {
+  animation: pulse 200ms 4 ease alternate-reverse;
+}
+
+.pulse-fast-es-alt-rev-6 {
+  animation: pulse 200ms 6 ease alternate-reverse;
+}
+
+.pulse-fast-es-alt-rev-8 {
+  animation: pulse 200ms 8 ease alternate-reverse;
+}
+
+.pulse-fast-es-alt-rev-10 {
+  animation: pulse 200ms 10 ease alternate-reverse;
+}
+
+.pulse-fast-es-in-nm-infinite {
+  animation: pulse 200ms infinite ease-in normal;
+}
+
+.pulse-fast-es-in-nm-2 {
+  animation: pulse 200ms 2 ease-in normal;
+}
+
+.pulse-fast-es-in-nm-4 {
+  animation: pulse 200ms 4 ease-in normal;
+}
+
+.pulse-fast-es-in-nm-6 {
+  animation: pulse 200ms 6 ease-in normal;
+}
+
+.pulse-fast-es-in-nm-8 {
+  animation: pulse 200ms 8 ease-in normal;
+}
+
+.pulse-fast-es-in-nm-10 {
+  animation: pulse 200ms 10 ease-in normal;
+}
+
+.pulse-fast-es-in-rev-infinite {
+  animation: pulse 200ms infinite ease-in reverse;
+}
+
+.pulse-fast-es-in-rev-2 {
+  animation: pulse 200ms 2 ease-in reverse;
+}
+
+.pulse-fast-es-in-rev-4 {
+  animation: pulse 200ms 4 ease-in reverse;
+}
+
+.pulse-fast-es-in-rev-6 {
+  animation: pulse 200ms 6 ease-in reverse;
+}
+
+.pulse-fast-es-in-rev-8 {
+  animation: pulse 200ms 8 ease-in reverse;
+}
+
+.pulse-fast-es-in-rev-10 {
+  animation: pulse 200ms 10 ease-in reverse;
+}
+
+.pulse-fast-es-in-alt-infinite {
+  animation: pulse 200ms infinite ease-in alternate;
+}
+
+.pulse-fast-es-in-alt-2 {
+  animation: pulse 200ms 2 ease-in alternate;
+}
+
+.pulse-fast-es-in-alt-4 {
+  animation: pulse 200ms 4 ease-in alternate;
+}
+
+.pulse-fast-es-in-alt-6 {
+  animation: pulse 200ms 6 ease-in alternate;
+}
+
+.pulse-fast-es-in-alt-8 {
+  animation: pulse 200ms 8 ease-in alternate;
+}
+
+.pulse-fast-es-in-alt-10 {
+  animation: pulse 200ms 10 ease-in alternate;
+}
+
+.pulse-fast-es-in-alt-rev-infinite {
+  animation: pulse 200ms infinite ease-in alternate-reverse;
+}
+
+.pulse-fast-es-in-alt-rev-2 {
+  animation: pulse 200ms 2 ease-in alternate-reverse;
+}
+
+.pulse-fast-es-in-alt-rev-4 {
+  animation: pulse 200ms 4 ease-in alternate-reverse;
+}
+
+.pulse-fast-es-in-alt-rev-6 {
+  animation: pulse 200ms 6 ease-in alternate-reverse;
+}
+
+.pulse-fast-es-in-alt-rev-8 {
+  animation: pulse 200ms 8 ease-in alternate-reverse;
+}
+
+.pulse-fast-es-in-alt-rev-10 {
+  animation: pulse 200ms 10 ease-in alternate-reverse;
+}
+
+.pulse-fast-es-out-nm-infinite {
+  animation: pulse 200ms infinite ease-out normal;
+}
+
+.pulse-fast-es-out-nm-2 {
+  animation: pulse 200ms 2 ease-out normal;
+}
+
+.pulse-fast-es-out-nm-4 {
+  animation: pulse 200ms 4 ease-out normal;
+}
+
+.pulse-fast-es-out-nm-6 {
+  animation: pulse 200ms 6 ease-out normal;
+}
+
+.pulse-fast-es-out-nm-8 {
+  animation: pulse 200ms 8 ease-out normal;
+}
+
+.pulse-fast-es-out-nm-10 {
+  animation: pulse 200ms 10 ease-out normal;
+}
+
+.pulse-fast-es-out-rev-infinite {
+  animation: pulse 200ms infinite ease-out reverse;
+}
+
+.pulse-fast-es-out-rev-2 {
+  animation: pulse 200ms 2 ease-out reverse;
+}
+
+.pulse-fast-es-out-rev-4 {
+  animation: pulse 200ms 4 ease-out reverse;
+}
+
+.pulse-fast-es-out-rev-6 {
+  animation: pulse 200ms 6 ease-out reverse;
+}
+
+.pulse-fast-es-out-rev-8 {
+  animation: pulse 200ms 8 ease-out reverse;
+}
+
+.pulse-fast-es-out-rev-10 {
+  animation: pulse 200ms 10 ease-out reverse;
+}
+
+.pulse-fast-es-out-alt-infinite {
+  animation: pulse 200ms infinite ease-out alternate;
+}
+
+.pulse-fast-es-out-alt-2 {
+  animation: pulse 200ms 2 ease-out alternate;
+}
+
+.pulse-fast-es-out-alt-4 {
+  animation: pulse 200ms 4 ease-out alternate;
+}
+
+.pulse-fast-es-out-alt-6 {
+  animation: pulse 200ms 6 ease-out alternate;
+}
+
+.pulse-fast-es-out-alt-8 {
+  animation: pulse 200ms 8 ease-out alternate;
+}
+
+.pulse-fast-es-out-alt-10 {
+  animation: pulse 200ms 10 ease-out alternate;
+}
+
+.pulse-fast-es-out-alt-rev-infinite {
+  animation: pulse 200ms infinite ease-out alternate-reverse;
+}
+
+.pulse-fast-es-out-alt-rev-2 {
+  animation: pulse 200ms 2 ease-out alternate-reverse;
+}
+
+.pulse-fast-es-out-alt-rev-4 {
+  animation: pulse 200ms 4 ease-out alternate-reverse;
+}
+
+.pulse-fast-es-out-alt-rev-6 {
+  animation: pulse 200ms 6 ease-out alternate-reverse;
+}
+
+.pulse-fast-es-out-alt-rev-8 {
+  animation: pulse 200ms 8 ease-out alternate-reverse;
+}
+
+.pulse-fast-es-out-alt-rev-10 {
+  animation: pulse 200ms 10 ease-out alternate-reverse;
+}
+
+.pulse-fast-es-in-out-nm-infinite {
+  animation: pulse 200ms infinite ease-in-out normal;
+}
+
+.pulse-fast-es-in-out-nm-2 {
+  animation: pulse 200ms 2 ease-in-out normal;
+}
+
+.pulse-fast-es-in-out-nm-4 {
+  animation: pulse 200ms 4 ease-in-out normal;
+}
+
+.pulse-fast-es-in-out-nm-6 {
+  animation: pulse 200ms 6 ease-in-out normal;
+}
+
+.pulse-fast-es-in-out-nm-8 {
+  animation: pulse 200ms 8 ease-in-out normal;
+}
+
+.pulse-fast-es-in-out-nm-10 {
+  animation: pulse 200ms 10 ease-in-out normal;
+}
+
+.pulse-fast-es-in-out-rev-infinite {
+  animation: pulse 200ms infinite ease-in-out reverse;
+}
+
+.pulse-fast-es-in-out-rev-2 {
+  animation: pulse 200ms 2 ease-in-out reverse;
+}
+
+.pulse-fast-es-in-out-rev-4 {
+  animation: pulse 200ms 4 ease-in-out reverse;
+}
+
+.pulse-fast-es-in-out-rev-6 {
+  animation: pulse 200ms 6 ease-in-out reverse;
+}
+
+.pulse-fast-es-in-out-rev-8 {
+  animation: pulse 200ms 8 ease-in-out reverse;
+}
+
+.pulse-fast-es-in-out-rev-10 {
+  animation: pulse 200ms 10 ease-in-out reverse;
+}
+
+.pulse-fast-es-in-out-alt-infinite {
+  animation: pulse 200ms infinite ease-in-out alternate;
+}
+
+.pulse-fast-es-in-out-alt-2 {
+  animation: pulse 200ms 2 ease-in-out alternate;
+}
+
+.pulse-fast-es-in-out-alt-4 {
+  animation: pulse 200ms 4 ease-in-out alternate;
+}
+
+.pulse-fast-es-in-out-alt-6 {
+  animation: pulse 200ms 6 ease-in-out alternate;
+}
+
+.pulse-fast-es-in-out-alt-8 {
+  animation: pulse 200ms 8 ease-in-out alternate;
+}
+
+.pulse-fast-es-in-out-alt-10 {
+  animation: pulse 200ms 10 ease-in-out alternate;
+}
+
+.pulse-fast-es-in-out-alt-rev-infinite {
+  animation: pulse 200ms infinite ease-in-out alternate-reverse;
+}
+
+.pulse-fast-es-in-out-alt-rev-2 {
+  animation: pulse 200ms 2 ease-in-out alternate-reverse;
+}
+
+.pulse-fast-es-in-out-alt-rev-4 {
+  animation: pulse 200ms 4 ease-in-out alternate-reverse;
+}
+
+.pulse-fast-es-in-out-alt-rev-6 {
+  animation: pulse 200ms 6 ease-in-out alternate-reverse;
+}
+
+.pulse-fast-es-in-out-alt-rev-8 {
+  animation: pulse 200ms 8 ease-in-out alternate-reverse;
+}
+
+.pulse-fast-es-in-out-alt-rev-10 {
+  animation: pulse 200ms 10 ease-in-out alternate-reverse;
+}
+
+.pulse-normal-ln-nm-infinite {
+  animation: pulse 500ms infinite linear normal;
+}
+
+.pulse-normal-ln-nm-2 {
+  animation: pulse 500ms 2 linear normal;
+}
+
+.pulse-normal-ln-nm-4 {
+  animation: pulse 500ms 4 linear normal;
+}
+
+.pulse-normal-ln-nm-6 {
+  animation: pulse 500ms 6 linear normal;
+}
+
+.pulse-normal-ln-nm-8 {
+  animation: pulse 500ms 8 linear normal;
+}
+
+.pulse-normal-ln-nm-10 {
+  animation: pulse 500ms 10 linear normal;
+}
+
+.pulse-normal-ln-rev-infinite {
+  animation: pulse 500ms infinite linear reverse;
+}
+
+.pulse-normal-ln-rev-2 {
+  animation: pulse 500ms 2 linear reverse;
+}
+
+.pulse-normal-ln-rev-4 {
+  animation: pulse 500ms 4 linear reverse;
+}
+
+.pulse-normal-ln-rev-6 {
+  animation: pulse 500ms 6 linear reverse;
+}
+
+.pulse-normal-ln-rev-8 {
+  animation: pulse 500ms 8 linear reverse;
+}
+
+.pulse-normal-ln-rev-10 {
+  animation: pulse 500ms 10 linear reverse;
+}
+
+.pulse-normal-ln-alt-infinite {
+  animation: pulse 500ms infinite linear alternate;
+}
+
+.pulse-normal-ln-alt-2 {
+  animation: pulse 500ms 2 linear alternate;
+}
+
+.pulse-normal-ln-alt-4 {
+  animation: pulse 500ms 4 linear alternate;
+}
+
+.pulse-normal-ln-alt-6 {
+  animation: pulse 500ms 6 linear alternate;
+}
+
+.pulse-normal-ln-alt-8 {
+  animation: pulse 500ms 8 linear alternate;
+}
+
+.pulse-normal-ln-alt-10 {
+  animation: pulse 500ms 10 linear alternate;
+}
+
+.pulse-normal-ln-alt-rev-infinite {
+  animation: pulse 500ms infinite linear alternate-reverse;
+}
+
+.pulse-normal-ln-alt-rev-2 {
+  animation: pulse 500ms 2 linear alternate-reverse;
+}
+
+.pulse-normal-ln-alt-rev-4 {
+  animation: pulse 500ms 4 linear alternate-reverse;
+}
+
+.pulse-normal-ln-alt-rev-6 {
+  animation: pulse 500ms 6 linear alternate-reverse;
+}
+
+.pulse-normal-ln-alt-rev-8 {
+  animation: pulse 500ms 8 linear alternate-reverse;
+}
+
+.pulse-normal-ln-alt-rev-10 {
+  animation: pulse 500ms 10 linear alternate-reverse;
+}
+
+.pulse-normal-es-nm-infinite {
+  animation: pulse 500ms infinite ease normal;
+}
+
+.pulse-normal-es-nm-2 {
+  animation: pulse 500ms 2 ease normal;
+}
+
+.pulse-normal-es-nm-4 {
+  animation: pulse 500ms 4 ease normal;
+}
+
+.pulse-normal-es-nm-6 {
+  animation: pulse 500ms 6 ease normal;
+}
+
+.pulse-normal-es-nm-8 {
+  animation: pulse 500ms 8 ease normal;
+}
+
+.pulse-normal-es-nm-10 {
+  animation: pulse 500ms 10 ease normal;
+}
+
+.pulse-normal-es-rev-infinite {
+  animation: pulse 500ms infinite ease reverse;
+}
+
+.pulse-normal-es-rev-2 {
+  animation: pulse 500ms 2 ease reverse;
+}
+
+.pulse-normal-es-rev-4 {
+  animation: pulse 500ms 4 ease reverse;
+}
+
+.pulse-normal-es-rev-6 {
+  animation: pulse 500ms 6 ease reverse;
+}
+
+.pulse-normal-es-rev-8 {
+  animation: pulse 500ms 8 ease reverse;
+}
+
+.pulse-normal-es-rev-10 {
+  animation: pulse 500ms 10 ease reverse;
+}
+
+.pulse-normal-es-alt-infinite {
+  animation: pulse 500ms infinite ease alternate;
+}
+
+.pulse-normal-es-alt-2 {
+  animation: pulse 500ms 2 ease alternate;
+}
+
+.pulse-normal-es-alt-4 {
+  animation: pulse 500ms 4 ease alternate;
+}
+
+.pulse-normal-es-alt-6 {
+  animation: pulse 500ms 6 ease alternate;
+}
+
+.pulse-normal-es-alt-8 {
+  animation: pulse 500ms 8 ease alternate;
+}
+
+.pulse-normal-es-alt-10 {
+  animation: pulse 500ms 10 ease alternate;
+}
+
+.pulse-normal-es-alt-rev-infinite {
+  animation: pulse 500ms infinite ease alternate-reverse;
+}
+
+.pulse-normal-es-alt-rev-2 {
+  animation: pulse 500ms 2 ease alternate-reverse;
+}
+
+.pulse-normal-es-alt-rev-4 {
+  animation: pulse 500ms 4 ease alternate-reverse;
+}
+
+.pulse-normal-es-alt-rev-6 {
+  animation: pulse 500ms 6 ease alternate-reverse;
+}
+
+.pulse-normal-es-alt-rev-8 {
+  animation: pulse 500ms 8 ease alternate-reverse;
+}
+
+.pulse-normal-es-alt-rev-10 {
+  animation: pulse 500ms 10 ease alternate-reverse;
+}
+
+.pulse-normal-es-in-nm-infinite {
+  animation: pulse 500ms infinite ease-in normal;
+}
+
+.pulse-normal-es-in-nm-2 {
+  animation: pulse 500ms 2 ease-in normal;
+}
+
+.pulse-normal-es-in-nm-4 {
+  animation: pulse 500ms 4 ease-in normal;
+}
+
+.pulse-normal-es-in-nm-6 {
+  animation: pulse 500ms 6 ease-in normal;
+}
+
+.pulse-normal-es-in-nm-8 {
+  animation: pulse 500ms 8 ease-in normal;
+}
+
+.pulse-normal-es-in-nm-10 {
+  animation: pulse 500ms 10 ease-in normal;
+}
+
+.pulse-normal-es-in-rev-infinite {
+  animation: pulse 500ms infinite ease-in reverse;
+}
+
+.pulse-normal-es-in-rev-2 {
+  animation: pulse 500ms 2 ease-in reverse;
+}
+
+.pulse-normal-es-in-rev-4 {
+  animation: pulse 500ms 4 ease-in reverse;
+}
+
+.pulse-normal-es-in-rev-6 {
+  animation: pulse 500ms 6 ease-in reverse;
+}
+
+.pulse-normal-es-in-rev-8 {
+  animation: pulse 500ms 8 ease-in reverse;
+}
+
+.pulse-normal-es-in-rev-10 {
+  animation: pulse 500ms 10 ease-in reverse;
+}
+
+.pulse-normal-es-in-alt-infinite {
+  animation: pulse 500ms infinite ease-in alternate;
+}
+
+.pulse-normal-es-in-alt-2 {
+  animation: pulse 500ms 2 ease-in alternate;
+}
+
+.pulse-normal-es-in-alt-4 {
+  animation: pulse 500ms 4 ease-in alternate;
+}
+
+.pulse-normal-es-in-alt-6 {
+  animation: pulse 500ms 6 ease-in alternate;
+}
+
+.pulse-normal-es-in-alt-8 {
+  animation: pulse 500ms 8 ease-in alternate;
+}
+
+.pulse-normal-es-in-alt-10 {
+  animation: pulse 500ms 10 ease-in alternate;
+}
+
+.pulse-normal-es-in-alt-rev-infinite {
+  animation: pulse 500ms infinite ease-in alternate-reverse;
+}
+
+.pulse-normal-es-in-alt-rev-2 {
+  animation: pulse 500ms 2 ease-in alternate-reverse;
+}
+
+.pulse-normal-es-in-alt-rev-4 {
+  animation: pulse 500ms 4 ease-in alternate-reverse;
+}
+
+.pulse-normal-es-in-alt-rev-6 {
+  animation: pulse 500ms 6 ease-in alternate-reverse;
+}
+
+.pulse-normal-es-in-alt-rev-8 {
+  animation: pulse 500ms 8 ease-in alternate-reverse;
+}
+
+.pulse-normal-es-in-alt-rev-10 {
+  animation: pulse 500ms 10 ease-in alternate-reverse;
+}
+
+.pulse-normal-es-out-nm-infinite {
+  animation: pulse 500ms infinite ease-out normal;
+}
+
+.pulse-normal-es-out-nm-2 {
+  animation: pulse 500ms 2 ease-out normal;
+}
+
+.pulse-normal-es-out-nm-4 {
+  animation: pulse 500ms 4 ease-out normal;
+}
+
+.pulse-normal-es-out-nm-6 {
+  animation: pulse 500ms 6 ease-out normal;
+}
+
+.pulse-normal-es-out-nm-8 {
+  animation: pulse 500ms 8 ease-out normal;
+}
+
+.pulse-normal-es-out-nm-10 {
+  animation: pulse 500ms 10 ease-out normal;
+}
+
+.pulse-normal-es-out-rev-infinite {
+  animation: pulse 500ms infinite ease-out reverse;
+}
+
+.pulse-normal-es-out-rev-2 {
+  animation: pulse 500ms 2 ease-out reverse;
+}
+
+.pulse-normal-es-out-rev-4 {
+  animation: pulse 500ms 4 ease-out reverse;
+}
+
+.pulse-normal-es-out-rev-6 {
+  animation: pulse 500ms 6 ease-out reverse;
+}
+
+.pulse-normal-es-out-rev-8 {
+  animation: pulse 500ms 8 ease-out reverse;
+}
+
+.pulse-normal-es-out-rev-10 {
+  animation: pulse 500ms 10 ease-out reverse;
+}
+
+.pulse-normal-es-out-alt-infinite {
+  animation: pulse 500ms infinite ease-out alternate;
+}
+
+.pulse-normal-es-out-alt-2 {
+  animation: pulse 500ms 2 ease-out alternate;
+}
+
+.pulse-normal-es-out-alt-4 {
+  animation: pulse 500ms 4 ease-out alternate;
+}
+
+.pulse-normal-es-out-alt-6 {
+  animation: pulse 500ms 6 ease-out alternate;
+}
+
+.pulse-normal-es-out-alt-8 {
+  animation: pulse 500ms 8 ease-out alternate;
+}
+
+.pulse-normal-es-out-alt-10 {
+  animation: pulse 500ms 10 ease-out alternate;
+}
+
+.pulse-normal-es-out-alt-rev-infinite {
+  animation: pulse 500ms infinite ease-out alternate-reverse;
+}
+
+.pulse-normal-es-out-alt-rev-2 {
+  animation: pulse 500ms 2 ease-out alternate-reverse;
+}
+
+.pulse-normal-es-out-alt-rev-4 {
+  animation: pulse 500ms 4 ease-out alternate-reverse;
+}
+
+.pulse-normal-es-out-alt-rev-6 {
+  animation: pulse 500ms 6 ease-out alternate-reverse;
+}
+
+.pulse-normal-es-out-alt-rev-8 {
+  animation: pulse 500ms 8 ease-out alternate-reverse;
+}
+
+.pulse-normal-es-out-alt-rev-10 {
+  animation: pulse 500ms 10 ease-out alternate-reverse;
+}
+
+.pulse-normal-es-in-out-nm-infinite {
+  animation: pulse 500ms infinite ease-in-out normal;
+}
+
+.pulse-normal-es-in-out-nm-2 {
+  animation: pulse 500ms 2 ease-in-out normal;
+}
+
+.pulse-normal-es-in-out-nm-4 {
+  animation: pulse 500ms 4 ease-in-out normal;
+}
+
+.pulse-normal-es-in-out-nm-6 {
+  animation: pulse 500ms 6 ease-in-out normal;
+}
+
+.pulse-normal-es-in-out-nm-8 {
+  animation: pulse 500ms 8 ease-in-out normal;
+}
+
+.pulse-normal-es-in-out-nm-10 {
+  animation: pulse 500ms 10 ease-in-out normal;
+}
+
+.pulse-normal-es-in-out-rev-infinite {
+  animation: pulse 500ms infinite ease-in-out reverse;
+}
+
+.pulse-normal-es-in-out-rev-2 {
+  animation: pulse 500ms 2 ease-in-out reverse;
+}
+
+.pulse-normal-es-in-out-rev-4 {
+  animation: pulse 500ms 4 ease-in-out reverse;
+}
+
+.pulse-normal-es-in-out-rev-6 {
+  animation: pulse 500ms 6 ease-in-out reverse;
+}
+
+.pulse-normal-es-in-out-rev-8 {
+  animation: pulse 500ms 8 ease-in-out reverse;
+}
+
+.pulse-normal-es-in-out-rev-10 {
+  animation: pulse 500ms 10 ease-in-out reverse;
+}
+
+.pulse-normal-es-in-out-alt-infinite {
+  animation: pulse 500ms infinite ease-in-out alternate;
+}
+
+.pulse-normal-es-in-out-alt-2 {
+  animation: pulse 500ms 2 ease-in-out alternate;
+}
+
+.pulse-normal-es-in-out-alt-4 {
+  animation: pulse 500ms 4 ease-in-out alternate;
+}
+
+.pulse-normal-es-in-out-alt-6 {
+  animation: pulse 500ms 6 ease-in-out alternate;
+}
+
+.pulse-normal-es-in-out-alt-8 {
+  animation: pulse 500ms 8 ease-in-out alternate;
+}
+
+.pulse-normal-es-in-out-alt-10 {
+  animation: pulse 500ms 10 ease-in-out alternate;
+}
+
+.pulse-normal-es-in-out-alt-rev-infinite {
+  animation: pulse 500ms infinite ease-in-out alternate-reverse;
+}
+
+.pulse-normal-es-in-out-alt-rev-2 {
+  animation: pulse 500ms 2 ease-in-out alternate-reverse;
+}
+
+.pulse-normal-es-in-out-alt-rev-4 {
+  animation: pulse 500ms 4 ease-in-out alternate-reverse;
+}
+
+.pulse-normal-es-in-out-alt-rev-6 {
+  animation: pulse 500ms 6 ease-in-out alternate-reverse;
+}
+
+.pulse-normal-es-in-out-alt-rev-8 {
+  animation: pulse 500ms 8 ease-in-out alternate-reverse;
+}
+
+.pulse-normal-es-in-out-alt-rev-10 {
+  animation: pulse 500ms 10 ease-in-out alternate-reverse;
+}
+
+.pulse-slow-ln-nm-infinite {
+  animation: pulse 1s infinite linear normal;
+}
+
+.pulse-slow-ln-nm-2 {
+  animation: pulse 1s 2 linear normal;
+}
+
+.pulse-slow-ln-nm-4 {
+  animation: pulse 1s 4 linear normal;
+}
+
+.pulse-slow-ln-nm-6 {
+  animation: pulse 1s 6 linear normal;
+}
+
+.pulse-slow-ln-nm-8 {
+  animation: pulse 1s 8 linear normal;
+}
+
+.pulse-slow-ln-nm-10 {
+  animation: pulse 1s 10 linear normal;
+}
+
+.pulse-slow-ln-rev-infinite {
+  animation: pulse 1s infinite linear reverse;
+}
+
+.pulse-slow-ln-rev-2 {
+  animation: pulse 1s 2 linear reverse;
+}
+
+.pulse-slow-ln-rev-4 {
+  animation: pulse 1s 4 linear reverse;
+}
+
+.pulse-slow-ln-rev-6 {
+  animation: pulse 1s 6 linear reverse;
+}
+
+.pulse-slow-ln-rev-8 {
+  animation: pulse 1s 8 linear reverse;
+}
+
+.pulse-slow-ln-rev-10 {
+  animation: pulse 1s 10 linear reverse;
+}
+
+.pulse-slow-ln-alt-infinite {
+  animation: pulse 1s infinite linear alternate;
+}
+
+.pulse-slow-ln-alt-2 {
+  animation: pulse 1s 2 linear alternate;
+}
+
+.pulse-slow-ln-alt-4 {
+  animation: pulse 1s 4 linear alternate;
+}
+
+.pulse-slow-ln-alt-6 {
+  animation: pulse 1s 6 linear alternate;
+}
+
+.pulse-slow-ln-alt-8 {
+  animation: pulse 1s 8 linear alternate;
+}
+
+.pulse-slow-ln-alt-10 {
+  animation: pulse 1s 10 linear alternate;
+}
+
+.pulse-slow-ln-alt-rev-infinite {
+  animation: pulse 1s infinite linear alternate-reverse;
+}
+
+.pulse-slow-ln-alt-rev-2 {
+  animation: pulse 1s 2 linear alternate-reverse;
+}
+
+.pulse-slow-ln-alt-rev-4 {
+  animation: pulse 1s 4 linear alternate-reverse;
+}
+
+.pulse-slow-ln-alt-rev-6 {
+  animation: pulse 1s 6 linear alternate-reverse;
+}
+
+.pulse-slow-ln-alt-rev-8 {
+  animation: pulse 1s 8 linear alternate-reverse;
+}
+
+.pulse-slow-ln-alt-rev-10 {
+  animation: pulse 1s 10 linear alternate-reverse;
+}
+
+.pulse-slow-es-nm-infinite {
+  animation: pulse 1s infinite ease normal;
+}
+
+.pulse-slow-es-nm-2 {
+  animation: pulse 1s 2 ease normal;
+}
+
+.pulse-slow-es-nm-4 {
+  animation: pulse 1s 4 ease normal;
+}
+
+.pulse-slow-es-nm-6 {
+  animation: pulse 1s 6 ease normal;
+}
+
+.pulse-slow-es-nm-8 {
+  animation: pulse 1s 8 ease normal;
+}
+
+.pulse-slow-es-nm-10 {
+  animation: pulse 1s 10 ease normal;
+}
+
+.pulse-slow-es-rev-infinite {
+  animation: pulse 1s infinite ease reverse;
+}
+
+.pulse-slow-es-rev-2 {
+  animation: pulse 1s 2 ease reverse;
+}
+
+.pulse-slow-es-rev-4 {
+  animation: pulse 1s 4 ease reverse;
+}
+
+.pulse-slow-es-rev-6 {
+  animation: pulse 1s 6 ease reverse;
+}
+
+.pulse-slow-es-rev-8 {
+  animation: pulse 1s 8 ease reverse;
+}
+
+.pulse-slow-es-rev-10 {
+  animation: pulse 1s 10 ease reverse;
+}
+
+.pulse-slow-es-alt-infinite {
+  animation: pulse 1s infinite ease alternate;
+}
+
+.pulse-slow-es-alt-2 {
+  animation: pulse 1s 2 ease alternate;
+}
+
+.pulse-slow-es-alt-4 {
+  animation: pulse 1s 4 ease alternate;
+}
+
+.pulse-slow-es-alt-6 {
+  animation: pulse 1s 6 ease alternate;
+}
+
+.pulse-slow-es-alt-8 {
+  animation: pulse 1s 8 ease alternate;
+}
+
+.pulse-slow-es-alt-10 {
+  animation: pulse 1s 10 ease alternate;
+}
+
+.pulse-slow-es-alt-rev-infinite {
+  animation: pulse 1s infinite ease alternate-reverse;
+}
+
+.pulse-slow-es-alt-rev-2 {
+  animation: pulse 1s 2 ease alternate-reverse;
+}
+
+.pulse-slow-es-alt-rev-4 {
+  animation: pulse 1s 4 ease alternate-reverse;
+}
+
+.pulse-slow-es-alt-rev-6 {
+  animation: pulse 1s 6 ease alternate-reverse;
+}
+
+.pulse-slow-es-alt-rev-8 {
+  animation: pulse 1s 8 ease alternate-reverse;
+}
+
+.pulse-slow-es-alt-rev-10 {
+  animation: pulse 1s 10 ease alternate-reverse;
+}
+
+.pulse-slow-es-in-nm-infinite {
+  animation: pulse 1s infinite ease-in normal;
+}
+
+.pulse-slow-es-in-nm-2 {
+  animation: pulse 1s 2 ease-in normal;
+}
+
+.pulse-slow-es-in-nm-4 {
+  animation: pulse 1s 4 ease-in normal;
+}
+
+.pulse-slow-es-in-nm-6 {
+  animation: pulse 1s 6 ease-in normal;
+}
+
+.pulse-slow-es-in-nm-8 {
+  animation: pulse 1s 8 ease-in normal;
+}
+
+.pulse-slow-es-in-nm-10 {
+  animation: pulse 1s 10 ease-in normal;
+}
+
+.pulse-slow-es-in-rev-infinite {
+  animation: pulse 1s infinite ease-in reverse;
+}
+
+.pulse-slow-es-in-rev-2 {
+  animation: pulse 1s 2 ease-in reverse;
+}
+
+.pulse-slow-es-in-rev-4 {
+  animation: pulse 1s 4 ease-in reverse;
+}
+
+.pulse-slow-es-in-rev-6 {
+  animation: pulse 1s 6 ease-in reverse;
+}
+
+.pulse-slow-es-in-rev-8 {
+  animation: pulse 1s 8 ease-in reverse;
+}
+
+.pulse-slow-es-in-rev-10 {
+  animation: pulse 1s 10 ease-in reverse;
+}
+
+.pulse-slow-es-in-alt-infinite {
+  animation: pulse 1s infinite ease-in alternate;
+}
+
+.pulse-slow-es-in-alt-2 {
+  animation: pulse 1s 2 ease-in alternate;
+}
+
+.pulse-slow-es-in-alt-4 {
+  animation: pulse 1s 4 ease-in alternate;
+}
+
+.pulse-slow-es-in-alt-6 {
+  animation: pulse 1s 6 ease-in alternate;
+}
+
+.pulse-slow-es-in-alt-8 {
+  animation: pulse 1s 8 ease-in alternate;
+}
+
+.pulse-slow-es-in-alt-10 {
+  animation: pulse 1s 10 ease-in alternate;
+}
+
+.pulse-slow-es-in-alt-rev-infinite {
+  animation: pulse 1s infinite ease-in alternate-reverse;
+}
+
+.pulse-slow-es-in-alt-rev-2 {
+  animation: pulse 1s 2 ease-in alternate-reverse;
+}
+
+.pulse-slow-es-in-alt-rev-4 {
+  animation: pulse 1s 4 ease-in alternate-reverse;
+}
+
+.pulse-slow-es-in-alt-rev-6 {
+  animation: pulse 1s 6 ease-in alternate-reverse;
+}
+
+.pulse-slow-es-in-alt-rev-8 {
+  animation: pulse 1s 8 ease-in alternate-reverse;
+}
+
+.pulse-slow-es-in-alt-rev-10 {
+  animation: pulse 1s 10 ease-in alternate-reverse;
+}
+
+.pulse-slow-es-out-nm-infinite {
+  animation: pulse 1s infinite ease-out normal;
+}
+
+.pulse-slow-es-out-nm-2 {
+  animation: pulse 1s 2 ease-out normal;
+}
+
+.pulse-slow-es-out-nm-4 {
+  animation: pulse 1s 4 ease-out normal;
+}
+
+.pulse-slow-es-out-nm-6 {
+  animation: pulse 1s 6 ease-out normal;
+}
+
+.pulse-slow-es-out-nm-8 {
+  animation: pulse 1s 8 ease-out normal;
+}
+
+.pulse-slow-es-out-nm-10 {
+  animation: pulse 1s 10 ease-out normal;
+}
+
+.pulse-slow-es-out-rev-infinite {
+  animation: pulse 1s infinite ease-out reverse;
+}
+
+.pulse-slow-es-out-rev-2 {
+  animation: pulse 1s 2 ease-out reverse;
+}
+
+.pulse-slow-es-out-rev-4 {
+  animation: pulse 1s 4 ease-out reverse;
+}
+
+.pulse-slow-es-out-rev-6 {
+  animation: pulse 1s 6 ease-out reverse;
+}
+
+.pulse-slow-es-out-rev-8 {
+  animation: pulse 1s 8 ease-out reverse;
+}
+
+.pulse-slow-es-out-rev-10 {
+  animation: pulse 1s 10 ease-out reverse;
+}
+
+.pulse-slow-es-out-alt-infinite {
+  animation: pulse 1s infinite ease-out alternate;
+}
+
+.pulse-slow-es-out-alt-2 {
+  animation: pulse 1s 2 ease-out alternate;
+}
+
+.pulse-slow-es-out-alt-4 {
+  animation: pulse 1s 4 ease-out alternate;
+}
+
+.pulse-slow-es-out-alt-6 {
+  animation: pulse 1s 6 ease-out alternate;
+}
+
+.pulse-slow-es-out-alt-8 {
+  animation: pulse 1s 8 ease-out alternate;
+}
+
+.pulse-slow-es-out-alt-10 {
+  animation: pulse 1s 10 ease-out alternate;
+}
+
+.pulse-slow-es-out-alt-rev-infinite {
+  animation: pulse 1s infinite ease-out alternate-reverse;
+}
+
+.pulse-slow-es-out-alt-rev-2 {
+  animation: pulse 1s 2 ease-out alternate-reverse;
+}
+
+.pulse-slow-es-out-alt-rev-4 {
+  animation: pulse 1s 4 ease-out alternate-reverse;
+}
+
+.pulse-slow-es-out-alt-rev-6 {
+  animation: pulse 1s 6 ease-out alternate-reverse;
+}
+
+.pulse-slow-es-out-alt-rev-8 {
+  animation: pulse 1s 8 ease-out alternate-reverse;
+}
+
+.pulse-slow-es-out-alt-rev-10 {
+  animation: pulse 1s 10 ease-out alternate-reverse;
+}
+
+.pulse-slow-es-in-out-nm-infinite {
+  animation: pulse 1s infinite ease-in-out normal;
+}
+
+.pulse-slow-es-in-out-nm-2 {
+  animation: pulse 1s 2 ease-in-out normal;
+}
+
+.pulse-slow-es-in-out-nm-4 {
+  animation: pulse 1s 4 ease-in-out normal;
+}
+
+.pulse-slow-es-in-out-nm-6 {
+  animation: pulse 1s 6 ease-in-out normal;
+}
+
+.pulse-slow-es-in-out-nm-8 {
+  animation: pulse 1s 8 ease-in-out normal;
+}
+
+.pulse-slow-es-in-out-nm-10 {
+  animation: pulse 1s 10 ease-in-out normal;
+}
+
+.pulse-slow-es-in-out-rev-infinite {
+  animation: pulse 1s infinite ease-in-out reverse;
+}
+
+.pulse-slow-es-in-out-rev-2 {
+  animation: pulse 1s 2 ease-in-out reverse;
+}
+
+.pulse-slow-es-in-out-rev-4 {
+  animation: pulse 1s 4 ease-in-out reverse;
+}
+
+.pulse-slow-es-in-out-rev-6 {
+  animation: pulse 1s 6 ease-in-out reverse;
+}
+
+.pulse-slow-es-in-out-rev-8 {
+  animation: pulse 1s 8 ease-in-out reverse;
+}
+
+.pulse-slow-es-in-out-rev-10 {
+  animation: pulse 1s 10 ease-in-out reverse;
+}
+
+.pulse-slow-es-in-out-alt-infinite {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+
+.pulse-slow-es-in-out-alt-2 {
+  animation: pulse 1s 2 ease-in-out alternate;
+}
+
+.pulse-slow-es-in-out-alt-4 {
+  animation: pulse 1s 4 ease-in-out alternate;
+}
+
+.pulse-slow-es-in-out-alt-6 {
+  animation: pulse 1s 6 ease-in-out alternate;
+}
+
+.pulse-slow-es-in-out-alt-8 {
+  animation: pulse 1s 8 ease-in-out alternate;
+}
+
+.pulse-slow-es-in-out-alt-10 {
+  animation: pulse 1s 10 ease-in-out alternate;
+}
+
+.pulse-slow-es-in-out-alt-rev-infinite {
+  animation: pulse 1s infinite ease-in-out alternate-reverse;
+}
+
+.pulse-slow-es-in-out-alt-rev-2 {
+  animation: pulse 1s 2 ease-in-out alternate-reverse;
+}
+
+.pulse-slow-es-in-out-alt-rev-4 {
+  animation: pulse 1s 4 ease-in-out alternate-reverse;
+}
+
+.pulse-slow-es-in-out-alt-rev-6 {
+  animation: pulse 1s 6 ease-in-out alternate-reverse;
+}
+
+.pulse-slow-es-in-out-alt-rev-8 {
+  animation: pulse 1s 8 ease-in-out alternate-reverse;
+}
+
+.pulse-slow-es-in-out-alt-rev-10 {
+  animation: pulse 1s 10 ease-in-out alternate-reverse;
+}
+
+.pulse-vslow-ln-nm-infinite {
+  animation: pulse 2s infinite linear normal;
+}
+
+.pulse-vslow-ln-nm-2 {
+  animation: pulse 2s 2 linear normal;
+}
+
+.pulse-vslow-ln-nm-4 {
+  animation: pulse 2s 4 linear normal;
+}
+
+.pulse-vslow-ln-nm-6 {
+  animation: pulse 2s 6 linear normal;
+}
+
+.pulse-vslow-ln-nm-8 {
+  animation: pulse 2s 8 linear normal;
+}
+
+.pulse-vslow-ln-nm-10 {
+  animation: pulse 2s 10 linear normal;
+}
+
+.pulse-vslow-ln-rev-infinite {
+  animation: pulse 2s infinite linear reverse;
+}
+
+.pulse-vslow-ln-rev-2 {
+  animation: pulse 2s 2 linear reverse;
+}
+
+.pulse-vslow-ln-rev-4 {
+  animation: pulse 2s 4 linear reverse;
+}
+
+.pulse-vslow-ln-rev-6 {
+  animation: pulse 2s 6 linear reverse;
+}
+
+.pulse-vslow-ln-rev-8 {
+  animation: pulse 2s 8 linear reverse;
+}
+
+.pulse-vslow-ln-rev-10 {
+  animation: pulse 2s 10 linear reverse;
+}
+
+.pulse-vslow-ln-alt-infinite {
+  animation: pulse 2s infinite linear alternate;
+}
+
+.pulse-vslow-ln-alt-2 {
+  animation: pulse 2s 2 linear alternate;
+}
+
+.pulse-vslow-ln-alt-4 {
+  animation: pulse 2s 4 linear alternate;
+}
+
+.pulse-vslow-ln-alt-6 {
+  animation: pulse 2s 6 linear alternate;
+}
+
+.pulse-vslow-ln-alt-8 {
+  animation: pulse 2s 8 linear alternate;
+}
+
+.pulse-vslow-ln-alt-10 {
+  animation: pulse 2s 10 linear alternate;
+}
+
+.pulse-vslow-ln-alt-rev-infinite {
+  animation: pulse 2s infinite linear alternate-reverse;
+}
+
+.pulse-vslow-ln-alt-rev-2 {
+  animation: pulse 2s 2 linear alternate-reverse;
+}
+
+.pulse-vslow-ln-alt-rev-4 {
+  animation: pulse 2s 4 linear alternate-reverse;
+}
+
+.pulse-vslow-ln-alt-rev-6 {
+  animation: pulse 2s 6 linear alternate-reverse;
+}
+
+.pulse-vslow-ln-alt-rev-8 {
+  animation: pulse 2s 8 linear alternate-reverse;
+}
+
+.pulse-vslow-ln-alt-rev-10 {
+  animation: pulse 2s 10 linear alternate-reverse;
+}
+
+.pulse-vslow-es-nm-infinite {
+  animation: pulse 2s infinite ease normal;
+}
+
+.pulse-vslow-es-nm-2 {
+  animation: pulse 2s 2 ease normal;
+}
+
+.pulse-vslow-es-nm-4 {
+  animation: pulse 2s 4 ease normal;
+}
+
+.pulse-vslow-es-nm-6 {
+  animation: pulse 2s 6 ease normal;
+}
+
+.pulse-vslow-es-nm-8 {
+  animation: pulse 2s 8 ease normal;
+}
+
+.pulse-vslow-es-nm-10 {
+  animation: pulse 2s 10 ease normal;
+}
+
+.pulse-vslow-es-rev-infinite {
+  animation: pulse 2s infinite ease reverse;
+}
+
+.pulse-vslow-es-rev-2 {
+  animation: pulse 2s 2 ease reverse;
+}
+
+.pulse-vslow-es-rev-4 {
+  animation: pulse 2s 4 ease reverse;
+}
+
+.pulse-vslow-es-rev-6 {
+  animation: pulse 2s 6 ease reverse;
+}
+
+.pulse-vslow-es-rev-8 {
+  animation: pulse 2s 8 ease reverse;
+}
+
+.pulse-vslow-es-rev-10 {
+  animation: pulse 2s 10 ease reverse;
+}
+
+.pulse-vslow-es-alt-infinite {
+  animation: pulse 2s infinite ease alternate;
+}
+
+.pulse-vslow-es-alt-2 {
+  animation: pulse 2s 2 ease alternate;
+}
+
+.pulse-vslow-es-alt-4 {
+  animation: pulse 2s 4 ease alternate;
+}
+
+.pulse-vslow-es-alt-6 {
+  animation: pulse 2s 6 ease alternate;
+}
+
+.pulse-vslow-es-alt-8 {
+  animation: pulse 2s 8 ease alternate;
+}
+
+.pulse-vslow-es-alt-10 {
+  animation: pulse 2s 10 ease alternate;
+}
+
+.pulse-vslow-es-alt-rev-infinite {
+  animation: pulse 2s infinite ease alternate-reverse;
+}
+
+.pulse-vslow-es-alt-rev-2 {
+  animation: pulse 2s 2 ease alternate-reverse;
+}
+
+.pulse-vslow-es-alt-rev-4 {
+  animation: pulse 2s 4 ease alternate-reverse;
+}
+
+.pulse-vslow-es-alt-rev-6 {
+  animation: pulse 2s 6 ease alternate-reverse;
+}
+
+.pulse-vslow-es-alt-rev-8 {
+  animation: pulse 2s 8 ease alternate-reverse;
+}
+
+.pulse-vslow-es-alt-rev-10 {
+  animation: pulse 2s 10 ease alternate-reverse;
+}
+
+.pulse-vslow-es-in-nm-infinite {
+  animation: pulse 2s infinite ease-in normal;
+}
+
+.pulse-vslow-es-in-nm-2 {
+  animation: pulse 2s 2 ease-in normal;
+}
+
+.pulse-vslow-es-in-nm-4 {
+  animation: pulse 2s 4 ease-in normal;
+}
+
+.pulse-vslow-es-in-nm-6 {
+  animation: pulse 2s 6 ease-in normal;
+}
+
+.pulse-vslow-es-in-nm-8 {
+  animation: pulse 2s 8 ease-in normal;
+}
+
+.pulse-vslow-es-in-nm-10 {
+  animation: pulse 2s 10 ease-in normal;
+}
+
+.pulse-vslow-es-in-rev-infinite {
+  animation: pulse 2s infinite ease-in reverse;
+}
+
+.pulse-vslow-es-in-rev-2 {
+  animation: pulse 2s 2 ease-in reverse;
+}
+
+.pulse-vslow-es-in-rev-4 {
+  animation: pulse 2s 4 ease-in reverse;
+}
+
+.pulse-vslow-es-in-rev-6 {
+  animation: pulse 2s 6 ease-in reverse;
+}
+
+.pulse-vslow-es-in-rev-8 {
+  animation: pulse 2s 8 ease-in reverse;
+}
+
+.pulse-vslow-es-in-rev-10 {
+  animation: pulse 2s 10 ease-in reverse;
+}
+
+.pulse-vslow-es-in-alt-infinite {
+  animation: pulse 2s infinite ease-in alternate;
+}
+
+.pulse-vslow-es-in-alt-2 {
+  animation: pulse 2s 2 ease-in alternate;
+}
+
+.pulse-vslow-es-in-alt-4 {
+  animation: pulse 2s 4 ease-in alternate;
+}
+
+.pulse-vslow-es-in-alt-6 {
+  animation: pulse 2s 6 ease-in alternate;
+}
+
+.pulse-vslow-es-in-alt-8 {
+  animation: pulse 2s 8 ease-in alternate;
+}
+
+.pulse-vslow-es-in-alt-10 {
+  animation: pulse 2s 10 ease-in alternate;
+}
+
+.pulse-vslow-es-in-alt-rev-infinite {
+  animation: pulse 2s infinite ease-in alternate-reverse;
+}
+
+.pulse-vslow-es-in-alt-rev-2 {
+  animation: pulse 2s 2 ease-in alternate-reverse;
+}
+
+.pulse-vslow-es-in-alt-rev-4 {
+  animation: pulse 2s 4 ease-in alternate-reverse;
+}
+
+.pulse-vslow-es-in-alt-rev-6 {
+  animation: pulse 2s 6 ease-in alternate-reverse;
+}
+
+.pulse-vslow-es-in-alt-rev-8 {
+  animation: pulse 2s 8 ease-in alternate-reverse;
+}
+
+.pulse-vslow-es-in-alt-rev-10 {
+  animation: pulse 2s 10 ease-in alternate-reverse;
+}
+
+.pulse-vslow-es-out-nm-infinite {
+  animation: pulse 2s infinite ease-out normal;
+}
+
+.pulse-vslow-es-out-nm-2 {
+  animation: pulse 2s 2 ease-out normal;
+}
+
+.pulse-vslow-es-out-nm-4 {
+  animation: pulse 2s 4 ease-out normal;
+}
+
+.pulse-vslow-es-out-nm-6 {
+  animation: pulse 2s 6 ease-out normal;
+}
+
+.pulse-vslow-es-out-nm-8 {
+  animation: pulse 2s 8 ease-out normal;
+}
+
+.pulse-vslow-es-out-nm-10 {
+  animation: pulse 2s 10 ease-out normal;
+}
+
+.pulse-vslow-es-out-rev-infinite {
+  animation: pulse 2s infinite ease-out reverse;
+}
+
+.pulse-vslow-es-out-rev-2 {
+  animation: pulse 2s 2 ease-out reverse;
+}
+
+.pulse-vslow-es-out-rev-4 {
+  animation: pulse 2s 4 ease-out reverse;
+}
+
+.pulse-vslow-es-out-rev-6 {
+  animation: pulse 2s 6 ease-out reverse;
+}
+
+.pulse-vslow-es-out-rev-8 {
+  animation: pulse 2s 8 ease-out reverse;
+}
+
+.pulse-vslow-es-out-rev-10 {
+  animation: pulse 2s 10 ease-out reverse;
+}
+
+.pulse-vslow-es-out-alt-infinite {
+  animation: pulse 2s infinite ease-out alternate;
+}
+
+.pulse-vslow-es-out-alt-2 {
+  animation: pulse 2s 2 ease-out alternate;
+}
+
+.pulse-vslow-es-out-alt-4 {
+  animation: pulse 2s 4 ease-out alternate;
+}
+
+.pulse-vslow-es-out-alt-6 {
+  animation: pulse 2s 6 ease-out alternate;
+}
+
+.pulse-vslow-es-out-alt-8 {
+  animation: pulse 2s 8 ease-out alternate;
+}
+
+.pulse-vslow-es-out-alt-10 {
+  animation: pulse 2s 10 ease-out alternate;
+}
+
+.pulse-vslow-es-out-alt-rev-infinite {
+  animation: pulse 2s infinite ease-out alternate-reverse;
+}
+
+.pulse-vslow-es-out-alt-rev-2 {
+  animation: pulse 2s 2 ease-out alternate-reverse;
+}
+
+.pulse-vslow-es-out-alt-rev-4 {
+  animation: pulse 2s 4 ease-out alternate-reverse;
+}
+
+.pulse-vslow-es-out-alt-rev-6 {
+  animation: pulse 2s 6 ease-out alternate-reverse;
+}
+
+.pulse-vslow-es-out-alt-rev-8 {
+  animation: pulse 2s 8 ease-out alternate-reverse;
+}
+
+.pulse-vslow-es-out-alt-rev-10 {
+  animation: pulse 2s 10 ease-out alternate-reverse;
+}
+
+.pulse-vslow-es-in-out-nm-infinite {
+  animation: pulse 2s infinite ease-in-out normal;
+}
+
+.pulse-vslow-es-in-out-nm-2 {
+  animation: pulse 2s 2 ease-in-out normal;
+}
+
+.pulse-vslow-es-in-out-nm-4 {
+  animation: pulse 2s 4 ease-in-out normal;
+}
+
+.pulse-vslow-es-in-out-nm-6 {
+  animation: pulse 2s 6 ease-in-out normal;
+}
+
+.pulse-vslow-es-in-out-nm-8 {
+  animation: pulse 2s 8 ease-in-out normal;
+}
+
+.pulse-vslow-es-in-out-nm-10 {
+  animation: pulse 2s 10 ease-in-out normal;
+}
+
+.pulse-vslow-es-in-out-rev-infinite {
+  animation: pulse 2s infinite ease-in-out reverse;
+}
+
+.pulse-vslow-es-in-out-rev-2 {
+  animation: pulse 2s 2 ease-in-out reverse;
+}
+
+.pulse-vslow-es-in-out-rev-4 {
+  animation: pulse 2s 4 ease-in-out reverse;
+}
+
+.pulse-vslow-es-in-out-rev-6 {
+  animation: pulse 2s 6 ease-in-out reverse;
+}
+
+.pulse-vslow-es-in-out-rev-8 {
+  animation: pulse 2s 8 ease-in-out reverse;
+}
+
+.pulse-vslow-es-in-out-rev-10 {
+  animation: pulse 2s 10 ease-in-out reverse;
+}
+
+.pulse-vslow-es-in-out-alt-infinite {
+  animation: pulse 2s infinite ease-in-out alternate;
+}
+
+.pulse-vslow-es-in-out-alt-2 {
+  animation: pulse 2s 2 ease-in-out alternate;
+}
+
+.pulse-vslow-es-in-out-alt-4 {
+  animation: pulse 2s 4 ease-in-out alternate;
+}
+
+.pulse-vslow-es-in-out-alt-6 {
+  animation: pulse 2s 6 ease-in-out alternate;
+}
+
+.pulse-vslow-es-in-out-alt-8 {
+  animation: pulse 2s 8 ease-in-out alternate;
+}
+
+.pulse-vslow-es-in-out-alt-10 {
+  animation: pulse 2s 10 ease-in-out alternate;
+}
+
+.pulse-vslow-es-in-out-alt-rev-infinite {
+  animation: pulse 2s infinite ease-in-out alternate-reverse;
+}
+
+.pulse-vslow-es-in-out-alt-rev-2 {
+  animation: pulse 2s 2 ease-in-out alternate-reverse;
+}
+
+.pulse-vslow-es-in-out-alt-rev-4 {
+  animation: pulse 2s 4 ease-in-out alternate-reverse;
+}
+
+.pulse-vslow-es-in-out-alt-rev-6 {
+  animation: pulse 2s 6 ease-in-out alternate-reverse;
+}
+
+.pulse-vslow-es-in-out-alt-rev-8 {
+  animation: pulse 2s 8 ease-in-out alternate-reverse;
+}
+
+.pulse-vslow-es-in-out-alt-rev-10 {
+  animation: pulse 2s 10 ease-in-out alternate-reverse;
+}
+
+.hov-pulse-vfast-ln-nm:hover {
+  animation: pulse 100ms infinite linear normal;
+}
+
+.hov-pulse-vfast-ln-rev:hover {
+  animation: pulse 100ms infinite linear reverse;
+}
+
+.hov-pulse-vfast-ln-alt:hover {
+  animation: pulse 100ms infinite linear alternate;
+}
+
+.hov-pulse-vfast-ln-alt-rev:hover {
+  animation: pulse 100ms infinite linear alternate-reverse;
+}
+
+.hov-pulse-vfast-es-nm:hover {
+  animation: pulse 100ms infinite ease normal;
+}
+
+.hov-pulse-vfast-es-rev:hover {
+  animation: pulse 100ms infinite ease reverse;
+}
+
+.hov-pulse-vfast-es-alt:hover {
+  animation: pulse 100ms infinite ease alternate;
+}
+
+.hov-pulse-vfast-es-alt-rev:hover {
+  animation: pulse 100ms infinite ease alternate-reverse;
+}
+
+.hov-pulse-vfast-es-in-nm:hover {
+  animation: pulse 100ms infinite ease-in normal;
+}
+
+.hov-pulse-vfast-es-in-rev:hover {
+  animation: pulse 100ms infinite ease-in reverse;
+}
+
+.hov-pulse-vfast-es-in-alt:hover {
+  animation: pulse 100ms infinite ease-in alternate;
+}
+
+.hov-pulse-vfast-es-in-alt-rev:hover {
+  animation: pulse 100ms infinite ease-in alternate-reverse;
+}
+
+.hov-pulse-vfast-es-out-nm:hover {
+  animation: pulse 100ms infinite ease-out normal;
+}
+
+.hov-pulse-vfast-es-out-rev:hover {
+  animation: pulse 100ms infinite ease-out reverse;
+}
+
+.hov-pulse-vfast-es-out-alt:hover {
+  animation: pulse 100ms infinite ease-out alternate;
+}
+
+.hov-pulse-vfast-es-out-alt-rev:hover {
+  animation: pulse 100ms infinite ease-out alternate-reverse;
+}
+
+.hov-pulse-vfast-es-in-out-nm:hover {
+  animation: pulse 100ms infinite ease-in-out normal;
+}
+
+.hov-pulse-vfast-es-in-out-rev:hover {
+  animation: pulse 100ms infinite ease-in-out reverse;
+}
+
+.hov-pulse-vfast-es-in-out-alt:hover {
+  animation: pulse 100ms infinite ease-in-out alternate;
+}
+
+.hov-pulse-vfast-es-in-out-alt-rev:hover {
+  animation: pulse 100ms infinite ease-in-out alternate-reverse;
+}
+
+.hov-pulse-fast-ln-nm:hover {
+  animation: pulse 200ms infinite linear normal;
+}
+
+.hov-pulse-fast-ln-rev:hover {
+  animation: pulse 200ms infinite linear reverse;
+}
+
+.hov-pulse-fast-ln-alt:hover {
+  animation: pulse 200ms infinite linear alternate;
+}
+
+.hov-pulse-fast-ln-alt-rev:hover {
+  animation: pulse 200ms infinite linear alternate-reverse;
+}
+
+.hov-pulse-fast-es-nm:hover {
+  animation: pulse 200ms infinite ease normal;
+}
+
+.hov-pulse-fast-es-rev:hover {
+  animation: pulse 200ms infinite ease reverse;
+}
+
+.hov-pulse-fast-es-alt:hover {
+  animation: pulse 200ms infinite ease alternate;
+}
+
+.hov-pulse-fast-es-alt-rev:hover {
+  animation: pulse 200ms infinite ease alternate-reverse;
+}
+
+.hov-pulse-fast-es-in-nm:hover {
+  animation: pulse 200ms infinite ease-in normal;
+}
+
+.hov-pulse-fast-es-in-rev:hover {
+  animation: pulse 200ms infinite ease-in reverse;
+}
+
+.hov-pulse-fast-es-in-alt:hover {
+  animation: pulse 200ms infinite ease-in alternate;
+}
+
+.hov-pulse-fast-es-in-alt-rev:hover {
+  animation: pulse 200ms infinite ease-in alternate-reverse;
+}
+
+.hov-pulse-fast-es-out-nm:hover {
+  animation: pulse 200ms infinite ease-out normal;
+}
+
+.hov-pulse-fast-es-out-rev:hover {
+  animation: pulse 200ms infinite ease-out reverse;
+}
+
+.hov-pulse-fast-es-out-alt:hover {
+  animation: pulse 200ms infinite ease-out alternate;
+}
+
+.hov-pulse-fast-es-out-alt-rev:hover {
+  animation: pulse 200ms infinite ease-out alternate-reverse;
+}
+
+.hov-pulse-fast-es-in-out-nm:hover {
+  animation: pulse 200ms infinite ease-in-out normal;
+}
+
+.hov-pulse-fast-es-in-out-rev:hover {
+  animation: pulse 200ms infinite ease-in-out reverse;
+}
+
+.hov-pulse-fast-es-in-out-alt:hover {
+  animation: pulse 200ms infinite ease-in-out alternate;
+}
+
+.hov-pulse-fast-es-in-out-alt-rev:hover {
+  animation: pulse 200ms infinite ease-in-out alternate-reverse;
+}
+
+.hov-pulse-normal-ln-nm:hover {
+  animation: pulse 500ms infinite linear normal;
+}
+
+.hov-pulse-normal-ln-rev:hover {
+  animation: pulse 500ms infinite linear reverse;
+}
+
+.hov-pulse-normal-ln-alt:hover {
+  animation: pulse 500ms infinite linear alternate;
+}
+
+.hov-pulse-normal-ln-alt-rev:hover {
+  animation: pulse 500ms infinite linear alternate-reverse;
+}
+
+.hov-pulse-normal-es-nm:hover {
+  animation: pulse 500ms infinite ease normal;
+}
+
+.hov-pulse-normal-es-rev:hover {
+  animation: pulse 500ms infinite ease reverse;
+}
+
+.hov-pulse-normal-es-alt:hover {
+  animation: pulse 500ms infinite ease alternate;
+}
+
+.hov-pulse-normal-es-alt-rev:hover {
+  animation: pulse 500ms infinite ease alternate-reverse;
+}
+
+.hov-pulse-normal-es-in-nm:hover {
+  animation: pulse 500ms infinite ease-in normal;
+}
+
+.hov-pulse-normal-es-in-rev:hover {
+  animation: pulse 500ms infinite ease-in reverse;
+}
+
+.hov-pulse-normal-es-in-alt:hover {
+  animation: pulse 500ms infinite ease-in alternate;
+}
+
+.hov-pulse-normal-es-in-alt-rev:hover {
+  animation: pulse 500ms infinite ease-in alternate-reverse;
+}
+
+.hov-pulse-normal-es-out-nm:hover {
+  animation: pulse 500ms infinite ease-out normal;
+}
+
+.hov-pulse-normal-es-out-rev:hover {
+  animation: pulse 500ms infinite ease-out reverse;
+}
+
+.hov-pulse-normal-es-out-alt:hover {
+  animation: pulse 500ms infinite ease-out alternate;
+}
+
+.hov-pulse-normal-es-out-alt-rev:hover {
+  animation: pulse 500ms infinite ease-out alternate-reverse;
+}
+
+.hov-pulse-normal-es-in-out-nm:hover {
+  animation: pulse 500ms infinite ease-in-out normal;
+}
+
+.hov-pulse-normal-es-in-out-rev:hover {
+  animation: pulse 500ms infinite ease-in-out reverse;
+}
+
+.hov-pulse-normal-es-in-out-alt:hover {
+  animation: pulse 500ms infinite ease-in-out alternate;
+}
+
+.hov-pulse-normal-es-in-out-alt-rev:hover {
+  animation: pulse 500ms infinite ease-in-out alternate-reverse;
+}
+
+.hov-pulse-slow-ln-nm:hover {
+  animation: pulse 1s infinite linear normal;
+}
+
+.hov-pulse-slow-ln-rev:hover {
+  animation: pulse 1s infinite linear reverse;
+}
+
+.hov-pulse-slow-ln-alt:hover {
+  animation: pulse 1s infinite linear alternate;
+}
+
+.hov-pulse-slow-ln-alt-rev:hover {
+  animation: pulse 1s infinite linear alternate-reverse;
+}
+
+.hov-pulse-slow-es-nm:hover {
+  animation: pulse 1s infinite ease normal;
+}
+
+.hov-pulse-slow-es-rev:hover {
+  animation: pulse 1s infinite ease reverse;
+}
+
+.hov-pulse-slow-es-alt:hover {
+  animation: pulse 1s infinite ease alternate;
+}
+
+.hov-pulse-slow-es-alt-rev:hover {
+  animation: pulse 1s infinite ease alternate-reverse;
+}
+
+.hov-pulse-slow-es-in-nm:hover {
+  animation: pulse 1s infinite ease-in normal;
+}
+
+.hov-pulse-slow-es-in-rev:hover {
+  animation: pulse 1s infinite ease-in reverse;
+}
+
+.hov-pulse-slow-es-in-alt:hover {
+  animation: pulse 1s infinite ease-in alternate;
+}
+
+.hov-pulse-slow-es-in-alt-rev:hover {
+  animation: pulse 1s infinite ease-in alternate-reverse;
+}
+
+.hov-pulse-slow-es-out-nm:hover {
+  animation: pulse 1s infinite ease-out normal;
+}
+
+.hov-pulse-slow-es-out-rev:hover {
+  animation: pulse 1s infinite ease-out reverse;
+}
+
+.hov-pulse-slow-es-out-alt:hover {
+  animation: pulse 1s infinite ease-out alternate;
+}
+
+.hov-pulse-slow-es-out-alt-rev:hover {
+  animation: pulse 1s infinite ease-out alternate-reverse;
+}
+
+.hov-pulse-slow-es-in-out-nm:hover {
+  animation: pulse 1s infinite ease-in-out normal;
+}
+
+.hov-pulse-slow-es-in-out-rev:hover {
+  animation: pulse 1s infinite ease-in-out reverse;
+}
+
+.hov-pulse-slow-es-in-out-alt:hover {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+
+.hov-pulse-slow-es-in-out-alt-rev:hover {
+  animation: pulse 1s infinite ease-in-out alternate-reverse;
+}
+
+.hov-pulse-vslow-ln-nm:hover {
+  animation: pulse 2s infinite linear normal;
+}
+
+.hov-pulse-vslow-ln-rev:hover {
+  animation: pulse 2s infinite linear reverse;
+}
+
+.hov-pulse-vslow-ln-alt:hover {
+  animation: pulse 2s infinite linear alternate;
+}
+
+.hov-pulse-vslow-ln-alt-rev:hover {
+  animation: pulse 2s infinite linear alternate-reverse;
+}
+
+.hov-pulse-vslow-es-nm:hover {
+  animation: pulse 2s infinite ease normal;
+}
+
+.hov-pulse-vslow-es-rev:hover {
+  animation: pulse 2s infinite ease reverse;
+}
+
+.hov-pulse-vslow-es-alt:hover {
+  animation: pulse 2s infinite ease alternate;
+}
+
+.hov-pulse-vslow-es-alt-rev:hover {
+  animation: pulse 2s infinite ease alternate-reverse;
+}
+
+.hov-pulse-vslow-es-in-nm:hover {
+  animation: pulse 2s infinite ease-in normal;
+}
+
+.hov-pulse-vslow-es-in-rev:hover {
+  animation: pulse 2s infinite ease-in reverse;
+}
+
+.hov-pulse-vslow-es-in-alt:hover {
+  animation: pulse 2s infinite ease-in alternate;
+}
+
+.hov-pulse-vslow-es-in-alt-rev:hover {
+  animation: pulse 2s infinite ease-in alternate-reverse;
+}
+
+.hov-pulse-vslow-es-out-nm:hover {
+  animation: pulse 2s infinite ease-out normal;
+}
+
+.hov-pulse-vslow-es-out-rev:hover {
+  animation: pulse 2s infinite ease-out reverse;
+}
+
+.hov-pulse-vslow-es-out-alt:hover {
+  animation: pulse 2s infinite ease-out alternate;
+}
+
+.hov-pulse-vslow-es-out-alt-rev:hover {
+  animation: pulse 2s infinite ease-out alternate-reverse;
+}
+
+.hov-pulse-vslow-es-in-out-nm:hover {
+  animation: pulse 2s infinite ease-in-out normal;
+}
+
+.hov-pulse-vslow-es-in-out-rev:hover {
+  animation: pulse 2s infinite ease-in-out reverse;
+}
+
+.hov-pulse-vslow-es-in-out-alt:hover {
+  animation: pulse 2s infinite ease-in-out alternate;
+}
+
+.hov-pulse-vslow-es-in-out-alt-rev:hover {
+  animation: pulse 2s infinite ease-in-out alternate-reverse;
+}
+
+.move-up {
+  position: relative;
+  animation: move-up 1s normal ease-out 3;
+}
+
+@keyframes move-up {
+  0% {
+    bottom: 0px;
+  }
+  100% {
+    bottom: 50px;
+  }
+}
+.move-up-vfast-nm-infinite {
+  animation: move-up 1s normal infinite;
+}
+
+.move-up-vfast-nm-2 {
+  animation: move-up 1s normal 2;
+}
+
+.move-up-vfast-nm-4 {
+  animation: move-up 1s normal 4;
+}
+
+.move-up-vfast-nm-6 {
+  animation: move-up 1s normal 6;
+}
+
+.move-up-vfast-nm-8 {
+  animation: move-up 1s normal 8;
+}
+
+.move-up-vfast-nm-10 {
+  animation: move-up 1s normal 10;
+}
+
+.move-up-vfast-rev-infinite {
+  animation: move-up 1s reverse infinite;
+}
+
+.move-up-vfast-rev-2 {
+  animation: move-up 1s reverse 2;
+}
+
+.move-up-vfast-rev-4 {
+  animation: move-up 1s reverse 4;
+}
+
+.move-up-vfast-rev-6 {
+  animation: move-up 1s reverse 6;
+}
+
+.move-up-vfast-rev-8 {
+  animation: move-up 1s reverse 8;
+}
+
+.move-up-vfast-rev-10 {
+  animation: move-up 1s reverse 10;
+}
+
+.move-up-vfast-alt-infinite {
+  animation: move-up 1s alternate infinite;
+}
+
+.move-up-vfast-alt-2 {
+  animation: move-up 1s alternate 2;
+}
+
+.move-up-vfast-alt-4 {
+  animation: move-up 1s alternate 4;
+}
+
+.move-up-vfast-alt-6 {
+  animation: move-up 1s alternate 6;
+}
+
+.move-up-vfast-alt-8 {
+  animation: move-up 1s alternate 8;
+}
+
+.move-up-vfast-alt-10 {
+  animation: move-up 1s alternate 10;
+}
+
+.move-up-vfast-alt-rev-infinite {
+  animation: move-up 1s alternate-reverse infinite;
+}
+
+.move-up-vfast-alt-rev-2 {
+  animation: move-up 1s alternate-reverse 2;
+}
+
+.move-up-vfast-alt-rev-4 {
+  animation: move-up 1s alternate-reverse 4;
+}
+
+.move-up-vfast-alt-rev-6 {
+  animation: move-up 1s alternate-reverse 6;
+}
+
+.move-up-vfast-alt-rev-8 {
+  animation: move-up 1s alternate-reverse 8;
+}
+
+.move-up-vfast-alt-rev-10 {
+  animation: move-up 1s alternate-reverse 10;
+}
+
+.move-up-fast-nm-infinite {
+  animation: move-up 1.5s normal infinite;
+}
+
+.move-up-fast-nm-2 {
+  animation: move-up 1.5s normal 2;
+}
+
+.move-up-fast-nm-4 {
+  animation: move-up 1.5s normal 4;
+}
+
+.move-up-fast-nm-6 {
+  animation: move-up 1.5s normal 6;
+}
+
+.move-up-fast-nm-8 {
+  animation: move-up 1.5s normal 8;
+}
+
+.move-up-fast-nm-10 {
+  animation: move-up 1.5s normal 10;
+}
+
+.move-up-fast-rev-infinite {
+  animation: move-up 1.5s reverse infinite;
+}
+
+.move-up-fast-rev-2 {
+  animation: move-up 1.5s reverse 2;
+}
+
+.move-up-fast-rev-4 {
+  animation: move-up 1.5s reverse 4;
+}
+
+.move-up-fast-rev-6 {
+  animation: move-up 1.5s reverse 6;
+}
+
+.move-up-fast-rev-8 {
+  animation: move-up 1.5s reverse 8;
+}
+
+.move-up-fast-rev-10 {
+  animation: move-up 1.5s reverse 10;
+}
+
+.move-up-fast-alt-infinite {
+  animation: move-up 1.5s alternate infinite;
+}
+
+.move-up-fast-alt-2 {
+  animation: move-up 1.5s alternate 2;
+}
+
+.move-up-fast-alt-4 {
+  animation: move-up 1.5s alternate 4;
+}
+
+.move-up-fast-alt-6 {
+  animation: move-up 1.5s alternate 6;
+}
+
+.move-up-fast-alt-8 {
+  animation: move-up 1.5s alternate 8;
+}
+
+.move-up-fast-alt-10 {
+  animation: move-up 1.5s alternate 10;
+}
+
+.move-up-fast-alt-rev-infinite {
+  animation: move-up 1.5s alternate-reverse infinite;
+}
+
+.move-up-fast-alt-rev-2 {
+  animation: move-up 1.5s alternate-reverse 2;
+}
+
+.move-up-fast-alt-rev-4 {
+  animation: move-up 1.5s alternate-reverse 4;
+}
+
+.move-up-fast-alt-rev-6 {
+  animation: move-up 1.5s alternate-reverse 6;
+}
+
+.move-up-fast-alt-rev-8 {
+  animation: move-up 1.5s alternate-reverse 8;
+}
+
+.move-up-fast-alt-rev-10 {
+  animation: move-up 1.5s alternate-reverse 10;
+}
+
+.move-up-normal-nm-infinite {
+  animation: move-up 2s normal infinite;
+}
+
+.move-up-normal-nm-2 {
+  animation: move-up 2s normal 2;
+}
+
+.move-up-normal-nm-4 {
+  animation: move-up 2s normal 4;
+}
+
+.move-up-normal-nm-6 {
+  animation: move-up 2s normal 6;
+}
+
+.move-up-normal-nm-8 {
+  animation: move-up 2s normal 8;
+}
+
+.move-up-normal-nm-10 {
+  animation: move-up 2s normal 10;
+}
+
+.move-up-normal-rev-infinite {
+  animation: move-up 2s reverse infinite;
+}
+
+.move-up-normal-rev-2 {
+  animation: move-up 2s reverse 2;
+}
+
+.move-up-normal-rev-4 {
+  animation: move-up 2s reverse 4;
+}
+
+.move-up-normal-rev-6 {
+  animation: move-up 2s reverse 6;
+}
+
+.move-up-normal-rev-8 {
+  animation: move-up 2s reverse 8;
+}
+
+.move-up-normal-rev-10 {
+  animation: move-up 2s reverse 10;
+}
+
+.move-up-normal-alt-infinite {
+  animation: move-up 2s alternate infinite;
+}
+
+.move-up-normal-alt-2 {
+  animation: move-up 2s alternate 2;
+}
+
+.move-up-normal-alt-4 {
+  animation: move-up 2s alternate 4;
+}
+
+.move-up-normal-alt-6 {
+  animation: move-up 2s alternate 6;
+}
+
+.move-up-normal-alt-8 {
+  animation: move-up 2s alternate 8;
+}
+
+.move-up-normal-alt-10 {
+  animation: move-up 2s alternate 10;
+}
+
+.move-up-normal-alt-rev-infinite {
+  animation: move-up 2s alternate-reverse infinite;
+}
+
+.move-up-normal-alt-rev-2 {
+  animation: move-up 2s alternate-reverse 2;
+}
+
+.move-up-normal-alt-rev-4 {
+  animation: move-up 2s alternate-reverse 4;
+}
+
+.move-up-normal-alt-rev-6 {
+  animation: move-up 2s alternate-reverse 6;
+}
+
+.move-up-normal-alt-rev-8 {
+  animation: move-up 2s alternate-reverse 8;
+}
+
+.move-up-normal-alt-rev-10 {
+  animation: move-up 2s alternate-reverse 10;
+}
+
+.move-up-slow-nm-infinite {
+  animation: move-up 2.5s normal infinite;
+}
+
+.move-up-slow-nm-2 {
+  animation: move-up 2.5s normal 2;
+}
+
+.move-up-slow-nm-4 {
+  animation: move-up 2.5s normal 4;
+}
+
+.move-up-slow-nm-6 {
+  animation: move-up 2.5s normal 6;
+}
+
+.move-up-slow-nm-8 {
+  animation: move-up 2.5s normal 8;
+}
+
+.move-up-slow-nm-10 {
+  animation: move-up 2.5s normal 10;
+}
+
+.move-up-slow-rev-infinite {
+  animation: move-up 2.5s reverse infinite;
+}
+
+.move-up-slow-rev-2 {
+  animation: move-up 2.5s reverse 2;
+}
+
+.move-up-slow-rev-4 {
+  animation: move-up 2.5s reverse 4;
+}
+
+.move-up-slow-rev-6 {
+  animation: move-up 2.5s reverse 6;
+}
+
+.move-up-slow-rev-8 {
+  animation: move-up 2.5s reverse 8;
+}
+
+.move-up-slow-rev-10 {
+  animation: move-up 2.5s reverse 10;
+}
+
+.move-up-slow-alt-infinite {
+  animation: move-up 2.5s alternate infinite;
+}
+
+.move-up-slow-alt-2 {
+  animation: move-up 2.5s alternate 2;
+}
+
+.move-up-slow-alt-4 {
+  animation: move-up 2.5s alternate 4;
+}
+
+.move-up-slow-alt-6 {
+  animation: move-up 2.5s alternate 6;
+}
+
+.move-up-slow-alt-8 {
+  animation: move-up 2.5s alternate 8;
+}
+
+.move-up-slow-alt-10 {
+  animation: move-up 2.5s alternate 10;
+}
+
+.move-up-slow-alt-rev-infinite {
+  animation: move-up 2.5s alternate-reverse infinite;
+}
+
+.move-up-slow-alt-rev-2 {
+  animation: move-up 2.5s alternate-reverse 2;
+}
+
+.move-up-slow-alt-rev-4 {
+  animation: move-up 2.5s alternate-reverse 4;
+}
+
+.move-up-slow-alt-rev-6 {
+  animation: move-up 2.5s alternate-reverse 6;
+}
+
+.move-up-slow-alt-rev-8 {
+  animation: move-up 2.5s alternate-reverse 8;
+}
+
+.move-up-slow-alt-rev-10 {
+  animation: move-up 2.5s alternate-reverse 10;
+}
+
+.move-up-vslow-nm-infinite {
+  animation: move-up 3s normal infinite;
+}
+
+.move-up-vslow-nm-2 {
+  animation: move-up 3s normal 2;
+}
+
+.move-up-vslow-nm-4 {
+  animation: move-up 3s normal 4;
+}
+
+.move-up-vslow-nm-6 {
+  animation: move-up 3s normal 6;
+}
+
+.move-up-vslow-nm-8 {
+  animation: move-up 3s normal 8;
+}
+
+.move-up-vslow-nm-10 {
+  animation: move-up 3s normal 10;
+}
+
+.move-up-vslow-rev-infinite {
+  animation: move-up 3s reverse infinite;
+}
+
+.move-up-vslow-rev-2 {
+  animation: move-up 3s reverse 2;
+}
+
+.move-up-vslow-rev-4 {
+  animation: move-up 3s reverse 4;
+}
+
+.move-up-vslow-rev-6 {
+  animation: move-up 3s reverse 6;
+}
+
+.move-up-vslow-rev-8 {
+  animation: move-up 3s reverse 8;
+}
+
+.move-up-vslow-rev-10 {
+  animation: move-up 3s reverse 10;
+}
+
+.move-up-vslow-alt-infinite {
+  animation: move-up 3s alternate infinite;
+}
+
+.move-up-vslow-alt-2 {
+  animation: move-up 3s alternate 2;
+}
+
+.move-up-vslow-alt-4 {
+  animation: move-up 3s alternate 4;
+}
+
+.move-up-vslow-alt-6 {
+  animation: move-up 3s alternate 6;
+}
+
+.move-up-vslow-alt-8 {
+  animation: move-up 3s alternate 8;
+}
+
+.move-up-vslow-alt-10 {
+  animation: move-up 3s alternate 10;
+}
+
+.move-up-vslow-alt-rev-infinite {
+  animation: move-up 3s alternate-reverse infinite;
+}
+
+.move-up-vslow-alt-rev-2 {
+  animation: move-up 3s alternate-reverse 2;
+}
+
+.move-up-vslow-alt-rev-4 {
+  animation: move-up 3s alternate-reverse 4;
+}
+
+.move-up-vslow-alt-rev-6 {
+  animation: move-up 3s alternate-reverse 6;
+}
+
+.move-up-vslow-alt-rev-8 {
+  animation: move-up 3s alternate-reverse 8;
+}
+
+.move-up-vslow-alt-rev-10 {
+  animation: move-up 3s alternate-reverse 10;
+}
+
+.hov-move-up-vfast-nm:hover {
+  animation: move-up 1s normal infinite;
+}
+
+.hov-move-up-vfast-rev:hover {
+  animation: move-up 1s reverse infinite;
+}
+
+.hov-move-up-vfast-alt:hover {
+  animation: move-up 1s alternate infinite;
+}
+
+.hov-move-up-vfast-alt-rev:hover {
+  animation: move-up 1s alternate-reverse infinite;
+}
+
+.hov-move-up-fast-nm:hover {
+  animation: move-up 1.5s normal infinite;
+}
+
+.hov-move-up-fast-rev:hover {
+  animation: move-up 1.5s reverse infinite;
+}
+
+.hov-move-up-fast-alt:hover {
+  animation: move-up 1.5s alternate infinite;
+}
+
+.hov-move-up-fast-alt-rev:hover {
+  animation: move-up 1.5s alternate-reverse infinite;
+}
+
+.hov-move-up-normal-nm:hover {
+  animation: move-up 2s normal infinite;
+}
+
+.hov-move-up-normal-rev:hover {
+  animation: move-up 2s reverse infinite;
+}
+
+.hov-move-up-normal-alt:hover {
+  animation: move-up 2s alternate infinite;
+}
+
+.hov-move-up-normal-alt-rev:hover {
+  animation: move-up 2s alternate-reverse infinite;
+}
+
+.hov-move-up-slow-nm:hover {
+  animation: move-up 2.5s normal infinite;
+}
+
+.hov-move-up-slow-rev:hover {
+  animation: move-up 2.5s reverse infinite;
+}
+
+.hov-move-up-slow-alt:hover {
+  animation: move-up 2.5s alternate infinite;
+}
+
+.hov-move-up-slow-alt-rev:hover {
+  animation: move-up 2.5s alternate-reverse infinite;
+}
+
+.hov-move-up-vslow-nm:hover {
+  animation: move-up 3s normal infinite;
+}
+
+.hov-move-up-vslow-rev:hover {
+  animation: move-up 3s reverse infinite;
+}
+
+.hov-move-up-vslow-alt:hover {
+  animation: move-up 3s alternate infinite;
+}
+
+.hov-move-up-vslow-alt-rev:hover {
+  animation: move-up 3s alternate-reverse infinite;
+}
+
+.move-down {
+  position: relative;
+  animation: move-down 1s normal ease-out 3;
+}
+
+@keyframes move-down {
+  0% {
+    top: 0px;
+  }
+  100% {
+    top: 50px;
+  }
+}
+.move-down-vfast-nm-infinite {
+  animation: move-down 1s normal infinite;
+}
+
+.move-down-vfast-nm-2 {
+  animation: move-down 1s normal 2;
+}
+
+.move-down-vfast-nm-4 {
+  animation: move-down 1s normal 4;
+}
+
+.move-down-vfast-nm-6 {
+  animation: move-down 1s normal 6;
+}
+
+.move-down-vfast-nm-8 {
+  animation: move-down 1s normal 8;
+}
+
+.move-down-vfast-nm-10 {
+  animation: move-down 1s normal 10;
+}
+
+.move-down-vfast-rev-infinite {
+  animation: move-down 1s reverse infinite;
+}
+
+.move-down-vfast-rev-2 {
+  animation: move-down 1s reverse 2;
+}
+
+.move-down-vfast-rev-4 {
+  animation: move-down 1s reverse 4;
+}
+
+.move-down-vfast-rev-6 {
+  animation: move-down 1s reverse 6;
+}
+
+.move-down-vfast-rev-8 {
+  animation: move-down 1s reverse 8;
+}
+
+.move-down-vfast-rev-10 {
+  animation: move-down 1s reverse 10;
+}
+
+.move-down-vfast-alt-infinite {
+  animation: move-down 1s alternate infinite;
+}
+
+.move-down-vfast-alt-2 {
+  animation: move-down 1s alternate 2;
+}
+
+.move-down-vfast-alt-4 {
+  animation: move-down 1s alternate 4;
+}
+
+.move-down-vfast-alt-6 {
+  animation: move-down 1s alternate 6;
+}
+
+.move-down-vfast-alt-8 {
+  animation: move-down 1s alternate 8;
+}
+
+.move-down-vfast-alt-10 {
+  animation: move-down 1s alternate 10;
+}
+
+.move-down-vfast-alt-rev-infinite {
+  animation: move-down 1s alternate-reverse infinite;
+}
+
+.move-down-vfast-alt-rev-2 {
+  animation: move-down 1s alternate-reverse 2;
+}
+
+.move-down-vfast-alt-rev-4 {
+  animation: move-down 1s alternate-reverse 4;
+}
+
+.move-down-vfast-alt-rev-6 {
+  animation: move-down 1s alternate-reverse 6;
+}
+
+.move-down-vfast-alt-rev-8 {
+  animation: move-down 1s alternate-reverse 8;
+}
+
+.move-down-vfast-alt-rev-10 {
+  animation: move-down 1s alternate-reverse 10;
+}
+
+.move-down-fast-nm-infinite {
+  animation: move-down 1.5s normal infinite;
+}
+
+.move-down-fast-nm-2 {
+  animation: move-down 1.5s normal 2;
+}
+
+.move-down-fast-nm-4 {
+  animation: move-down 1.5s normal 4;
+}
+
+.move-down-fast-nm-6 {
+  animation: move-down 1.5s normal 6;
+}
+
+.move-down-fast-nm-8 {
+  animation: move-down 1.5s normal 8;
+}
+
+.move-down-fast-nm-10 {
+  animation: move-down 1.5s normal 10;
+}
+
+.move-down-fast-rev-infinite {
+  animation: move-down 1.5s reverse infinite;
+}
+
+.move-down-fast-rev-2 {
+  animation: move-down 1.5s reverse 2;
+}
+
+.move-down-fast-rev-4 {
+  animation: move-down 1.5s reverse 4;
+}
+
+.move-down-fast-rev-6 {
+  animation: move-down 1.5s reverse 6;
+}
+
+.move-down-fast-rev-8 {
+  animation: move-down 1.5s reverse 8;
+}
+
+.move-down-fast-rev-10 {
+  animation: move-down 1.5s reverse 10;
+}
+
+.move-down-fast-alt-infinite {
+  animation: move-down 1.5s alternate infinite;
+}
+
+.move-down-fast-alt-2 {
+  animation: move-down 1.5s alternate 2;
+}
+
+.move-down-fast-alt-4 {
+  animation: move-down 1.5s alternate 4;
+}
+
+.move-down-fast-alt-6 {
+  animation: move-down 1.5s alternate 6;
+}
+
+.move-down-fast-alt-8 {
+  animation: move-down 1.5s alternate 8;
+}
+
+.move-down-fast-alt-10 {
+  animation: move-down 1.5s alternate 10;
+}
+
+.move-down-fast-alt-rev-infinite {
+  animation: move-down 1.5s alternate-reverse infinite;
+}
+
+.move-down-fast-alt-rev-2 {
+  animation: move-down 1.5s alternate-reverse 2;
+}
+
+.move-down-fast-alt-rev-4 {
+  animation: move-down 1.5s alternate-reverse 4;
+}
+
+.move-down-fast-alt-rev-6 {
+  animation: move-down 1.5s alternate-reverse 6;
+}
+
+.move-down-fast-alt-rev-8 {
+  animation: move-down 1.5s alternate-reverse 8;
+}
+
+.move-down-fast-alt-rev-10 {
+  animation: move-down 1.5s alternate-reverse 10;
+}
+
+.move-down-normal-nm-infinite {
+  animation: move-down 2s normal infinite;
+}
+
+.move-down-normal-nm-2 {
+  animation: move-down 2s normal 2;
+}
+
+.move-down-normal-nm-4 {
+  animation: move-down 2s normal 4;
+}
+
+.move-down-normal-nm-6 {
+  animation: move-down 2s normal 6;
+}
+
+.move-down-normal-nm-8 {
+  animation: move-down 2s normal 8;
+}
+
+.move-down-normal-nm-10 {
+  animation: move-down 2s normal 10;
+}
+
+.move-down-normal-rev-infinite {
+  animation: move-down 2s reverse infinite;
+}
+
+.move-down-normal-rev-2 {
+  animation: move-down 2s reverse 2;
+}
+
+.move-down-normal-rev-4 {
+  animation: move-down 2s reverse 4;
+}
+
+.move-down-normal-rev-6 {
+  animation: move-down 2s reverse 6;
+}
+
+.move-down-normal-rev-8 {
+  animation: move-down 2s reverse 8;
+}
+
+.move-down-normal-rev-10 {
+  animation: move-down 2s reverse 10;
+}
+
+.move-down-normal-alt-infinite {
+  animation: move-down 2s alternate infinite;
+}
+
+.move-down-normal-alt-2 {
+  animation: move-down 2s alternate 2;
+}
+
+.move-down-normal-alt-4 {
+  animation: move-down 2s alternate 4;
+}
+
+.move-down-normal-alt-6 {
+  animation: move-down 2s alternate 6;
+}
+
+.move-down-normal-alt-8 {
+  animation: move-down 2s alternate 8;
+}
+
+.move-down-normal-alt-10 {
+  animation: move-down 2s alternate 10;
+}
+
+.move-down-normal-alt-rev-infinite {
+  animation: move-down 2s alternate-reverse infinite;
+}
+
+.move-down-normal-alt-rev-2 {
+  animation: move-down 2s alternate-reverse 2;
+}
+
+.move-down-normal-alt-rev-4 {
+  animation: move-down 2s alternate-reverse 4;
+}
+
+.move-down-normal-alt-rev-6 {
+  animation: move-down 2s alternate-reverse 6;
+}
+
+.move-down-normal-alt-rev-8 {
+  animation: move-down 2s alternate-reverse 8;
+}
+
+.move-down-normal-alt-rev-10 {
+  animation: move-down 2s alternate-reverse 10;
+}
+
+.move-down-slow-nm-infinite {
+  animation: move-down 2.5s normal infinite;
+}
+
+.move-down-slow-nm-2 {
+  animation: move-down 2.5s normal 2;
+}
+
+.move-down-slow-nm-4 {
+  animation: move-down 2.5s normal 4;
+}
+
+.move-down-slow-nm-6 {
+  animation: move-down 2.5s normal 6;
+}
+
+.move-down-slow-nm-8 {
+  animation: move-down 2.5s normal 8;
+}
+
+.move-down-slow-nm-10 {
+  animation: move-down 2.5s normal 10;
+}
+
+.move-down-slow-rev-infinite {
+  animation: move-down 2.5s reverse infinite;
+}
+
+.move-down-slow-rev-2 {
+  animation: move-down 2.5s reverse 2;
+}
+
+.move-down-slow-rev-4 {
+  animation: move-down 2.5s reverse 4;
+}
+
+.move-down-slow-rev-6 {
+  animation: move-down 2.5s reverse 6;
+}
+
+.move-down-slow-rev-8 {
+  animation: move-down 2.5s reverse 8;
+}
+
+.move-down-slow-rev-10 {
+  animation: move-down 2.5s reverse 10;
+}
+
+.move-down-slow-alt-infinite {
+  animation: move-down 2.5s alternate infinite;
+}
+
+.move-down-slow-alt-2 {
+  animation: move-down 2.5s alternate 2;
+}
+
+.move-down-slow-alt-4 {
+  animation: move-down 2.5s alternate 4;
+}
+
+.move-down-slow-alt-6 {
+  animation: move-down 2.5s alternate 6;
+}
+
+.move-down-slow-alt-8 {
+  animation: move-down 2.5s alternate 8;
+}
+
+.move-down-slow-alt-10 {
+  animation: move-down 2.5s alternate 10;
+}
+
+.move-down-slow-alt-rev-infinite {
+  animation: move-down 2.5s alternate-reverse infinite;
+}
+
+.move-down-slow-alt-rev-2 {
+  animation: move-down 2.5s alternate-reverse 2;
+}
+
+.move-down-slow-alt-rev-4 {
+  animation: move-down 2.5s alternate-reverse 4;
+}
+
+.move-down-slow-alt-rev-6 {
+  animation: move-down 2.5s alternate-reverse 6;
+}
+
+.move-down-slow-alt-rev-8 {
+  animation: move-down 2.5s alternate-reverse 8;
+}
+
+.move-down-slow-alt-rev-10 {
+  animation: move-down 2.5s alternate-reverse 10;
+}
+
+.move-down-vslow-nm-infinite {
+  animation: move-down 3s normal infinite;
+}
+
+.move-down-vslow-nm-2 {
+  animation: move-down 3s normal 2;
+}
+
+.move-down-vslow-nm-4 {
+  animation: move-down 3s normal 4;
+}
+
+.move-down-vslow-nm-6 {
+  animation: move-down 3s normal 6;
+}
+
+.move-down-vslow-nm-8 {
+  animation: move-down 3s normal 8;
+}
+
+.move-down-vslow-nm-10 {
+  animation: move-down 3s normal 10;
+}
+
+.move-down-vslow-rev-infinite {
+  animation: move-down 3s reverse infinite;
+}
+
+.move-down-vslow-rev-2 {
+  animation: move-down 3s reverse 2;
+}
+
+.move-down-vslow-rev-4 {
+  animation: move-down 3s reverse 4;
+}
+
+.move-down-vslow-rev-6 {
+  animation: move-down 3s reverse 6;
+}
+
+.move-down-vslow-rev-8 {
+  animation: move-down 3s reverse 8;
+}
+
+.move-down-vslow-rev-10 {
+  animation: move-down 3s reverse 10;
+}
+
+.move-down-vslow-alt-infinite {
+  animation: move-down 3s alternate infinite;
+}
+
+.move-down-vslow-alt-2 {
+  animation: move-down 3s alternate 2;
+}
+
+.move-down-vslow-alt-4 {
+  animation: move-down 3s alternate 4;
+}
+
+.move-down-vslow-alt-6 {
+  animation: move-down 3s alternate 6;
+}
+
+.move-down-vslow-alt-8 {
+  animation: move-down 3s alternate 8;
+}
+
+.move-down-vslow-alt-10 {
+  animation: move-down 3s alternate 10;
+}
+
+.move-down-vslow-alt-rev-infinite {
+  animation: move-down 3s alternate-reverse infinite;
+}
+
+.move-down-vslow-alt-rev-2 {
+  animation: move-down 3s alternate-reverse 2;
+}
+
+.move-down-vslow-alt-rev-4 {
+  animation: move-down 3s alternate-reverse 4;
+}
+
+.move-down-vslow-alt-rev-6 {
+  animation: move-down 3s alternate-reverse 6;
+}
+
+.move-down-vslow-alt-rev-8 {
+  animation: move-down 3s alternate-reverse 8;
+}
+
+.move-down-vslow-alt-rev-10 {
+  animation: move-down 3s alternate-reverse 10;
+}
+
+.hov-move-down-vfast-nm:hover {
+  animation: move-down 1s normal infinite;
+}
+
+.hov-move-down-vfast-rev:hover {
+  animation: move-down 1s reverse infinite;
+}
+
+.hov-move-down-vfast-alt:hover {
+  animation: move-down 1s alternate infinite;
+}
+
+.hov-move-down-vfast-alt-rev:hover {
+  animation: move-down 1s alternate-reverse infinite;
+}
+
+.hov-move-down-fast-nm:hover {
+  animation: move-down 1.5s normal infinite;
+}
+
+.hov-move-down-fast-rev:hover {
+  animation: move-down 1.5s reverse infinite;
+}
+
+.hov-move-down-fast-alt:hover {
+  animation: move-down 1.5s alternate infinite;
+}
+
+.hov-move-down-fast-alt-rev:hover {
+  animation: move-down 1.5s alternate-reverse infinite;
+}
+
+.hov-move-down-normal-nm:hover {
+  animation: move-down 2s normal infinite;
+}
+
+.hov-move-down-normal-rev:hover {
+  animation: move-down 2s reverse infinite;
+}
+
+.hov-move-down-normal-alt:hover {
+  animation: move-down 2s alternate infinite;
+}
+
+.hov-move-down-normal-alt-rev:hover {
+  animation: move-down 2s alternate-reverse infinite;
+}
+
+.hov-move-down-slow-nm:hover {
+  animation: move-down 2.5s normal infinite;
+}
+
+.hov-move-down-slow-rev:hover {
+  animation: move-down 2.5s reverse infinite;
+}
+
+.hov-move-down-slow-alt:hover {
+  animation: move-down 2.5s alternate infinite;
+}
+
+.hov-move-down-slow-alt-rev:hover {
+  animation: move-down 2.5s alternate-reverse infinite;
+}
+
+.hov-move-down-vslow-nm:hover {
+  animation: move-down 3s normal infinite;
+}
+
+.hov-move-down-vslow-rev:hover {
+  animation: move-down 3s reverse infinite;
+}
+
+.hov-move-down-vslow-alt:hover {
+  animation: move-down 3s alternate infinite;
+}
+
+.hov-move-down-vslow-alt-rev:hover {
+  animation: move-down 3s alternate-reverse infinite;
+}
+
+.move-left {
+  position: relative;
+  animation: move-left 1s normal ease-in-out 3;
+}
+
+@keyframes move-left {
+  0% {
+    right: 0px;
+  }
+  100% {
+    right: 50px;
+  }
+}
+.move-left-vfast-nm-infinite {
+  animation: move-left 1s normal infinite;
+}
+
+.move-left-vfast-nm-2 {
+  animation: move-left 1s normal 2;
+}
+
+.move-left-vfast-nm-4 {
+  animation: move-left 1s normal 4;
+}
+
+.move-left-vfast-nm-6 {
+  animation: move-left 1s normal 6;
+}
+
+.move-left-vfast-nm-8 {
+  animation: move-left 1s normal 8;
+}
+
+.move-left-vfast-nm-10 {
+  animation: move-left 1s normal 10;
+}
+
+.move-left-vfast-rev-infinite {
+  animation: move-left 1s reverse infinite;
+}
+
+.move-left-vfast-rev-2 {
+  animation: move-left 1s reverse 2;
+}
+
+.move-left-vfast-rev-4 {
+  animation: move-left 1s reverse 4;
+}
+
+.move-left-vfast-rev-6 {
+  animation: move-left 1s reverse 6;
+}
+
+.move-left-vfast-rev-8 {
+  animation: move-left 1s reverse 8;
+}
+
+.move-left-vfast-rev-10 {
+  animation: move-left 1s reverse 10;
+}
+
+.move-left-vfast-alt-infinite {
+  animation: move-left 1s alternate infinite;
+}
+
+.move-left-vfast-alt-2 {
+  animation: move-left 1s alternate 2;
+}
+
+.move-left-vfast-alt-4 {
+  animation: move-left 1s alternate 4;
+}
+
+.move-left-vfast-alt-6 {
+  animation: move-left 1s alternate 6;
+}
+
+.move-left-vfast-alt-8 {
+  animation: move-left 1s alternate 8;
+}
+
+.move-left-vfast-alt-10 {
+  animation: move-left 1s alternate 10;
+}
+
+.move-left-vfast-alt-rev-infinite {
+  animation: move-left 1s alternate-reverse infinite;
+}
+
+.move-left-vfast-alt-rev-2 {
+  animation: move-left 1s alternate-reverse 2;
+}
+
+.move-left-vfast-alt-rev-4 {
+  animation: move-left 1s alternate-reverse 4;
+}
+
+.move-left-vfast-alt-rev-6 {
+  animation: move-left 1s alternate-reverse 6;
+}
+
+.move-left-vfast-alt-rev-8 {
+  animation: move-left 1s alternate-reverse 8;
+}
+
+.move-left-vfast-alt-rev-10 {
+  animation: move-left 1s alternate-reverse 10;
+}
+
+.move-left-fast-nm-infinite {
+  animation: move-left 1.5s normal infinite;
+}
+
+.move-left-fast-nm-2 {
+  animation: move-left 1.5s normal 2;
+}
+
+.move-left-fast-nm-4 {
+  animation: move-left 1.5s normal 4;
+}
+
+.move-left-fast-nm-6 {
+  animation: move-left 1.5s normal 6;
+}
+
+.move-left-fast-nm-8 {
+  animation: move-left 1.5s normal 8;
+}
+
+.move-left-fast-nm-10 {
+  animation: move-left 1.5s normal 10;
+}
+
+.move-left-fast-rev-infinite {
+  animation: move-left 1.5s reverse infinite;
+}
+
+.move-left-fast-rev-2 {
+  animation: move-left 1.5s reverse 2;
+}
+
+.move-left-fast-rev-4 {
+  animation: move-left 1.5s reverse 4;
+}
+
+.move-left-fast-rev-6 {
+  animation: move-left 1.5s reverse 6;
+}
+
+.move-left-fast-rev-8 {
+  animation: move-left 1.5s reverse 8;
+}
+
+.move-left-fast-rev-10 {
+  animation: move-left 1.5s reverse 10;
+}
+
+.move-left-fast-alt-infinite {
+  animation: move-left 1.5s alternate infinite;
+}
+
+.move-left-fast-alt-2 {
+  animation: move-left 1.5s alternate 2;
+}
+
+.move-left-fast-alt-4 {
+  animation: move-left 1.5s alternate 4;
+}
+
+.move-left-fast-alt-6 {
+  animation: move-left 1.5s alternate 6;
+}
+
+.move-left-fast-alt-8 {
+  animation: move-left 1.5s alternate 8;
+}
+
+.move-left-fast-alt-10 {
+  animation: move-left 1.5s alternate 10;
+}
+
+.move-left-fast-alt-rev-infinite {
+  animation: move-left 1.5s alternate-reverse infinite;
+}
+
+.move-left-fast-alt-rev-2 {
+  animation: move-left 1.5s alternate-reverse 2;
+}
+
+.move-left-fast-alt-rev-4 {
+  animation: move-left 1.5s alternate-reverse 4;
+}
+
+.move-left-fast-alt-rev-6 {
+  animation: move-left 1.5s alternate-reverse 6;
+}
+
+.move-left-fast-alt-rev-8 {
+  animation: move-left 1.5s alternate-reverse 8;
+}
+
+.move-left-fast-alt-rev-10 {
+  animation: move-left 1.5s alternate-reverse 10;
+}
+
+.move-left-normal-nm-infinite {
+  animation: move-left 2s normal infinite;
+}
+
+.move-left-normal-nm-2 {
+  animation: move-left 2s normal 2;
+}
+
+.move-left-normal-nm-4 {
+  animation: move-left 2s normal 4;
+}
+
+.move-left-normal-nm-6 {
+  animation: move-left 2s normal 6;
+}
+
+.move-left-normal-nm-8 {
+  animation: move-left 2s normal 8;
+}
+
+.move-left-normal-nm-10 {
+  animation: move-left 2s normal 10;
+}
+
+.move-left-normal-rev-infinite {
+  animation: move-left 2s reverse infinite;
+}
+
+.move-left-normal-rev-2 {
+  animation: move-left 2s reverse 2;
+}
+
+.move-left-normal-rev-4 {
+  animation: move-left 2s reverse 4;
+}
+
+.move-left-normal-rev-6 {
+  animation: move-left 2s reverse 6;
+}
+
+.move-left-normal-rev-8 {
+  animation: move-left 2s reverse 8;
+}
+
+.move-left-normal-rev-10 {
+  animation: move-left 2s reverse 10;
+}
+
+.move-left-normal-alt-infinite {
+  animation: move-left 2s alternate infinite;
+}
+
+.move-left-normal-alt-2 {
+  animation: move-left 2s alternate 2;
+}
+
+.move-left-normal-alt-4 {
+  animation: move-left 2s alternate 4;
+}
+
+.move-left-normal-alt-6 {
+  animation: move-left 2s alternate 6;
+}
+
+.move-left-normal-alt-8 {
+  animation: move-left 2s alternate 8;
+}
+
+.move-left-normal-alt-10 {
+  animation: move-left 2s alternate 10;
+}
+
+.move-left-normal-alt-rev-infinite {
+  animation: move-left 2s alternate-reverse infinite;
+}
+
+.move-left-normal-alt-rev-2 {
+  animation: move-left 2s alternate-reverse 2;
+}
+
+.move-left-normal-alt-rev-4 {
+  animation: move-left 2s alternate-reverse 4;
+}
+
+.move-left-normal-alt-rev-6 {
+  animation: move-left 2s alternate-reverse 6;
+}
+
+.move-left-normal-alt-rev-8 {
+  animation: move-left 2s alternate-reverse 8;
+}
+
+.move-left-normal-alt-rev-10 {
+  animation: move-left 2s alternate-reverse 10;
+}
+
+.move-left-slow-nm-infinite {
+  animation: move-left 2.5s normal infinite;
+}
+
+.move-left-slow-nm-2 {
+  animation: move-left 2.5s normal 2;
+}
+
+.move-left-slow-nm-4 {
+  animation: move-left 2.5s normal 4;
+}
+
+.move-left-slow-nm-6 {
+  animation: move-left 2.5s normal 6;
+}
+
+.move-left-slow-nm-8 {
+  animation: move-left 2.5s normal 8;
+}
+
+.move-left-slow-nm-10 {
+  animation: move-left 2.5s normal 10;
+}
+
+.move-left-slow-rev-infinite {
+  animation: move-left 2.5s reverse infinite;
+}
+
+.move-left-slow-rev-2 {
+  animation: move-left 2.5s reverse 2;
+}
+
+.move-left-slow-rev-4 {
+  animation: move-left 2.5s reverse 4;
+}
+
+.move-left-slow-rev-6 {
+  animation: move-left 2.5s reverse 6;
+}
+
+.move-left-slow-rev-8 {
+  animation: move-left 2.5s reverse 8;
+}
+
+.move-left-slow-rev-10 {
+  animation: move-left 2.5s reverse 10;
+}
+
+.move-left-slow-alt-infinite {
+  animation: move-left 2.5s alternate infinite;
+}
+
+.move-left-slow-alt-2 {
+  animation: move-left 2.5s alternate 2;
+}
+
+.move-left-slow-alt-4 {
+  animation: move-left 2.5s alternate 4;
+}
+
+.move-left-slow-alt-6 {
+  animation: move-left 2.5s alternate 6;
+}
+
+.move-left-slow-alt-8 {
+  animation: move-left 2.5s alternate 8;
+}
+
+.move-left-slow-alt-10 {
+  animation: move-left 2.5s alternate 10;
+}
+
+.move-left-slow-alt-rev-infinite {
+  animation: move-left 2.5s alternate-reverse infinite;
+}
+
+.move-left-slow-alt-rev-2 {
+  animation: move-left 2.5s alternate-reverse 2;
+}
+
+.move-left-slow-alt-rev-4 {
+  animation: move-left 2.5s alternate-reverse 4;
+}
+
+.move-left-slow-alt-rev-6 {
+  animation: move-left 2.5s alternate-reverse 6;
+}
+
+.move-left-slow-alt-rev-8 {
+  animation: move-left 2.5s alternate-reverse 8;
+}
+
+.move-left-slow-alt-rev-10 {
+  animation: move-left 2.5s alternate-reverse 10;
+}
+
+.move-left-vslow-nm-infinite {
+  animation: move-left 3s normal infinite;
+}
+
+.move-left-vslow-nm-2 {
+  animation: move-left 3s normal 2;
+}
+
+.move-left-vslow-nm-4 {
+  animation: move-left 3s normal 4;
+}
+
+.move-left-vslow-nm-6 {
+  animation: move-left 3s normal 6;
+}
+
+.move-left-vslow-nm-8 {
+  animation: move-left 3s normal 8;
+}
+
+.move-left-vslow-nm-10 {
+  animation: move-left 3s normal 10;
+}
+
+.move-left-vslow-rev-infinite {
+  animation: move-left 3s reverse infinite;
+}
+
+.move-left-vslow-rev-2 {
+  animation: move-left 3s reverse 2;
+}
+
+.move-left-vslow-rev-4 {
+  animation: move-left 3s reverse 4;
+}
+
+.move-left-vslow-rev-6 {
+  animation: move-left 3s reverse 6;
+}
+
+.move-left-vslow-rev-8 {
+  animation: move-left 3s reverse 8;
+}
+
+.move-left-vslow-rev-10 {
+  animation: move-left 3s reverse 10;
+}
+
+.move-left-vslow-alt-infinite {
+  animation: move-left 3s alternate infinite;
+}
+
+.move-left-vslow-alt-2 {
+  animation: move-left 3s alternate 2;
+}
+
+.move-left-vslow-alt-4 {
+  animation: move-left 3s alternate 4;
+}
+
+.move-left-vslow-alt-6 {
+  animation: move-left 3s alternate 6;
+}
+
+.move-left-vslow-alt-8 {
+  animation: move-left 3s alternate 8;
+}
+
+.move-left-vslow-alt-10 {
+  animation: move-left 3s alternate 10;
+}
+
+.move-left-vslow-alt-rev-infinite {
+  animation: move-left 3s alternate-reverse infinite;
+}
+
+.move-left-vslow-alt-rev-2 {
+  animation: move-left 3s alternate-reverse 2;
+}
+
+.move-left-vslow-alt-rev-4 {
+  animation: move-left 3s alternate-reverse 4;
+}
+
+.move-left-vslow-alt-rev-6 {
+  animation: move-left 3s alternate-reverse 6;
+}
+
+.move-left-vslow-alt-rev-8 {
+  animation: move-left 3s alternate-reverse 8;
+}
+
+.move-left-vslow-alt-rev-10 {
+  animation: move-left 3s alternate-reverse 10;
+}
+
+.hov-move-left-vfast-nm:hover {
+  animation: move-left 1s normal infinite;
+}
+
+.hov-move-left-vfast-rev:hover {
+  animation: move-left 1s reverse infinite;
+}
+
+.hov-move-left-vfast-alt:hover {
+  animation: move-left 1s alternate infinite;
+}
+
+.hov-move-left-vfast-alt-rev:hover {
+  animation: move-left 1s alternate-reverse infinite;
+}
+
+.hov-move-left-fast-nm:hover {
+  animation: move-left 1.5s normal infinite;
+}
+
+.hov-move-left-fast-rev:hover {
+  animation: move-left 1.5s reverse infinite;
+}
+
+.hov-move-left-fast-alt:hover {
+  animation: move-left 1.5s alternate infinite;
+}
+
+.hov-move-left-fast-alt-rev:hover {
+  animation: move-left 1.5s alternate-reverse infinite;
+}
+
+.hov-move-left-normal-nm:hover {
+  animation: move-left 2s normal infinite;
+}
+
+.hov-move-left-normal-rev:hover {
+  animation: move-left 2s reverse infinite;
+}
+
+.hov-move-left-normal-alt:hover {
+  animation: move-left 2s alternate infinite;
+}
+
+.hov-move-left-normal-alt-rev:hover {
+  animation: move-left 2s alternate-reverse infinite;
+}
+
+.hov-move-left-slow-nm:hover {
+  animation: move-left 2.5s normal infinite;
+}
+
+.hov-move-left-slow-rev:hover {
+  animation: move-left 2.5s reverse infinite;
+}
+
+.hov-move-left-slow-alt:hover {
+  animation: move-left 2.5s alternate infinite;
+}
+
+.hov-move-left-slow-alt-rev:hover {
+  animation: move-left 2.5s alternate-reverse infinite;
+}
+
+.hov-move-left-vslow-nm:hover {
+  animation: move-left 3s normal infinite;
+}
+
+.hov-move-left-vslow-rev:hover {
+  animation: move-left 3s reverse infinite;
+}
+
+.hov-move-left-vslow-alt:hover {
+  animation: move-left 3s alternate infinite;
+}
+
+.hov-move-left-vslow-alt-rev:hover {
+  animation: move-left 3s alternate-reverse infinite;
+}
+
+.move-right {
+  position: relative;
+  animation: move-right 1s normal ease-out 3;
+}
+
+@keyframes move-right {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: 50px;
+  }
+}
+.move-right-vfast-nm-infinite {
+  animation: move-right 1s normal infinite;
+}
+
+.move-right-vfast-nm-2 {
+  animation: move-right 1s normal 2;
+}
+
+.move-right-vfast-nm-4 {
+  animation: move-right 1s normal 4;
+}
+
+.move-right-vfast-nm-6 {
+  animation: move-right 1s normal 6;
+}
+
+.move-right-vfast-nm-8 {
+  animation: move-right 1s normal 8;
+}
+
+.move-right-vfast-nm-10 {
+  animation: move-right 1s normal 10;
+}
+
+.move-right-vfast-rev-infinite {
+  animation: move-right 1s reverse infinite;
+}
+
+.move-right-vfast-rev-2 {
+  animation: move-right 1s reverse 2;
+}
+
+.move-right-vfast-rev-4 {
+  animation: move-right 1s reverse 4;
+}
+
+.move-right-vfast-rev-6 {
+  animation: move-right 1s reverse 6;
+}
+
+.move-right-vfast-rev-8 {
+  animation: move-right 1s reverse 8;
+}
+
+.move-right-vfast-rev-10 {
+  animation: move-right 1s reverse 10;
+}
+
+.move-right-vfast-alt-infinite {
+  animation: move-right 1s alternate infinite;
+}
+
+.move-right-vfast-alt-2 {
+  animation: move-right 1s alternate 2;
+}
+
+.move-right-vfast-alt-4 {
+  animation: move-right 1s alternate 4;
+}
+
+.move-right-vfast-alt-6 {
+  animation: move-right 1s alternate 6;
+}
+
+.move-right-vfast-alt-8 {
+  animation: move-right 1s alternate 8;
+}
+
+.move-right-vfast-alt-10 {
+  animation: move-right 1s alternate 10;
+}
+
+.move-right-vfast-alt-rev-infinite {
+  animation: move-right 1s alternate-reverse infinite;
+}
+
+.move-right-vfast-alt-rev-2 {
+  animation: move-right 1s alternate-reverse 2;
+}
+
+.move-right-vfast-alt-rev-4 {
+  animation: move-right 1s alternate-reverse 4;
+}
+
+.move-right-vfast-alt-rev-6 {
+  animation: move-right 1s alternate-reverse 6;
+}
+
+.move-right-vfast-alt-rev-8 {
+  animation: move-right 1s alternate-reverse 8;
+}
+
+.move-right-vfast-alt-rev-10 {
+  animation: move-right 1s alternate-reverse 10;
+}
+
+.move-right-fast-nm-infinite {
+  animation: move-right 1.5s normal infinite;
+}
+
+.move-right-fast-nm-2 {
+  animation: move-right 1.5s normal 2;
+}
+
+.move-right-fast-nm-4 {
+  animation: move-right 1.5s normal 4;
+}
+
+.move-right-fast-nm-6 {
+  animation: move-right 1.5s normal 6;
+}
+
+.move-right-fast-nm-8 {
+  animation: move-right 1.5s normal 8;
+}
+
+.move-right-fast-nm-10 {
+  animation: move-right 1.5s normal 10;
+}
+
+.move-right-fast-rev-infinite {
+  animation: move-right 1.5s reverse infinite;
+}
+
+.move-right-fast-rev-2 {
+  animation: move-right 1.5s reverse 2;
+}
+
+.move-right-fast-rev-4 {
+  animation: move-right 1.5s reverse 4;
+}
+
+.move-right-fast-rev-6 {
+  animation: move-right 1.5s reverse 6;
+}
+
+.move-right-fast-rev-8 {
+  animation: move-right 1.5s reverse 8;
+}
+
+.move-right-fast-rev-10 {
+  animation: move-right 1.5s reverse 10;
+}
+
+.move-right-fast-alt-infinite {
+  animation: move-right 1.5s alternate infinite;
+}
+
+.move-right-fast-alt-2 {
+  animation: move-right 1.5s alternate 2;
+}
+
+.move-right-fast-alt-4 {
+  animation: move-right 1.5s alternate 4;
+}
+
+.move-right-fast-alt-6 {
+  animation: move-right 1.5s alternate 6;
+}
+
+.move-right-fast-alt-8 {
+  animation: move-right 1.5s alternate 8;
+}
+
+.move-right-fast-alt-10 {
+  animation: move-right 1.5s alternate 10;
+}
+
+.move-right-fast-alt-rev-infinite {
+  animation: move-right 1.5s alternate-reverse infinite;
+}
+
+.move-right-fast-alt-rev-2 {
+  animation: move-right 1.5s alternate-reverse 2;
+}
+
+.move-right-fast-alt-rev-4 {
+  animation: move-right 1.5s alternate-reverse 4;
+}
+
+.move-right-fast-alt-rev-6 {
+  animation: move-right 1.5s alternate-reverse 6;
+}
+
+.move-right-fast-alt-rev-8 {
+  animation: move-right 1.5s alternate-reverse 8;
+}
+
+.move-right-fast-alt-rev-10 {
+  animation: move-right 1.5s alternate-reverse 10;
+}
+
+.move-right-normal-nm-infinite {
+  animation: move-right 2s normal infinite;
+}
+
+.move-right-normal-nm-2 {
+  animation: move-right 2s normal 2;
+}
+
+.move-right-normal-nm-4 {
+  animation: move-right 2s normal 4;
+}
+
+.move-right-normal-nm-6 {
+  animation: move-right 2s normal 6;
+}
+
+.move-right-normal-nm-8 {
+  animation: move-right 2s normal 8;
+}
+
+.move-right-normal-nm-10 {
+  animation: move-right 2s normal 10;
+}
+
+.move-right-normal-rev-infinite {
+  animation: move-right 2s reverse infinite;
+}
+
+.move-right-normal-rev-2 {
+  animation: move-right 2s reverse 2;
+}
+
+.move-right-normal-rev-4 {
+  animation: move-right 2s reverse 4;
+}
+
+.move-right-normal-rev-6 {
+  animation: move-right 2s reverse 6;
+}
+
+.move-right-normal-rev-8 {
+  animation: move-right 2s reverse 8;
+}
+
+.move-right-normal-rev-10 {
+  animation: move-right 2s reverse 10;
+}
+
+.move-right-normal-alt-infinite {
+  animation: move-right 2s alternate infinite;
+}
+
+.move-right-normal-alt-2 {
+  animation: move-right 2s alternate 2;
+}
+
+.move-right-normal-alt-4 {
+  animation: move-right 2s alternate 4;
+}
+
+.move-right-normal-alt-6 {
+  animation: move-right 2s alternate 6;
+}
+
+.move-right-normal-alt-8 {
+  animation: move-right 2s alternate 8;
+}
+
+.move-right-normal-alt-10 {
+  animation: move-right 2s alternate 10;
+}
+
+.move-right-normal-alt-rev-infinite {
+  animation: move-right 2s alternate-reverse infinite;
+}
+
+.move-right-normal-alt-rev-2 {
+  animation: move-right 2s alternate-reverse 2;
+}
+
+.move-right-normal-alt-rev-4 {
+  animation: move-right 2s alternate-reverse 4;
+}
+
+.move-right-normal-alt-rev-6 {
+  animation: move-right 2s alternate-reverse 6;
+}
+
+.move-right-normal-alt-rev-8 {
+  animation: move-right 2s alternate-reverse 8;
+}
+
+.move-right-normal-alt-rev-10 {
+  animation: move-right 2s alternate-reverse 10;
+}
+
+.move-right-slow-nm-infinite {
+  animation: move-right 2.5s normal infinite;
+}
+
+.move-right-slow-nm-2 {
+  animation: move-right 2.5s normal 2;
+}
+
+.move-right-slow-nm-4 {
+  animation: move-right 2.5s normal 4;
+}
+
+.move-right-slow-nm-6 {
+  animation: move-right 2.5s normal 6;
+}
+
+.move-right-slow-nm-8 {
+  animation: move-right 2.5s normal 8;
+}
+
+.move-right-slow-nm-10 {
+  animation: move-right 2.5s normal 10;
+}
+
+.move-right-slow-rev-infinite {
+  animation: move-right 2.5s reverse infinite;
+}
+
+.move-right-slow-rev-2 {
+  animation: move-right 2.5s reverse 2;
+}
+
+.move-right-slow-rev-4 {
+  animation: move-right 2.5s reverse 4;
+}
+
+.move-right-slow-rev-6 {
+  animation: move-right 2.5s reverse 6;
+}
+
+.move-right-slow-rev-8 {
+  animation: move-right 2.5s reverse 8;
+}
+
+.move-right-slow-rev-10 {
+  animation: move-right 2.5s reverse 10;
+}
+
+.move-right-slow-alt-infinite {
+  animation: move-right 2.5s alternate infinite;
+}
+
+.move-right-slow-alt-2 {
+  animation: move-right 2.5s alternate 2;
+}
+
+.move-right-slow-alt-4 {
+  animation: move-right 2.5s alternate 4;
+}
+
+.move-right-slow-alt-6 {
+  animation: move-right 2.5s alternate 6;
+}
+
+.move-right-slow-alt-8 {
+  animation: move-right 2.5s alternate 8;
+}
+
+.move-right-slow-alt-10 {
+  animation: move-right 2.5s alternate 10;
+}
+
+.move-right-slow-alt-rev-infinite {
+  animation: move-right 2.5s alternate-reverse infinite;
+}
+
+.move-right-slow-alt-rev-2 {
+  animation: move-right 2.5s alternate-reverse 2;
+}
+
+.move-right-slow-alt-rev-4 {
+  animation: move-right 2.5s alternate-reverse 4;
+}
+
+.move-right-slow-alt-rev-6 {
+  animation: move-right 2.5s alternate-reverse 6;
+}
+
+.move-right-slow-alt-rev-8 {
+  animation: move-right 2.5s alternate-reverse 8;
+}
+
+.move-right-slow-alt-rev-10 {
+  animation: move-right 2.5s alternate-reverse 10;
+}
+
+.move-right-vslow-nm-infinite {
+  animation: move-right 3s normal infinite;
+}
+
+.move-right-vslow-nm-2 {
+  animation: move-right 3s normal 2;
+}
+
+.move-right-vslow-nm-4 {
+  animation: move-right 3s normal 4;
+}
+
+.move-right-vslow-nm-6 {
+  animation: move-right 3s normal 6;
+}
+
+.move-right-vslow-nm-8 {
+  animation: move-right 3s normal 8;
+}
+
+.move-right-vslow-nm-10 {
+  animation: move-right 3s normal 10;
+}
+
+.move-right-vslow-rev-infinite {
+  animation: move-right 3s reverse infinite;
+}
+
+.move-right-vslow-rev-2 {
+  animation: move-right 3s reverse 2;
+}
+
+.move-right-vslow-rev-4 {
+  animation: move-right 3s reverse 4;
+}
+
+.move-right-vslow-rev-6 {
+  animation: move-right 3s reverse 6;
+}
+
+.move-right-vslow-rev-8 {
+  animation: move-right 3s reverse 8;
+}
+
+.move-right-vslow-rev-10 {
+  animation: move-right 3s reverse 10;
+}
+
+.move-right-vslow-alt-infinite {
+  animation: move-right 3s alternate infinite;
+}
+
+.move-right-vslow-alt-2 {
+  animation: move-right 3s alternate 2;
+}
+
+.move-right-vslow-alt-4 {
+  animation: move-right 3s alternate 4;
+}
+
+.move-right-vslow-alt-6 {
+  animation: move-right 3s alternate 6;
+}
+
+.move-right-vslow-alt-8 {
+  animation: move-right 3s alternate 8;
+}
+
+.move-right-vslow-alt-10 {
+  animation: move-right 3s alternate 10;
+}
+
+.move-right-vslow-alt-rev-infinite {
+  animation: move-right 3s alternate-reverse infinite;
+}
+
+.move-right-vslow-alt-rev-2 {
+  animation: move-right 3s alternate-reverse 2;
+}
+
+.move-right-vslow-alt-rev-4 {
+  animation: move-right 3s alternate-reverse 4;
+}
+
+.move-right-vslow-alt-rev-6 {
+  animation: move-right 3s alternate-reverse 6;
+}
+
+.move-right-vslow-alt-rev-8 {
+  animation: move-right 3s alternate-reverse 8;
+}
+
+.move-right-vslow-alt-rev-10 {
+  animation: move-right 3s alternate-reverse 10;
+}
+
+.hov-move-right-vfast-nm:hover {
+  animation: move-right 1s normal infinite;
+}
+
+.hov-move-right-vfast-rev:hover {
+  animation: move-right 1s reverse infinite;
+}
+
+.hov-move-right-vfast-alt:hover {
+  animation: move-right 1s alternate infinite;
+}
+
+.hov-move-right-vfast-alt-rev:hover {
+  animation: move-right 1s alternate-reverse infinite;
+}
+
+.hov-move-right-fast-nm:hover {
+  animation: move-right 1.5s normal infinite;
+}
+
+.hov-move-right-fast-rev:hover {
+  animation: move-right 1.5s reverse infinite;
+}
+
+.hov-move-right-fast-alt:hover {
+  animation: move-right 1.5s alternate infinite;
+}
+
+.hov-move-right-fast-alt-rev:hover {
+  animation: move-right 1.5s alternate-reverse infinite;
+}
+
+.hov-move-right-normal-nm:hover {
+  animation: move-right 2s normal infinite;
+}
+
+.hov-move-right-normal-rev:hover {
+  animation: move-right 2s reverse infinite;
+}
+
+.hov-move-right-normal-alt:hover {
+  animation: move-right 2s alternate infinite;
+}
+
+.hov-move-right-normal-alt-rev:hover {
+  animation: move-right 2s alternate-reverse infinite;
+}
+
+.hov-move-right-slow-nm:hover {
+  animation: move-right 2.5s normal infinite;
+}
+
+.hov-move-right-slow-rev:hover {
+  animation: move-right 2.5s reverse infinite;
+}
+
+.hov-move-right-slow-alt:hover {
+  animation: move-right 2.5s alternate infinite;
+}
+
+.hov-move-right-slow-alt-rev:hover {
+  animation: move-right 2.5s alternate-reverse infinite;
+}
+
+.hov-move-right-vslow-nm:hover {
+  animation: move-right 3s normal infinite;
+}
+
+.hov-move-right-vslow-rev:hover {
+  animation: move-right 3s reverse infinite;
+}
+
+.hov-move-right-vslow-alt:hover {
+  animation: move-right 3s alternate infinite;
+}
+
+.hov-move-right-vslow-alt-rev:hover {
+  animation: move-right 3s alternate-reverse infinite;
+}
