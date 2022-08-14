@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import axios from "axios";
 import { Link as RouterLink } from "react-router-dom";
 import {
   Button,
@@ -11,53 +10,45 @@ import {
   Typography,
   CssBaseline,
   Divider,
+  Snackbar,
+  Alert,
 } from "@mui/material";
 
 import { RoundedButton } from "../login/styled/buttons.styles";
+import { $api } from "../../shared/api";
+import { useAuth } from "../../hooks/useAuth";
 
 export default function Signup() {
+  const { login } = useAuth();
+  const [values, setValues] = useState({});
+  const [error, setError] = React.useState("");
+  const [errors, setErrors] = React.useState({});
+
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    const configuration = {
-      method: "post",
-      url: "https://anime-lib-t94.herokuapp.com/signup",
-      data: {
-        firstName,
-        lastName,
-        email,
-        password,
-      },
-    };
-    axios(configuration)
-      .then((result) => {
-        setSignup(true);
+    $api
+      .$post("/auth/register", values)
+      .then(({ data: authorizedUser }) => {
+        $api.setToken(authorizedUser.token);
+        login(authorizedUser);
       })
       .catch((error) => {
-        error = new Error();
+        if (error.status === 422) {
+          setErrors(error.errors);
+          return;
+        }
+
+        setError(error.message);
       });
   };
 
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [signup, setSignup] = useState(false);
+  const clearError = () => {
+    setError("");
+  };
 
   const handleInputChange = (e) => {
-    const { id, value } = e.target;
-    if (id === "firstName") {
-      setFirstName(value);
-    }
-    if (id === "lastName") {
-      setLastName(value);
-    }
-    if (id === "email") {
-      setEmail(value);
-    }
-    if (id === "password") {
-      setPassword(value);
-    }
+    const { name, value } = e.target;
+    setValues({ ...values, [name]: value });
   };
 
   return (
@@ -100,7 +91,6 @@ export default function Signup() {
       >
         <Box
           component="form"
-          noValidate
           onSubmit={handleSubmit}
           sx={{ mt: 2, borderRadius: "15px" }}
         >
@@ -118,7 +108,7 @@ export default function Signup() {
                 <TextField
                   autoComplete="given-name"
                   name="firstName"
-                  value={firstName}
+                  value={values.firstName}
                   onChange={(e) => handleInputChange(e)}
                   required
                   fullWidth
@@ -131,6 +121,8 @@ export default function Signup() {
                   background="#fff"
                   size="small"
                   autoFocus
+                  error={!!errors.firstName}
+                  helperText={!!errors.firstName && errors.firstName}
                 />
               </Box>
             </Grid>
@@ -150,9 +142,11 @@ export default function Signup() {
                   }}
                   name="lastName"
                   onChange={(e) => handleInputChange(e)}
-                  value={lastName}
+                  value={values.lastName}
                   autoComplete="family-name"
                   size="small"
+                  error={!!errors.lastName}
+                  helperText={!!errors.lastName && errors.lastName}
                 />
               </Box>
             </Grid>
@@ -170,10 +164,12 @@ export default function Signup() {
                     },
                   }}
                   name="email"
-                  value={email}
+                  value={values.email}
                   onChange={(e) => handleInputChange(e)}
                   autoComplete="email"
                   size="small"
+                  error={!!errors.email}
+                  helperText={!!errors.email && errors.email}
                 />
               </Box>
             </Grid>
@@ -194,7 +190,7 @@ export default function Signup() {
                   name="password"
                   type="password"
                   id="password"
-                  value={password}
+                  value={values.password}
                   onChange={(e) => handleInputChange(e)}
                   autoComplete="new-password"
                   size="small"
@@ -203,6 +199,8 @@ export default function Signup() {
                       color: "#000",
                     },
                   }}
+                  error={!!errors.password}
+                  helperText={!!errors.password && errors.password}
                 />
               </Box>
             </Grid>
@@ -239,6 +237,19 @@ export default function Signup() {
           </Button>
         </Box>
       </Box>
+      <Snackbar
+        anchorOrigin={{
+          vertical: "top",
+          horizontal: "right",
+        }}
+        open={!!error}
+        autoHideDuration={6000}
+        onClose={clearError}
+      >
+        <Alert onClose={clearError} severity="error" sx={{ width: "100%" }}>
+          {error}
+        </Alert>
+      </Snackbar>
     </Container>
   );
 }

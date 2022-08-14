@@ -12,20 +12,38 @@ import {
   Divider,
   FormControlLabel,
   Checkbox,
+  Snackbar,
+  Alert,
 } from "@mui/material";
 // import theme from './theme.js';
 // import myButtons from '../../components/styled/buttons.styles';
 import { RoundedButton } from "./styled/buttons.styles";
+import { $api } from "../../shared/api";
+import { useAuth } from "../../hooks/useAuth";
 // import { googleButton } from '../../components/styled/buttons.styles';
 
 export default function Login() {
+  const { login } = useAuth();
+  const [error, setError] = React.useState("");
   const handleSubmit = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
-    console.log({
+    const payload = {
       email: data.get("email"),
       password: data.get("password"),
-    });
+    };
+    $api
+      .$post("/auth/login", payload)
+      .then(({ data: authorizedUser }) => {
+        $api.setToken(authorizedUser.token);
+        login(authorizedUser);
+      })
+      .catch((error) => {
+        setError(error.message);
+      });
+  };
+  const clearError = () => {
+    setError("");
   };
 
   return (
@@ -67,7 +85,6 @@ export default function Login() {
       >
         <Box
           component="form"
-          noValidate
           onSubmit={handleSubmit}
           sx={{ mt: 2, borderRadius: "15px" }}
         >
@@ -86,7 +103,7 @@ export default function Login() {
                     },
                   }}
                   name="email"
-                  autoComplete="email"
+                  autoComplete="off"
                   size="small"
                 />
               </Box>
@@ -113,7 +130,7 @@ export default function Login() {
                   }}
                   type="password"
                   id="password"
-                  autoComplete="new-password"
+                  autoComplete="off"
                   size="small"
                 />
               </Box>
@@ -174,6 +191,19 @@ export default function Login() {
           </Grid>
         </Box>
       </Box>
+      <Snackbar
+        anchorOrigin={{
+          vertical: "top",
+          horizontal: "right",
+        }}
+        open={!!error}
+        autoHideDuration={6000}
+        onClose={clearError}
+      >
+        <Alert onClose={clearError} severity="error" sx={{ width: "100%" }}>
+          {error}
+        </Alert>
+      </Snackbar>
     </Container>
   );
 }
