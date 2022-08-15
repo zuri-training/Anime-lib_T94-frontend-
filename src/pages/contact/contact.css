@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap');
 
+@media screen and (min-width: 429px) {
 * {
     margin: 0px;
     padding: 0px;
@@ -164,7 +165,7 @@ body {
     
 } 
 
-#submit {
+button {
     padding: 16px 96px;
     box-sizing: border-box;
     display: flex;
@@ -185,3 +186,5 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
+} 
+    
