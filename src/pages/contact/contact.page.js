@@ -1,4 +1,5 @@
 import './contact.css';
+import './mobile.css';
 
 export default function ContactPage () {
     return (
