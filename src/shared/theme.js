@@ -1,5 +1,4 @@
 import { createTheme } from '@mui/material/styles';
-import { ThemeConsumer } from 'styled-components';
 
 export const COLORS = {
     green: '#43B97F',
