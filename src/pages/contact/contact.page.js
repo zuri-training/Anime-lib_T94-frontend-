@@ -1,4 +1,5 @@
 import './contact.css';
+import './mobile.css';
 
 export default function ContactPage () {
     return (
@@ -19,7 +20,7 @@ export default function ContactPage () {
                 <div className="msgbox">
                 <label for="message">Message</label><br/>
                 <textarea className="message" name="msg" placeholder="Type message here"></textarea>
-                <input type="submit" id="submit" value="Send Message"/>
+                <button type="submit">Send Message</button>
                 </div>
             </form>
         </div>
