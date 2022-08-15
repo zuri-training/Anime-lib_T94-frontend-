@@ -17,7 +17,7 @@ export const Nav = (props) => {
           </a>
         </li>
         <li className="nav__item">
-          <a className="nav__link" href="#activity">
+          <a className="nav__link" href="activity">
             Activity{" "}
             {!!activityCount && (
               <span className="activity__count">{activityCount}</span>
