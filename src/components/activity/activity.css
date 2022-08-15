@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+.activityBody {
+    font-family: 'Nunito', sans-serif;
+    background-color: #181A1C;
+    color: #FFFFFF;
+    padding-left: 80px;
+}
+.active{
+    font-weight: 800;
+    font-size: 34px;
+    margin-top: 192px;
+}
+
+.here{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+/* .select{
+    padding: 16px 48px;
+    width: 10%;
+    background: #43B97F;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+} */
+
+.bounce{
+    background: #43B97F;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    /* width: 50%; */
+    padding: 16px 38px;
+    margin-right: 40px;
+}
+.code{
+    width: 1072px;
+    height: 649px;
+    border: 1px solid #959697;
+    border-radius: 12px;
+    margin-bottom: 64px;
+}
+.gene{
+    margin-bottom: 24px;
+}
+.class{
+    /* width: 1072px; */
+    /* border: 1px solid red; */
+    /* height: 59px; */
+    display: flex;
+    justify-content: space-between;
+    background: #0A0B0C;
+    border-radius: 12px 12px 0 0;
+    padding: 20px 41px 20px 86px;
+
+}
+.gen{
+    margin-top: 64px;
+}
+.hr{
+    margin-top: 470px;
+    border: 0.5px solid #646667;
+}
+
+.copy{
+    background: #43B97F;
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    width: 50px;
+    padding: 16px 48px;
+    margin-left: 900px;
+    margin-top: 13px;
+    /* margin-bottom: 900px; */
+}
+.text{
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.copy:hover{
+    cursor: pointer;
+    background: #269f65;
+
+}
+
+code{
+    font-size: 25px;
+}
+
+#copy{
+    margin-left: 86px;
+}
+
+.class p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.x{
+    font-weight: 100;
+    margin-left: 17px;
+}
+/* p .x{
+    font-weight: 900;
+    margin-left: 00px;
+} */
+
+.x:hover{
+    cursor: pointer;
+}
