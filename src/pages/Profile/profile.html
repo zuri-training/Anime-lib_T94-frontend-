@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profile.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="body">
+        <h2 class="mobile">My Account</h2>
+        <div class="flex">
+            <div class='left'>
+                <img src="profileImage.png" class="img" alt="profile"><br>
+                <!-- <div class="upload">Upload Image</div> -->
+                <!-- <div class="image">
+                    <span class="profile">
+                        Upload Image<input type="file">
+                    </span>
+                </div> -->
+                <div class="image">
+                    <input type="file" id="file" />
+                    <label for="file">Upload Image</label>
+                </div>
+                <p class="small">Max file size: 5MB</p>
+            </div>
+
+            <div class="right">
+               <h2 class="desk">My Account</h2>
+                <form action="">
+                    <label for="Fname">First Name</label> 
+                    <input type="text" name="Fname" placeholder="John" id="text"> <br>
+                    <label for="Lname">Last Name</label> 
+                    <input type="text" name="Lname" id="text" placeholder="Doe"> <br>
+                    <div class="hr"></div>
+                    <div class="log">
+                        <p>Email <span class="spane">Johndoe@gmail.com</span></p>
+                        <a href="" class="spana">Edit</a>
+                        <div class="hr"></div>
+                        <p>Password <span class="spanp">*************</span></p>
+                        <a href="" class="spana">Edit</a>
+                        <div class="hr"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="logout">
+                <a href=""><img src="logout.png" alt="logout logo" width="18"> Log out</a>
+            </div>
+            <div class="save">
+                <button>Save Change</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

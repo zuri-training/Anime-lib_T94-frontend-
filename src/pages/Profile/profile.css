@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    margin: 0;
+}
+.mobile{
+    display: none;
+}
+body{
+    font-family: 'Nunito', sans-serif;
+    color: #ffff;
+    font-size: 24px;
+    background-color: #181A1C;
+}
+.img{
+    height: 189px;
+    width: 189px;
+}
+.body{
+    width: 88%;
+    margin: 32px auto;
+    background: #111214;
+}
+
+
+.flex{
+    display: flex;
+    /* margin: 20px; */
+}
+form{
+    margin-bottom: 42px;
+}
+
+
+#text{
+    height: 56px;
+    font-size: 20px;
+    font-weight: 500;
+    width: 470px;
+    padding-left: 26px;
+    border-radius: 12px;
+    margin-bottom: 42px;
+    margin-left: 42px;
+}
+
+.log p{
+    margin: 34px 0 9px;
+}
+
+.spane{
+    margin-left: 183px;
+}
+.spanp{
+    margin-left: 136px;
+}
+.spana{
+    margin-left: 247px;
+    color: #FFCC4A;
+    font-weight: 700;
+    text-decoration: none;
+    /* border: 1px solid blue; */
+}
+
+.log .hr, .hr{
+    margin-top: 11px;
+    width: 661px;
+    border: 0.3px solid #E8E8E8;
+}
+
+.right{
+    width: 70%;
+    margin-top:88px;
+}
+
+
+
+[type="file"] {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  [type="file"] + label{
+    /* border: 1px solid white; */
+    cursor: pointer;    
+
+  }
+  .image{
+    border: 1px solid white;
+    width: 200px;
+    cursor: pointer;    
+    text-align: center;
+    border-radius: 12px;
+    padding: 16px 0;
+    margin-top: 40px;
+  }
+.small{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 5px;
+    width: 200px;
+    text-align: center;
+}
+  .right h2{
+    margin-bottom: 26px;
+  }
+
+.logout{
+    width: 30%;
+    margin-left: 221px;
+
+}
+
+
+.logout a{
+    text-decoration: none;
+    color: #FC4E42;
+}
+.left{
+    width: 30%;
+    margin-left:170px;
+    margin-top:88px;
+}
+.save{
+    width: 70%;
+    text-align: right;
+    margin: 0 150px;
+}
+
+.save button{
+    padding: 16px 0;
+    width: 190px;
+    background: #43B97F;
+    border-radius: 12px;
+    color: #ffff;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 56px;
+    font-size: 20px;
+}
