@@ -11,7 +11,7 @@ export default function ContactPage () {
             <div className="contact">
                 <h2 className="head">Contact Us</h2>
                 <p className="txt">Let us know how we can help out. We will respond as soon as possible. </p>
-           </div>
+            </div>
             <form className="action">
                 <label for="fname">Full Name</label><br/>
                 <input type="text" id="fname" name="fname" placeholder="Enter your first and last name" required/><br/>
