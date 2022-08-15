@@ -267,3 +267,7 @@ nav {
 .num-spinner::-webkit-inner-spin-button {
   opacity: 1;
 }
+
+.capitalize {
+  text-transform: capitalize;
+}

@@ -77,7 +77,7 @@ function Navbar() {
               </InverseLink>
             </InverseButton>
             <StyledButton>
-              <StyledLink to="/register">
+              <StyledLink to="/signup">
                 Sign Up
               </StyledLink>
             </StyledButton>

@@ -1,4 +1,5 @@
 import { createTheme } from '@mui/material/styles';
+import { ThemeConsumer } from 'styled-components';
 
 export const COLORS = {
     green: '#43B97F',
@@ -51,43 +52,43 @@ export const getDesignTokens = (mode) => ({
     palette: {
         mode,
         ...(mode === 'light'
-        ? {
-            primary: {
-                main: palette.light.primary.main,
-                dark: palette.light.primary.dark,
-                contrastText: palette.light.primary.contrastText,
-            },
-            background: {
-                default: palette.light.secondary,
-                paper: palette.light.secondary,
-            },
-            text: {
-                primary: palette.light.text.primary,
-            },
-            common: {
-                black: COLORS.black,
-                white: COLORS.white,
+            ? {
+                primary: {
+                    main: palette.light.primary.main,
+                    dark: palette.light.primary.dark,
+                    contrastText: palette.light.primary.contrastText,
+                },
+                background: {
+                    default: palette.light.secondary,
+                    paper: palette.light.secondary,
+                },
+                text: {
+                    primary: palette.light.text.primary,
+                },
+                common: {
+                    black: COLORS.black,
+                    white: COLORS.white,
+                }
             }
-        }
-        : {
-            primary: {
-                main: palette.dark.primary.main,
-                dark: palette.dark.primary.dark,
-                contrastText: palette.dark.primary.contrastText,
-            },
-            background: {
-                default: palette.dark.secondary,
-                paper: palette.dark.secondary,
-            },
-            text: {
-                primary: palette.dark.text.primary,
-                secondary: palette.dark.text.secondary,
-            },
-            common: {
-                black: COLORS.black,
-                white: COLORS.white,
-            }
-        }),
+            : {
+                primary: {
+                    main: palette.dark.primary.main,
+                    dark: palette.dark.primary.dark,
+                    contrastText: palette.dark.primary.contrastText,
+                },
+                background: {
+                    default: palette.dark.secondary,
+                    paper: palette.dark.secondary,
+                },
+                text: {
+                    primary: palette.dark.text.primary,
+                    secondary: palette.dark.text.secondary,
+                },
+                common: {
+                    black: COLORS.black,
+                    white: COLORS.white,
+                }
+            }),
     },
     typography: {
         fontFamily: FONTS.main,
@@ -100,23 +101,23 @@ export const getDesignTokens = (mode) => ({
 export const getThemedComponents = (mode) => ({
     components: {
         ...(mode === 'light'
-        ? {
-            MuiAppBar: {
-                styleOverrides: {
-                colorPrimary: {
-                    backgroundColor: COLORS.offWhite,
+            ? {
+                MuiAppBar: {
+                    styleOverrides: {
+                        colorPrimary: {
+                            backgroundColor: COLORS.offWhite,
+                        },
+                    },
                 },
-                },
-            },
             }
-        : {
-            MuiAppBar: {
-                styleOverrides: {
-                colorPrimary: {
-                    backgroundColor: COLORS.black,
+            : {
+                MuiAppBar: {
+                    styleOverrides: {
+                        colorPrimary: {
+                            backgroundColor: COLORS.black,
+                        },
+                    },
                 },
-                },
-            },
             }),
     },
 });
@@ -142,4 +143,4 @@ const theme = createTheme({
     },
 });
 
-export default theme;
+export default theme
